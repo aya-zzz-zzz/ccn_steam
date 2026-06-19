@@ -141,11 +141,11 @@
         --cover-DMut1:     2, 0, 14      ; /* darker version of muted color*/
         --cover-LMut1:     239, 188, 236 ; /* light version of muted color*/
 
-        --cover-HERO:      37, 0, 97 ; /*Hero tint*/
+        --cover-HERO:      10, 0, 26 ; /*Hero tint*/
         --cover-F00TBAR1:  253, 141, 246   ; /*footer progress bar color (not now-playing)*/
         --cover-F00TD:     0, 7, 67      ; /*darker version of F00T color*/
         /*bhdf doesnt do nuthin it's just here to make color picking easier*/
-        --bhdf:    rgb(125, 173, 255);}
+        --bhdf:    rgb(10, 0, 26);}
 
 /* ==========================================.............................................
     top bar
@@ -259,9 +259,9 @@ path{fill: color-mix(in srgb, rgb(var(--cover-DVib2), 1)90% , rgba(0, 0, 0, 1) 1
          font-weight: 500;
          text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);}
 
-
+/*most recently played card glow*/
 ._1HIFNGSxh4-jOhPiDynR4C._2eJEJmUJveWN1xIBo6qxQ_ ._1H3KfkJV5jxe2CR41DtUi0 {
-    transform: translateY(-370%) translateX(200px) scaleX(57) scaleY(9);
+    transform: translateY(-200%) translateX(215px) scaleX(42) scaleY(7);
 }
 [class="_3gwMkKp82bb5aZj4EeQnpi _3CRLA2FFclTRCznNBgtiIH"]{
     transform: translateY(.29em);
