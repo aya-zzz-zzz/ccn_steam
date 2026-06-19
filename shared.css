@@ -1,0 +1,330 @@
+/* ==========================================.............................................
+    Clean Gameview
+   -----------------------------------------------======================================== */
+
+:root{
+    --CGV-footer-height: 0px;
+    --CGV-play-anim-height: 100vh;
+
+    --met-game-carousel-height-tens: 40vh;
+	--met-game-carousel-height-ones: 7vh;
+}
+:root {
+    --CGV-play-bar-height: 80px;
+    --CGV-top-panel-height: calc(100vh - var(--CGV-play-bar-height) - var(--CGV-footer-height));
+    --CGV-image-height: calc(100vh - var(--CGV-footer-height));
+}
+
+.BasicUI .sharedappdetailsheader_TopCapsule_2meE3 {
+    height: var(--CGV-top-panel-height);
+}
+
+.sharedappdetailsheader_HeaderBackgroundImage_1sarA {
+    height: var(--CGV-image-height);
+}
+
+.BasicUI .sharedappdetailsheader_TopCapsule_2meE3.sharedappdetailsheader_FullscreenEnterStart_P7eLv {
+    animation-name: makethinggodown;
+    animation-duration: 1s;
+}
+
+.BasicUI .sharedappdetailsheader_TopCapsule_2meE3.sharedappdetailsheader_FullscreenEnterDone_1PRtu {
+    height: var(--CGV-play-anim-height);
+}
+
+.sharedappdetailsheader_TitleSection_1P_tv {
+    padding: 0;
+}
+
+.sharedappdetailsheader_SVGTitle_2w_Zq {
+    background: rgba(14,20,27,.5);
+    padding-top: 10px;
+    padding-left: 24px;
+    padding-bottom: 16px;
+    margin-bottom: -6px;
+    width: 100%;
+}
+
+@keyframes makethinggodown {
+    from {height: var(--CGV-top-panel-height);}
+    to {height: var(--CGV-play-anim-height);}
+}
+
+
+/* ==========================================.............................................
+    Centered Game Text
+   -----------------------------------------------======================================== */
+.BasicUI .appportrait_PortraitMessage_3gwMk .appportrait_Message_3CRLA,
+.BasicUI .appportrait_PortraitMessage_3gwMk .appportrait_SubMessage_3DR9f {
+    width: fit-content;
+    margin: 0 auto 0 auto;}
+
+.basicgamecarousel_CarouselGameLabel_3CKji {
+    width: 0;
+    max-width: 0;
+    margin: 0 auto 0 auto !important;
+    overflow: visible !important;}
+
+.basicgamecarousel_CarouselGameLabelWrapper_ZkD6W { width: 100% !important;}
+
+.basicgamecarousel_CarouselGameLabel_3CKji > .appportrait_PortraitMessage_3gwMk {
+    overflow: visible !important;
+    transform: translate(-50%, 0);}
+/* ==========================================.............................................
+    ANIMATION BANK
+   -----------------------------------------------======================================== */
+@property --rotate {syntax: '<angle>';initial-value: 0deg;inherits: false;}
+@keyframes bounc {0%   { scale: 1.0;  }38%  { scale: 1.044;}100% { scale: .96;  }}
+@keyframes rotate-gradient {from {--rotate: 0deg;}to {--rotate: 360deg;}}
+@keyframes rotate-plu {from {--rotate: 360deg;}to {--rotate: 0deg;}}
+@keyframes rotate2{0% {--rotate: 360deg;}50% { --rotate: 0deg;}100%{--rotate: 360deg;}}
+@keyframes rotate-gradient {from {--rotate: 0deg;}to {--rotate: 360deg;}}
+@keyframes rotate-plu {from {--rotate: 360deg;}to {--rotate: 0deg;}}
+@keyframes rotate2{0% {--rotate: 360deg;}50% { --rotate: 0deg;}100%{--rotate: 360deg;}}
+@keyframes rotate3 {0% {background-position: 0% 0%;--rotate: 360deg;}50% { background-position: 100% 100%;--rotate: 0deg;}100%
+           {background-position: 00% 00%;--rotate: 360deg;}}
+@keyframes buttongradient {0% {background-position: 0% 0%;}50% {background-position: 100% 100%;}100% 
+           {background-position: 00% 00%;}}
+@keyframes buttongradient2 {0% {background-position: 0% 0%;}.004% {background-position: 0% 0%;}.05% 
+           {background-position: 98% 98%;}100% {background-position: 100% 100%;}}
+@keyframes buttongradient3 {0% {background-position: 0% 0%;}100% {background-position: 100% 100%;}}
+@keyframes gradientnp {
+    0% {   background-position: 0% 00%; } 50% {
+  background-position: 100% 10%; }100% { background-position: 0% 00%; }}
+@keyframes gradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%; }}
+
+/*built in "hover" effect pulsing outline*/
+@keyframes _1FLuVMQRigt6C36TKGMYbp{
+0% {outline-color: rgb(var(--cover-LVib1),0)!Important;}
+100% {outline-color:rgb(var(--cover-LVib1),1)!important;}}
+@keyframes _2tSbN-Ik0JtgSVuvWRLekE{50% {outline: 2px solid rgb(var(--cover-LVib1),.4);}}
+
+@keyframes _2o99ScTho-Rc-AQV-VR68h{
+0% {outline-color: rgb(var(--cover-LVib1),1)!Important;}
+100% {outline-color:rgb(var(--cover-LVib1),1)!important;}}
+
+@keyframes zn08hWW7ylBIurz-os7CM{
+0% {outline-color: rgb(var(--cover-LVib1),1)!Important;}
+100% {outline-color:rgb(var(--cover-LVib1),1)!important;}}
+
+@keyframes _1RqM3Kl3-lPbdsdw6xcEm9 {
+    0% {outline-color: rgb(var(--cover-LVib1),1)!Important;}
+100% {outline-color:rgb(var(--cover-LVib1),1)!important;}
+}
+
+/*built in recently played hero art zoom*/
+@keyframes _3WXchKkPvnl2QloRaF5aQ7{
+0% {transform-origin: center;
+    transform: scale(1);}
+50% {transform: scale(1.11);}
+100% {transform: scale(1.01);}}
+
+._1wPplsegQqCoe06wXPhzKT{
+    outline: 2px solid rgb(var(--cover-LVib1),1);
+    border-radius: 7px;
+}
+/* ==========================================.............................................
+    BUILTINTHEME
+-----------------------------------------------======================================== */
+/* ===========================----COLOR VARIABLES----================================== */
+    :root{
+
+        --cover-Vib1:      255, 103, 235 ; /* first vibrant color ("vibrant" color doesn't really have to be very saturated, it's just what the variable is called)*/
+        --cover-DVib1:     2, 0, 14      ; /* darker version of first vibrant color*/
+        --cover-LVib1:     253, 184, 255 ; /* lighter version of first vibrant color*/
+
+        --cover-Vib2:      125, 173, 255 ; /* second vibrant color (can be the same as the first if you're going for a monochromatic dealy)*/
+        --cover-DVib2:     0, 1, 23     ; /* darker version of second vibrant color*/
+        --cover-LVib2:     168, 207, 255 ; /* lighter version of second vibrant color*/
+
+        --cover-card:      15, 6, 46 ; /* muted color (these barely show up they're kind of a holdover from when this theme was fully covertheme compatible)*/
+        --cover-cardhov:     2, 0, 14      ; /* darker version of muted color*/
+        --cover-LMut1:     239, 188, 236 ; /* light version of muted color*/
+
+        --cover-HERO:      14, 0, 34 ; /*Hero tint (dark)*/
+        --cover-HERO2:     65, 0, 150 ; /*Hero tint (vibrant)*/
+        
+        --cover-F00TBAR1:  253, 141, 246   ; /*footer progress bar color (not now-playing)*/
+        --cover-F00TD:     0, 7, 67      ; /*darker version of F00T color*/
+        /*bhdf doesnt do nuthin it's just here to make color picking easier*/
+        --bhdf:    rgb(15, 6, 46);}
+
+/* ==========================================.............................................
+    top bar
+-----------------------------------------------======================================== */
+/*removes pfp effect*/
+[class="_3fM0F85j3aWVzr4RJM9-eu"]{display: none;}
+/*downloading bar*/
+._2ssr3-L3TQNdrX6NI1-Gzn ._1PbL3TgQGIsmPs2HZkpCkb .vo3Tt3EsYkcybM5oKH4Lq .AK_Ax_siTCH1_LT3APMlx{
+    background-color: color-mix(in srgb, rgb(var(--cover-Vib1), 1)60% , rgb(255, 255, 255) 40%) ;}
+#header {
+/*battery health indicator*/
+svg > rect{fill: color-mix(in srgb, rgb(var(--cover-Vib1), 1)60% , rgb(255, 255, 255) 40%) ; transition: 150ms;}
+/*hovered icon*/
+._2HnVd7wV6yVaTiXfrBe3gq.gpfocus, ._2HnVd7wV6yVaTiXfrBe3gq.gpfocuswithin {
+    svg > rect{fill: color-mix(in srgb, rgb(var(--cover-Vib1), 1)30% , rgb(0, 0, 0) 70%) ; transition: 600ms;}
+    animation: rotate-gradient 30s cubic-bezier(.33,.48,.63,.47) infinite;
+    background-size: 450%;
+    background: linear-gradient(var(--rotate),  rgb(var(--cover-LVib1), 1),  rgb(var(--cover-LVib2), 1));
+    box-shadow:  inset 0px 0px 8em rgb(var(--cover-LVib2), .7);
+    color: rgb(var(--cover-DVib1));}}
+/*active search bg*/    
+._3F4YRi5x8CjExTV0rOdSL-._1l8jsSJRozEnzlhm5Q2m7U{
+
+    color: black;
+     background-color: hwb(0 100% 0% / 0);
+      animation: rotate-gradient 10s cubic-bezier(.33,.48,.63,.47) infinite;
+    background-size: 120%;
+    background: linear-gradient(var(--rotate),  rgb(var(--cover-LVib1), .2),  rgb(var(--cover-LVib2), .2));}
+
+
+
+/*active search placeholder text darkener*/ 
+
+/* ==========================================.............................................
+    recently played
+-----------------------------------------------======================================== */
+/*hero zoom animation timing extension*/
+._30D-80Lg-Luy-KxOumBlaY ._1SRoxsfD-XkekIXfr0ofs3 { animation: 52s ease 0s 1 alternate none running _3WXchKkPvnl2QloRaF5aQ7;}
+
+/*hero alterations*/
+._3Mp8R2wnoCl6ko0HAX8IHE {
+    width: 102%;
+    height: auto;
+    object-fit: contain;
+    opacity: 0.8;
+    filter: brightness(75%);
+    -webkit-mask-image: radial-gradient(100% 100% at 50%  0%, black 0%, rgb(0 0 0 / 67%) 95%, rgb(255 0 0 / 0%) 100%);
+    -webkit-mask-composite: source-out;}
+
+/*hero radial gradient fadeout*/
+.gamepadhomerecentgames_RecentGamesBackgroundContainer_QNkOt, .gamepadhomerecentgames_RecentGamesBackgroundImages_30D-8 {
+    -webkit-mask-image: radial-gradient(100% 110% at 50% 0%, rgba(0, 0, 0, 0.9) 30%, rgba(0, 0, 0, 0.5) 80%, rgba(255, 0, 0, 00) 100%);
+    -webkit-mask-composite: source-out;
+    backdrop-filter: blur(22px);}
+
+/*hero tint*/
+.QNkOtW3xS-yj6LviWHvnd, ._30D-80Lg-Luy-KxOumBlaY{  background-color: rgb(var(--cover-HERO),.8);}
+
+.QNkOtW3xS-yj6LviWHvnd, ._30D-80Lg-Luy-KxOumBlaY{  background-color: rgb(var(--cover-HERO2),.3)!important;
+
+  background-blend-mode: screen!important;}
+
+
+/*deleted elements*/
+[id="Footer"],  /*footer*/
+._35iRep_MLGWeAmkLbeny7R /*home screen top text that fades in and out when you scroll ew why whose idea even was that*/
+,.BasicUI ._3gwMkKp82bb5aZj4EeQnpi ._3DR9f2B3JQKviESgdrHp1u /*home screen card bottom-bottom text*/
+{display: none;} 
+
+
+/*main page height alteration & bg color*/
+._39tNvaLedsTrVh0fFsP4Jm{min-height: calc(100% + 59px)!important;
+background-color: rgb(var(--cover-DVib1),1);}
+
+/*recently played cards move down*/
+._3MdH5Czolhh5rC_nofUlcQ{padding: none;}
+#Main > div > div._1iKmxBdl6hxX7tJdDfn_uB > div > div > div > div > div > div._39tNvaLedsTrVh0fFsP4Jm.Panel > div > div._282X0J4BtrSF1IXctmOe-X > div > div{
+ transform: translateY(calc(var(--met-game-carousel-height-tens) + var(--met-game-carousel-height-ones)));}
+
+/* Recent games and library border-radius*/
+[class="_282X0J4BtrSF1IXctmOe-X"],[class="_39tNvaLedsTrVh0fFsP4Jm Panel"]{
+div{ border-radius: 7px!important;}}
+
+    ._3d_bT685lnWotXxgzKW6am.yDr03475kalWBTwAE-Rnw,.BasicUI .WYgDg9NyCcMIVuMyZ_NBC::after{
+     border-radius: 7px;}
+     
+.BasicUI .WYgDg9NyCcMIVuMyZ_NBC.Focusable:focus {
+    outline-color: rgb(var(--cover-LVib1),.8);}
+
+/* Recent games download progress bar / bar-background*/
+.kX-tIJx4a9vKVuUkKJARv .mA39Hqv8LacDppegb_Q_Z{
+    background-color: color-mix(in srgb, rgb(var(--cover-Vib1), 1)70% , rgb(255, 255, 255) 30%) ;}
+.kX-tIJx4a9vKVuUkKJARv{
+    background: color-mix(in srgb, rgb(var(--cover-DVib2), .7)60% , rgba(0, 0, 0, 1) 40%) ;
+    outline: 2px solid color-mix(in srgb, rgb(var(--cover-DVib2), .6)60% , rgba(0, 0, 0, .9) 40%) ;
+box-shadow: 0px 0px 10px black;
+width: 99%;
+justify-content: center;}
+/* Recent games in-card controller/keyboard background & icon color*/
+._3BPFqWN5T-x8njyrRYM1CX > ._1TaKfLOhWBYEPtvv-WJv0n{background-color: rgb(var(--cover-Vib2), .0)
+    ;background: linear-gradient(240deg,  rgb(var(--cover-Vib2), .83),  rgb(var(--cover-Vib1), .77));
+    box-shadow: 0px 2px .7em rgb(var(--cover-DVib2), .9), inset 0px 0px 1.5em rgb(var(--cover-LVib2), .4);
+backdrop-filter: saturate(1.2) blur(1px);}
+[class="_1TaKfLOhWBYEPtvv-WJv0n"]{
+path{fill: color-mix(in srgb, rgb(var(--cover-DVib2), 1)90% , rgba(0, 0, 0, 1) 10%)}}
+
+._3YYQ98HSj-wh5uljwl12bW ._3bvCHoWj4rDdZr3mnKlXaf{
+    animation: rotate-gradient 17s cubic-bezier(.33,.48,.63,.47) infinite!important;
+    background-size: 120%;
+        background: linear-gradient(var(--rotate),  rgb(var(--cover-Vib1), 1),  rgb(var(--cover-Vib2), 1));
+         box-shadow: 0px 0px 1em rgb(var(--cover-DVib2), .86), inset 0px 0px 8em rgb(var(--cover-LVib2), .7);
+         color: black;
+         font-weight: 500;
+         text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);}
+
+/*most recently played card glow*/
+._1HIFNGSxh4-jOhPiDynR4C._2eJEJmUJveWN1xIBo6qxQ_ ._1H3KfkJV5jxe2CR41DtUi0 {
+    transform: translateY(-200%) translateX(215px) scaleX(42) scaleY(7);
+}
+[class="_3gwMkKp82bb5aZj4EeQnpi _3CRLA2FFclTRCznNBgtiIH"]{
+    transform: translateY(.29em);
+}
+/* ==========================================.............................................
+   tabs beneath home/recently played (what's new / friends / recommended)
+-----------------------------------------------======================================== */
+/*bg color all tabs*/
+[class="_1iKmxBdl6hxX7tJdDfn_uB"]{
+    background-color: rgb(var(--cover-DVib1),1);}
+
+@keyframes _cardhov{
+0% {border-radius: 415px 415px 440px 440px;}
+100% {border-radius: 22px 22px 0px 0px!important;}}
+/*what's new tab*/
+/*news cards*/
+.XLJ9pwrMeZWR39iu-bFoV{border-radius: 8.2px 8.2px 0px 0px !important;}
+/*bottom of card*/
+._6TGe7-X6PrRRyqOPxNwRd{border-radius: 0px 0px 8.2px 8.2px !important;
+background-color: rgb(var(--cover-card));
+ ._4LAnPYKRPeF-QDReu_VGm {color: color-mix(in srgb, rgb(var(--cover-LVib1)) 60%, rgb(255, 255, 255) 40%)}
+    .MBkkhT4wei3tWetnWbiqn{color: color-mix(in srgb, rgb(var(--cover-LVib2)) 60%, rgb(255, 255, 255) 40%)}
+    ._1jXShdEo0WfXH66OqPkIyJ ._3H9W-9RwwfJktXPkc6EWjR{color: color-mix(in srgb, rgb(var(--cover-LVib1)) 60%, rgb(255, 255, 255) 40%)} }
+/*bottom of card hover*/
+.gpfocus ._6TGe7-X6PrRRyqOPxNwRd {
+    background-color: color-mix(in srgb, rgb(var(--cover-card)) 70%, black 30%);
+    ._4LAnPYKRPeF-QDReu_VGm {color: color-mix(in srgb, rgb(var(--cover-LVib1)) 85%, rgb(255, 255, 255) 15%); transition: 300ms;}
+    .MBkkhT4wei3tWetnWbiqn{color: color-mix(in srgb, rgb(var(--cover-LVib2)) 85%, rgb(255, 255, 255) 15%); transition: 400ms;}
+    ._1jXShdEo0WfXH66OqPkIyJ ._3H9W-9RwwfJktXPkc6EWjR{color: color-mix(in srgb, rgb(var(--cover-LVib1)) 85%, rgb(255, 255, 255) 15%); transition: 500ms;} }
+/*top of card hover*/
+._1n_1Xh8vasUIYlvQ1wpeO1{
+    background-color: rgb(var(--cover-DVib1),.5);
+    animation: rotate-gradient 6s cubic-bezier(.33,.48,.63,.47) infinite, _cardhov .7s ease 1 ;
+    background-size: 120%;
+    background: linear-gradient(var(--rotate),  rgb(var(--cover-Vib1), 1),  rgb(var(--cover-Vib2), 1));
+    box-shadow:  inset 0px 0px 8em rgb(var(--cover-LVib2), .7);}
+/*recently updated cards*/
+.BasicUI ._3OC7iN2ubQiHWLB7r6Bugz{border-radius: 7.8px; background-color: rgb(var(--cover-card));}
+._2_b6LXxlIy7eEuPc0QGvOE ._1Xl958eTmxy8PqRiG5qMN3.PyrxQAzTPltF7zR7liLwc{color: color-mix(in srgb, rgb(var(--cover-LVib2)) 60%, rgb(255, 255, 255) 40%);}
+._2_b6LXxlIy7eEuPc0QGvOE,._1wLpmwH1g8b3Xra-xAL-iK{color: color-mix(in srgb, rgb(var(--cover-LVib1),.7) 60%, rgba(255, 255, 255, 0.8) 40%) }
+/*trending among friends cards*/
+[class="fXdhjvKWFQqnjxUzju3jk Panel"]{
+._1R9r2OBCxAmtuUVrgBEUBw{border-radius: 7px 7px 0px 0px!important;}
+}
+[class="_1R9r2OBCxAmtuUVrgBEUBw _2E7G8grj_-tgxXbTXs1t2E ZsU8nIIpj8MJn0vzMzSp1"]{
+ img{
+    border-radius: 7px 7px 0px 0px!important;
+}
+}
+
+.fXdhjvKWFQqnjxUzju3jk,.BasicUI ._2E7G8grj_-tgxXbTXs1t2E{background-color:#0000;}
+.fXdhjvKWFQqnjxUzju3jk ._3-GyQfKnKaWozIRLOw4BjY{
+    img{border-radius: 0px 0px 0px 7px;}
+    border-radius: 0px 0px 8px 8px;
+    background-color:color-mix(in srgb, rgb(var(--cover-card)) 93%, white 7%); ;}
+._2s-O5T3qJJYR2AUq4b9jIN ._2_KY_e11FV0ftXR2_7TMmP{background-color: color-mix(in srgb, rgb(var(--cover-LVib2)) 80%, rgb(255, 255, 255) 20%); color: black; font-weight: 500;}    
+.fyHnacqM-lF0eryq8p9s9{background-color: color-mix(in srgb, rgb(var(--cover-LVib1)) 100%, rgb(255, 255, 255) 0%); color: black; font-weight: 400; }
+/*special offers cards*/
+._28UlEb2LlG5AHd2ifU3SX ._3ogNRav_R8ddb2Dv5BCEHY{border-radius: 8px;}
