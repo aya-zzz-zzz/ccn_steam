@@ -158,7 +158,7 @@
 /*removes pfp effect*/
 [class="_3fM0F85j3aWVzr4RJM9-eu"]{display: none;}
 /*downloading bar*/
-._2ssr3-L3TQNdrX6NI1-Gzn ._1PbL3TgQGIsmPs2HZkpCkb .vo3Tt3EsYkcybM5oKH4Lq .AK_Ax_siTCH1_LT3APMlx{
+._2ssr3-L3TQNdrX6NI1-Gzn ._1PbL3TgQGIsmPs2HZkpCkb .vo3Tt3EsYkcybM5oKH4Lq .AK_Ax_siTCH1_LT3APMlx,.BasicUI ._25YVDTaClw6Y2COPsU0UaV ._1FnTqlsi2_-TJf1d5apoS6{
     background-color: color-mix(in srgb, rgb(var(--cover-Vib1), 1)60% , rgb(255, 255, 255) 40%) ;}
 #header {
 /*battery health indicator*/
@@ -238,11 +238,11 @@ svg > rect{fill: color-mix(in srgb, rgb(var(--cover-Vib1), 1)60% , rgb(255, 255,
 
 /*hero radial gradient fadeout*/
 .gamepadhomerecentgames_RecentGamesBackgroundContainer_QNkOt, .gamepadhomerecentgames_RecentGamesBackgroundImages_30D-8 {
-       -webkit-mask-image: radial-gradient(100% 94% at 50%  10%,rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.84) 60%, rgb(0 0 0 / 67%) 85%, rgb(255 0 0 / 5%) 100%), linear-gradient(180deg, rgba(0, 0, 0, .05),rgba(0, 0, 0, .1),rgba(0, 0, 0, .2),rgba(0, 0, 0, .4),  rgba(0, 0, 0, .8));
+       -webkit-mask-image: radial-gradient(100% 94% at 50%  10%,rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.85) 60%, rgb(0 0 0 / 67%) 85%, rgb(255 0 0 / 5%) 100%), linear-gradient(180deg, rgba(0, 0, 0, .05),rgba(0, 0, 0, .1),rgba(0, 0, 0, .2),rgba(0, 0, 0, .4),  rgba(0, 0, 0, .8));
     -webkit-mask-composite: source-out;
     backdrop-filter: blur(22px);}
 .gamepadhomerecentgames_RecentGamesBackgroundContainer_QNkOt, .gamepadhomerecentgames_RecentGamesBackgroundImages_30D-8{
-    background-image: linear-gradient(180deg, rgb(var(--cover-HERO2)),rgb(var(--cover-HERO2)), rgb(var(--cover-HERO)))!important;
+    background-image: linear-gradient(180deg, rgb(var(--cover-HERO2),.7),rgb(var(--cover-HERO2),.7), rgb(var(--cover-HERO)))!important;
     transition: 0ms;
 }
 .gamepadhomerecentgames_RecentGamesBackgroundImage_3Mp8R {
@@ -469,10 +469,10 @@ svg > path{fill: color-mix(in srgb, var(--but1) 10% ,rgba(255, 255, 255, 0.7) 90
 .BasicUI ._3cI5TXsFX3bvpR-7EBOtxq ._2AzIX5kl9k6JnxLfR5H4kX ._33cnXIqTRgRr49_FNXIHj6{color: rgb(var(--cover-DVib1)); font-weight: 600;}
 .BasicUI ._3cI5TXsFX3bvpR-7EBOtxq ._2AzIX5kl9k6JnxLfR5H4kX svg path{stroke: rgba(255, 255, 255, 0.5)}
 /*play button focus*/
-.BasicUI ._3cI5TXsFX3bvpR-7EBOtxq ._2AzIX5kl9k6JnxLfR5H4kX.Focusable:focus{
+.BasicUI ._3cI5TXsFX3bvpR-7EBOtxq ._2AzIX5kl9k6JnxLfR5H4kX.Focusable:focus,.BasicUI ._3cI5TXsFX3bvpR-7EBOtxq ._2AzIX5kl9k6JnxLfR5H4kX.Focusable:focus._2q-gZ3XJzlvSGHSF-GvSmi{
     border-radius: 5px;
     box-shadow: 0px 0px 1em rgb(var(--cover-LVib1),.34);
-    filter: brightness(1.1);
+    filter: brightness(1.2);
     color: black!important;
     background-color: #0000;
     background-image: linear-gradient(var(--rotate),
@@ -484,8 +484,13 @@ svg > path{fill: color-mix(in srgb, var(--but1) 10% ,rgba(255, 255, 255, 0.7) 90
     color-mix(in srgb, var(--but1) 60% ,rgb(255, 255, 255) 40%));
     border: 0;background-size: 220% 220%;animation: rotate-gradient 19s cubic-bezier(.29,.44,.67,.56) infinite; 
     svg > path{fill: color-mix(in srgb, var(--but1) 10% ,rgb(var(--cover-DVib1)) 90%)  !important;}}
-.BasicUI ._3cI5TXsFX3bvpR-7EBOtxq ._2AzIX5kl9k6JnxLfR5H4kX.Focusable:focus svg path{stroke: none}
+.BasicUI ._3cI5TXsFX3bvpR-7EBOtxq ._2AzIX5kl9k6JnxLfR5H4kX.Focusable:focus svg path,.BasicUI ._2AzIX5kl9k6JnxLfR5H4kX.Focusable:focus._2q-gZ3XJzlvSGHSF-GvSmi svg path{stroke: none}
 .BasicUI ._2AzIX5kl9k6JnxLfR5H4kX.Focusable:focus ._33cnXIqTRgRr49_FNXIHj6{color:color-mix(in srgb, var(--but1) 10% ,rgb(var(--cover-DVib1)) 90%);}
+
+.BasicUI .QsZdWtHTlIK9KIKbscNTt{background: none;}
+[class="_2q-gZ3XJzlvSGHSF-GvSmi _2AzIX5kl9k6JnxLfR5H4kX Focusable"],[class="_2q-gZ3XJzlvSGHSF-GvSmi _2AzIX5kl9k6JnxLfR5H4kX Focusable gpfocus gpfocuswithin"]{
+    transform: translateX(.4em);}
+
 /*play/install button focus cute little animation*/
 .BasicUI ._3cI5TXsFX3bvpR-7EBOtxq ._2AzIX5kl9k6JnxLfR5H4kX.Focusable:focus:focus::after {
     border-radius: 5px;
@@ -495,7 +500,7 @@ svg > path{fill: color-mix(in srgb, var(--but1) 10% ,rgba(255, 255, 255, 0.7) 90
     animation-iteration-count: 1;
     transition: opacity .3s cubic-bezier(0.16, 0.86, 0.43, 0.99);
     clip-path: polygon(0% 0%, 0% 100%, calc(0% + 2px) 100%, calc(0% + 2px) calc(0% + 2px), calc(100% - 2px) calc(0% + 2px), calc(100% - 2px) calc(100% - 2px), calc(0% + 2px) calc(100% - 2px), calc(0% + 2px) 100%, 100% 100%, 100% 0);}
-.BasicUI ._3cI5TXsFX3bvpR-7EBOtxq ._2AzIX5kl9k6JnxLfR5H4kX.Focusable:focus::after {
+.BasicUI ._3cI5TXsFX3bvpR-7EBOtxq ._2AzIX5kl9k6JnxLfR5H4kX.Focusable:focus::after,.BasicUI ._2AzIX5kl9k6JnxLfR5H4kX.Focusable:focus::after {
     content: "";
     position: absolute;
     left: 0px;
@@ -508,7 +513,7 @@ svg > path{fill: color-mix(in srgb, var(--but1) 10% ,rgba(255, 255, 255, 0.7) 90
     z-index: 1;
     opacity: 1;
     transition: opacity .1s cubic-bezier(0.16, 0.86, 0.43, 0.99);
-    border-radius: 2px;}
+    border-radius: 5px;}
 /*install button*/
 .BasicUI ._2AzIX5kl9k6JnxLfR5H4kX ._33cnXIqTRgRr49_FNXIHj6{color: black; font-weight: 600;}
 .BasicUI ._2AzIX5kl9k6JnxLfR5H4kX.Focusable{
@@ -524,10 +529,10 @@ svg > path{fill: color-mix(in srgb, var(--but1) 10% ,rgba(255, 255, 255, 0.7) 90
     color-mix(in srgb, var(--but2) 60% ,rgb(255, 255, 255) 40%));
     border: 0;background-size: 220% 220%;animation: rotate-gradient 19s cubic-bezier(.29,.44,.67,.56) infinite; 
 svg > path{fill: color-mix(in srgb, var(--but2) 10% ,rgba(255, 255, 255, 0.7) 90%)  !important;}}
-.BasicUI ._2AzIX5kl9k6JnxLfR5H4kX.Focusable:focus svg path{stroke: none}
-.BasicUI ._2AzIX5kl9k6JnxLfR5H4kX.Focusable:focus{
+.BasicUI ._2AzIX5kl9k6JnxLfR5H4kX.Focusable:focus svg path,.BasicUI ._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi svg{stroke: none}
+.BasicUI ._2AzIX5kl9k6JnxLfR5H4kX.Focusable:focus,.BasicUI ._2AzIX5kl9k6JnxLfR5H4kX.Focusable:focus._2q-gZ3XJzlvSGHSF-GvSmi{
     box-shadow: 0px 0px 1em rgb(var(--cover-LVib2),.34);
-    filter: brightness(1.1);
+    filter: brightness(1.2);
     border-radius: 5px;
     color: black!important;
     background-color: #0000;
@@ -542,6 +547,7 @@ svg > path{fill: color-mix(in srgb, var(--but2) 10% ,rgba(255, 255, 255, 0.7) 90
 svg > path{fill: color-mix(in srgb, var(--but2) 10% ,rgb(0, 0, 0) 90%)  !important;}}
 .BasicUI ._2AzIX5kl9k6JnxLfR5H4kX.Focusable:focus svg path{stroke: none}
 .BasicUI ._2AzIX5kl9k6JnxLfR5H4kX svg{stroke: none}
+.BasicUI ._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi svg path{stroke: rgba(255, 255, 255, 0.73)}
 
 
 
