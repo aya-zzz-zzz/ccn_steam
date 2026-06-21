@@ -654,3 +654,9 @@ transform: translateX(-5px);}/*left side indicator thing*/
 .mPD42Bwx3VAs0qw9wubf2{color: rgb(var(--newyellow))}
 .kEODDe6M5cuHWuPlcQexX{color: rgb(var(--newgreen))}
 ._2LAaxz6RtHXrJJj9NzCNL4, .xBqU_GerRwzHIs8N9ratU, ._1Gr-Q9sFTdr7XhK5-j_qux{color: rgb(var(--newred)) }
+._3eEbSktrstBdLk0dVpnKVI._3Gp1bACHx__POxmy6Gd3kG,._3eEbSktrstBdLk0dVpnKVI.gpfocus{
+svg > path{fill: black;}
+}
+._3eEbSktrstBdLk0dVpnKVI{
+    svg > path{fill: rgb(var(--newgreen));}
+}
