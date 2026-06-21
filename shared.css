@@ -643,12 +643,11 @@ transform: translateX(-5px);}/*left side indicator thing*/
 
 /*game info tab*/
 .BasicUI ._3IWn-2rn7x98o5fDd0rAxb{border-radius: 7px;}
-.IIJeieZ-ZPRfIULY7uSDG{background-color: none;}
-
-
+.IIJeieZ-ZPRfIULY7uSDG{background-color: #0000!important;}
 /*sd carousel bottom-right stuff indicator bg*/
 ._3VPnvw_CDKU-PQKK1pSDlN{
     background-color: rgb(var(--cover-DVib1),.78);
+    box-shadow: 0px 2px .7em rgb(var(--cover-LVib2), .3), inset 0px 0px 1.5em rgb(var(--cover-DVib1), .2);
     backdrop-filter: blur(1.5px);}
 
 .mPD42Bwx3VAs0qw9wubf2{color: rgb(var(--newyellow))}
@@ -656,7 +655,4 @@ transform: translateX(-5px);}/*left side indicator thing*/
 ._2LAaxz6RtHXrJJj9NzCNL4, .xBqU_GerRwzHIs8N9ratU, ._1Gr-Q9sFTdr7XhK5-j_qux{color: rgb(var(--newred)) }
 ._3eEbSktrstBdLk0dVpnKVI._3Gp1bACHx__POxmy6Gd3kG,._3eEbSktrstBdLk0dVpnKVI.gpfocus{
 svg > path{fill: black;}
-}
-._3eEbSktrstBdLk0dVpnKVI{
-    svg > path{fill: rgb(var(--newgreen));}
 }
