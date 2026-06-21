@@ -132,14 +132,14 @@
         --newgreen:97, 255, 97; /*sometimes steam uses colors to indicate the state or type of something. i don't want to change what their color coding means but i still want to change the colors a little bit to suit my tastes ok?*/
         --newred: 255, 101, 144;
         --newblue: 140, 203, 255;
-        --newyellow: 140, 203, 255;
+        --newyellow: 255, 253, 147;
 
         --newgreenl: color-mix(in srgb, rgb(var(--newgreen)) 70%, white 30%);
 
         --but1: rgb(233, 87, 204); /*button color*/
         --but2: rgb(102, 133, 233);
         /*bhdf doesnt do nuthin it's just here to make color picking easier*/
-        --bhdf:    rgb(3, 0, 21);
+        --bhdf:    rgb(255, 253, 147);
     
         --sephue: 267deg;}
 
@@ -151,6 +151,8 @@
         {color: var(--newgreenl);}
        .ingame ._3xUpb5DWXPFNcHHIcv-9pe.GamepadMode, .GamepadMode .ingame ._3xUpb5DWXPFNcHHIcv-9pe
        ,.rT7EkJjqw27KBB7HxAAWk ._2pJftSRjT_UngZZ4BJimwg{background: rgb(var(--newgreen));}
+
+       .online ._3xUpb5DWXPFNcHHIcv-9pe.GamepadMode, .GamepadMode .online ._3xUpb5DWXPFNcHHIcv-9pe{background: rgb(var(--newblue));}
        
 /* ==========================================.............................................
     top bar
@@ -489,7 +491,7 @@ svg > path{fill: color-mix(in srgb, var(--but1) 10% ,rgba(255, 255, 255, 0.7) 90
 
 .BasicUI .QsZdWtHTlIK9KIKbscNTt{background: none;}
 [class="_2q-gZ3XJzlvSGHSF-GvSmi _2AzIX5kl9k6JnxLfR5H4kX Focusable"],[class="_2q-gZ3XJzlvSGHSF-GvSmi _2AzIX5kl9k6JnxLfR5H4kX Focusable gpfocus gpfocuswithin"]{
-    transform: translateX(.2em);}
+    transform: translateX(.22em);}
 
 /*play/install button focus cute little animation*/
 .BasicUI ._3cI5TXsFX3bvpR-7EBOtxq ._2AzIX5kl9k6JnxLfR5H4kX.Focusable:focus:focus::after {
@@ -618,7 +620,8 @@ transform: translateX(-5px);}/*left side indicator thing*/
    background-size: 220% 220%;animation: rotate-gradient 19s cubic-bezier(.29,.44,.67,.56) infinite; }
 .BasicUI ._3ns9185LizH61StaAXuAp6{background-color: color-mix(in srgb, rgb(var(--cover-card2)) 88%, white 12%)}
 /*buttons*/
-.BasicUI button.DialogButton._3Cdin80d-hVsakHUZboheb._3nJyYxGQ3kdwwabPmxNnMe:not(.gpfocus),.BasicUI .DY4_wSF8h9T5o46hO5I9V{
+.BasicUI button.DialogButton._3Cdin80d-hVsakHUZboheb._3nJyYxGQ3kdwwabPmxNnMe:not(.gpfocus),.BasicUI .DY4_wSF8h9T5o46hO5I9V
+,.IIJeieZ-ZPRfIULY7uSDG ._3sfpA6uM8IJuAnrtDiJLZI{
     background-color: rgb(var(--cover-Vib2),.3); border-radius: 7.5px;}
 /*media*/
 ._21yM8Jxi06nOAC-Lr1vfOh._1zPkVnKexQdCEe_yQuhRVw{border-radius: 7.5px;}
@@ -640,3 +643,14 @@ transform: translateX(-5px);}/*left side indicator thing*/
 
 /*game info tab*/
 .BasicUI ._3IWn-2rn7x98o5fDd0rAxb{border-radius: 7px;}
+.IIJeieZ-ZPRfIULY7uSDG{background-color: none;}
+
+
+/*sd carousel bottom-right stuff indicator bg*/
+._3VPnvw_CDKU-PQKK1pSDlN{
+    background-color: rgb(var(--cover-DVib1),.78);
+    backdrop-filter: blur(1.5px);}
+
+.mPD42Bwx3VAs0qw9wubf2{color: rgb(var(--newyellow))}
+.kEODDe6M5cuHWuPlcQexX{color: rgb(var(--newgreen))}
+._2LAaxz6RtHXrJJj9NzCNL4, .xBqU_GerRwzHIs8N9ratU, ._1Gr-Q9sFTdr7XhK5-j_qux{color: rgb(var(--newred)) }
