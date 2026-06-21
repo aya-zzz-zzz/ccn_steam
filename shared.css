@@ -648,9 +648,10 @@ transform: translateX(-5px);}/*left side indicator thing*/
 .IIJeieZ-ZPRfIULY7uSDG{background-color: #0000!important;}
 /*sd carousel bottom-right stuff indicator bg*/
 ._3VPnvw_CDKU-PQKK1pSDlN{
-    path{fill: color-mix(in srgb, rgb(var(--cover-LVib2), 1)90% , rgb(255, 255, 255) 90%)}
     background-color: rgb(var(--cover-DVib1),.78);
-    box-shadow: 0px 2px .7em rgb(var(--cover-LVib2), .3), inset 0px 0px 1.5em rgb(var(--cover-DVib1), .2);
+    box-shadow: 
+    -5px 0px 20px 0px rgb(var(--cover-LVib1),.4), 
+    5px 0px 20px 0px rgb(var(--cover-LVib2),.4), inset 0px 0px 1.5em rgb(var(--cover-DVib1), .2);
     backdrop-filter: blur(1.5px);}
 
 .mPD42Bwx3VAs0qw9wubf2{color: rgb(var(--newyellow))}
@@ -704,7 +705,8 @@ svg > path{fill: black;}
  background-color: color-mix(in srgb, rgb(var(--cover-card2),.7) 84%, rgba(255, 255, 255, 0.8) 16%);}
 /*under-card descriptor thing for 100% cheevos*/
 ._1LJqx_qFOC8199RBQO5kU8._31wTtQjCH2ZSKgMiMZLhAM{background-color: color-mix(in srgb, rgb(var(--cover-card2),.7) 66%, rgb(var(--cover-Vib1),.7) 34%);
-color: color-mix(in srgb, rgb(var(--cover-LVib1),.7) 66%, white 34%);}
+color: color-mix(in srgb, rgb(var(--cover-LVib1),.7) 66%, white 34%);
+}
 /*100% cheevos ribbon*/
 ._1LJqx_qFOC8199RBQO5kU8._31wTtQjCH2ZSKgMiMZLhAM svg,._2YS0EBJmY2Rvs07zZ90UIJ svg
 {filter: sepia(1) hue-rotate(var(--sephue)) saturate(2.1) brightness(1.3);}
