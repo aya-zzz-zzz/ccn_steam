@@ -374,12 +374,8 @@ path{fill: color-mix(in srgb, rgb(var(--cover-DVib2), 1)90% , rgba(0, 0, 0, 1) 1
     border: 0;background-size: 220% 220%;animation: rotate-gradient 19s cubic-bezier(.29,.44,.67,.56) infinite; transition: 110ms!important;}
 /*header tab inactive*/
 ._3eEbSktrstBdLk0dVpnKVI{transition: 0ms; background-color: rgb(var(--cover-LVib2),.15);}
-/*main bg color for all tabs(figure something else out)*/
-[class="_1iKmxBdl6hxX7tJdDfn_uB"]{
-background-color: rgb(var(--cover-DVib1),.1); backdrop-filter: blur(2px);}
-._3LYP1SIxyoky-yW9Ug_1fq.b084mAvY8rgVMr3H04g9g{
-    background: rgb(var(--cover-DVib1),1);
-}
+/*main bg color for all tabs*/
+._3LYP1SIxyoky-yW9Ug_1fq.b084mAvY8rgVMr3H04g9g{background: rgb(var(--cover-DVib1),1);}
 
 
 @keyframes _cardhov{
@@ -396,7 +392,7 @@ background-color: rgb(var(--cover-DVib1),.1); backdrop-filter: blur(2px);}
 .rT7EkJjqw27KBB7HxAAWk ._2pJftSRjT_UngZZ4BJimwg{transform: translateY(-.3em);}
 .XLJ9pwrMeZWR39iu-bFoV{border-radius: 8.2px 8.2px 0px 0px !important;}
 /*bottom of card*/
-._6TGe7-X6PrRRyqO for thisPxNwRd{border-radius: 0px 0px 8.2px 8.2px !important;
+._6TGe7-X6PrRRyqOPxNwRd{border-radius: 0px 0px 8.2px 8.2px !important;
 background-color: rgb(var(--cover-card));
  ._4LAnPYKRPeF-QDReu_VGm {color: color-mix(in srgb, rgb(var(--cover-LVib1)) 60%, rgb(255, 255, 255) 40%)}
     .MBkkhT4wei3tWetnWbiqn{color: color-mix(in srgb, rgb(var(--cover-LVib2)) 60%, rgb(255, 255, 255) 40%)}
@@ -729,10 +725,13 @@ div._3vHkmRShhzwd67_MtEq8-n._11p6Fm47YPaY-YjtuLYMMJ.Panel{gap: 47.5px 16px !impo
 /* ==========================================.............................................
     downloads
 -----------------------------------------------======================================== */
+/*bottom section bg (starry night css for the vibesss)*/
 :root{
     --bg1: 20, 0, 43;
     --bg2: 14, 0, 58;
     --bg3: 4, 0, 10;}
+.BasicUI .SEmVpmXrYVl3OxL1sDFTg{
+    background: rgb(var(--cover-DVib1));}
 ._1l0LmmqDUXH19SjfELddn7{
     background: #0000;
     animation: blink 10s infinite, blink2 12s infinite ,blink1 17s infinite, blink12 15s infinite;
@@ -748,8 +747,55 @@ div._3vHkmRShhzwd67_MtEq8-n._11p6Fm47YPaY-YjtuLYMMJ.Panel{gap: 47.5px 16px !impo
 radial-gradient(ellipse at top left,color-mix(in srgb,rgb(var(--bg3),0.25) 95%, rgb(var(--bg1),0.25) 5%),rgba(12, 12, 12, 0) 70%),
 radial-gradient(circle at bottom right,rgb(var(--bg3),.2),transparent 53%),
 radial-gradient(circle at bottom left,rgb(var(--bg3),.2),transparent 53%),
-radial-gradient(ellipse at top left, rgb(var(--bg2),.7), rgb(var(--bg2),0.4),rgba(0, 128, 0, 0) 90%),
+radial-gradient(ellipse at top left, rgb(var(--bg2),.5), rgb(var(--bg2),0.4),rgba(0, 128, 0, 0) 90%),
 linear-gradient(180deg, rgba(var(--bg3),1),  rgba(var(--bg3),1))
 !important;
-  background-size:100% 100%,320px 260px,450px 240px, 360px 350px, 380px 600px,560px 400px, 410px 320px, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%;
+  background-size:100% 100%,320px 260px,450px 240px, 360px 350px, 380px 600px,560px 400px, 410px 320px, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%;}
+/*top section bg (gradient over hero art)*/
+._3mZ2rKd2RECK4q4ufmsDYX ._3WauYi7bNDSGIogMLPVYES .edQzwM57P-T5K3eDGkyvZ{
+        background: linear-gradient(to right, transparent 15%, rgb(var(--cover-card2)) 90%);}
+/*top section bg (right side bg)*/        
+._1VNuYHM6BPBOJspC6zPf5r.IbePLaw-vSvhG1GTenYFg{
+    background-color: rgb(var(--cover-card));}
+.BasicUI ._373v1eWNyaPKhgnea9FZSt{box-shadow: none;}   
+/*just kinda bullshit idk if this even matters but it's in the original code so i themed these elements just in case lol*/ 
+.BasicUI ._373v1eWNyaPKhgnea9FZSt ._3Mbhnlk1Go2j8yCdjthzc7{
+        background-color: rgb(var(--cover-card));}
+.BasicUI ._1bq4x9pa4-9RLY-dXWUZTp{
+    background: radial-gradient(155.42% 100% at 0% 0%, rgb(var(--cover-card2)) 0 0%, rgb(var(--cover-card)) 100%);}
+.BasicUI ._1BxZDLT8KveuJzn-1q4NTP {
+    -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 138px, rgb(var(--cover-card)) 180px, rgb(var(--cover-card)) 100%);}
+._3mZ2rKd2RECK4q4ufmsDYX ._3WauYi7bNDSGIogMLPVYES {
+    -webkit-mask-image: linear-gradient(to right, rgb(var(--cover-card)) 40%, rgba(14, 20, 27, 0) 100%);}
+/*downloading bars / downloading data bar color*/    
+.Ayu--dDVVaKmP2gNYPAQ0 ._33jqEbo2sBXJZ08w9BkdEM svg,
+._1BxZDLT8KveuJzn-1q4NTP .OS07NfYlp6v-Eh5oQ7dwn{
+    color: color-mix(in srgb, rgb(var(--cover-LVib1),.8) 70%, rgb(var(--cover-Vib1),.6) 30%);}
+._1SyggnJY6qbRSmbZpkK3-H ._1vMU1vG5ZtLihr3mfXUymR._2mLZnQr2HzWQ1K8D8xouc- div{
+    background-color:color-mix(in srgb, rgb(var(--cover-LVib1),1) 70%, rgb(var(--cover-Vib2),1) 30%); }
+/*disk usage line / installing files color*/   
+._1BxZDLT8KveuJzn-1q4NTP ._3H2JWLH8rucdSC1XVZ7Xdk{
+    stroke: color-mix(in srgb, rgb(var(--cover-LVib2),1) 90%, rgb(var(--cover-Vib2),1) 10%);}
+._1SyggnJY6qbRSmbZpkK3-H ._1vMU1vG5ZtLihr3mfXUymR.HifZB5TP6WNuubp1dzyxS div,
+.Ayu--dDVVaKmP2gNYPAQ0 ._1QHr4A7EN2DgQfJIdu3rTh{
+    background-color:color-mix(in srgb, rgb(var(--cover-LVib2),1) 70%, rgb(var(--cover-Vib2),1) 30%) ;} 
+/*paused progress bar color*/      
+._1SyggnJY6qbRSmbZpkK3-H ._1vMU1vG5ZtLihr3mfXUymR._2XedpgsgZ3gMAUuPRtnfld div,.GamepadMode ._21P7c4MWmsU2QSZeL-uyZo.gpfocus ._1SyggnJY6qbRSmbZpkK3-H ._1vMU1vG5ZtLihr3mfXUymR._2XedpgsgZ3gMAUuPRtnfld div{
+        background-color: rgba(255, 255, 255, 0.8);}
+/*progress bars bg color*/      
+.GamepadMode ._21P7c4MWmsU2QSZeL-uyZo.gpfocus ._1SyggnJY6qbRSmbZpkK3-H ._1vMU1vG5ZtLihr3mfXUymR{
+    background-color: color-mix(in srgb, rgb(var(--cover-card2),1) 79%, white 21%);;
 }
+._1VNuYHM6BPBOJspC6zPf5r:hover ._1vMU1vG5ZtLihr3mfXUymR,._1SyggnJY6qbRSmbZpkK3-H ._1vMU1vG5ZtLihr3mfXUymR{
+    background-color: color-mix(in srgb, rgb(var(--cover-card2),1) 85%, white 15%);}
+/*resume progress button*/      
+.BasicUI ._1VNuYHM6BPBOJspC6zPf5r.IbePLaw-vSvhG1GTenYFg ._3oavRVhIS9tC3vBsFT4Ggi.DialogButton:enabled,
+._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi, ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi:enabled, ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi:active, ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi:hover, ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi:enabled:active:hover, ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi.DialogButton:enabled{
+    background: color-mix(in srgb, rgb(var(--cover-card2),1) 78%, white 22%); }    
+.BasicUI ._1VNuYHM6BPBOJspC6zPf5r{
+    animation: none;}
+    /*focus bg*/  
+.BasicUI ._21P7c4MWmsU2QSZeL-uyZo:focus,
+._21P7c4MWmsU2QSZeL-uyZo.gpfocus:not(._74yh4KBx-CqtDEw0dDxpH) ._1VNuYHM6BPBOJspC6zPf5r.IbePLaw-vSvhG1GTenYFg{
+    background-color: color-mix(in srgb, rgb(var(--cover-card2),1) 55%, rgb(var(--cover-card),1) 45%);
+    animation: none;}
