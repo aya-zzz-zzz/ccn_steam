@@ -141,7 +141,7 @@
         --newgreen:97, 255, 97; /*sometimes steam uses colors to indicate the state or type of something. i don't want to change what their color coding means but i still want to change the colors a little bit to suit my tastes ok?*/
         --newred: 255, 101, 144;
         --newblue: 140, 203, 255;
-        --newyellow: 255, 253, 147;
+        --newyellow: 237, 255, 117;
 
         --newgreenl: color-mix(in srgb, rgb(var(--newgreen)) 70%, white 30%);
 
