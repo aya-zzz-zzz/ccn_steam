@@ -374,9 +374,12 @@ path{fill: color-mix(in srgb, rgb(var(--cover-DVib2), 1)90% , rgba(0, 0, 0, 1) 1
     border: 0;background-size: 220% 220%;animation: rotate-gradient 19s cubic-bezier(.29,.44,.67,.56) infinite; transition: 110ms!important;}
 /*header tab inactive*/
 ._3eEbSktrstBdLk0dVpnKVI{transition: 0ms; background-color: rgb(var(--cover-LVib2),.15);}
-/*main bg color for all tabs(figure something else out)
+/*main bg color for all tabs(figure something else out)*/
 [class="_1iKmxBdl6hxX7tJdDfn_uB"]{
-background-color: rgb(var(--cover-DVib1),1);}*/
+background-color: rgb(var(--cover-DVib1),.1); backdrop-filter: blur(2px);}
+._3LYP1SIxyoky-yW9Ug_1fq.b084mAvY8rgVMr3H04g9g{
+    background: rgb(var(--cover-DVib1),1);
+}
 
 
 @keyframes _cardhov{
