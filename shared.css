@@ -3,31 +3,19 @@
     --CGV-play-anim-height: 100vh;
 
     --met-game-carousel-height-tens: 40vh;
-	--met-game-carousel-height-ones: 7vh;
-}
+	--met-game-carousel-height-ones: 7vh;}
 /* ==========================================.............................................
     Clean Gameview
    -----------------------------------------------======================================== */
 :root {
     --CGV-play-bar-height: 80px;
     --CGV-top-panel-height: calc(100vh - var(--CGV-play-bar-height) - var(--CGV-footer-height));
-    --CGV-image-height: calc(100vh - var(--CGV-footer-height));
-}
-
+    --CGV-image-height: calc(100vh - var(--CGV-footer-height));}
 .BasicUI .sharedappdetailsheader_TopCapsule_2meE3 {
-    height: var(--CGV-top-panel-height);
-}
-
-
-
-
-
+    height: var(--CGV-top-panel-height);}
 @keyframes makethinggodown {
     from {height: var(--CGV-top-panel-height);}
-    to {height: var(--CGV-play-anim-height);}
-}
-
-
+    to {height: var(--CGV-play-anim-height);}}
 /* ==========================================.............................................
     Centered Game Text
    -----------------------------------------------======================================== */
@@ -35,15 +23,12 @@
 .BasicUI .appportrait_PortraitMessage_3gwMk .appportrait_SubMessage_3DR9f {
     width: fit-content;
     margin: 0 auto 0 auto;}
-
 .basicgamecarousel_CarouselGameLabel_3CKji {
     width: 0;
     max-width: 0;
     margin: 0 auto 0 auto !important;
     overflow: visible !important;}
-
 .basicgamecarousel_CarouselGameLabelWrapper_ZkD6W { width: 100% !important;}
-
 .basicgamecarousel_CarouselGameLabel_3CKji > .appportrait_PortraitMessage_3gwMk {
     overflow: visible !important;
     transform: translate(-50%, 0);}
@@ -98,9 +83,8 @@
 100% {outline-color:rgb(var(--cover-LVib1),1)!important;}}
 
 @keyframes _1RqM3Kl3-lPbdsdw6xcEm9 {
-    0% {outline-color: rgb(var(--cover-LVib1),1)!Important;}
-100% {outline-color:rgb(var(--cover-LVib1),1)!important;}
-}
+0% {outline-color: rgb(var(--cover-LVib1),1)!Important;}
+100% {outline-color:rgb(var(--cover-LVib1),1)!important;}}
 
 /*built in recently played hero art zoom*/
 @keyframes _3WXchKkPvnl2QloRaF5aQ7{
@@ -152,15 +136,11 @@
     
         --sephue: 267deg;}
 
-        
-
-
        ._3EXklzsbt_QeypOM4_vp1K{background-color: rgba(132, 255, 132, 0.82); color: black; font-weight: 500; backdrop-filter: blur(3px);} 
         .KLo2nZeTMZykCUGVlKsab ._15rrZcW27Qo2PQ_U9T9gQG,.ingame .nOdcT-MoOaXGePXLyPe0H.GamepadMode, .GamepadMode .ingame .nOdcT-MoOaXGePXLyPe0H
         {color: var(--newgreenl);}
        .ingame ._3xUpb5DWXPFNcHHIcv-9pe.GamepadMode, .GamepadMode .ingame ._3xUpb5DWXPFNcHHIcv-9pe
        ,.rT7EkJjqw27KBB7HxAAWk ._2pJftSRjT_UngZZ4BJimwg{background: rgb(var(--newgreen));}
-
        .online ._3xUpb5DWXPFNcHHIcv-9pe.GamepadMode, .GamepadMode .online ._3xUpb5DWXPFNcHHIcv-9pe{background: rgb(var(--newblue));}
        
 /* ==========================================.............................................
@@ -188,56 +168,36 @@ svg > rect{fill: color-mix(in srgb, rgb(var(--cover-Vib1), 1)60% , rgb(255, 255,
     animation: rotate-gradient 30s cubic-bezier(.33,.48,.63,.47) infinite;
     background-size: 450%;
     background: linear-gradient(var(--rotate),  rgb(var(--cover-Vib1), .2),  rgb(var(--cover-Vib2), .2));
-    box-shadow:  inset 0px 0px 8em rgb(var(--cover-Vib2), .2);
-}
+    box-shadow:  inset 0px 0px 8em rgb(var(--cover-Vib2), .2);}
 ._2a1-sPpExCp24Q8dfImB0a.gpfocus, ._17M8gvakqjyaw_cLo6ntdl._1bmuJRkMBGcApfJwlj_k-F ._2a1-sPpExCp24Q8dfImB0a {
     color: #ffffff;
     opacity: 1;
     width: 100%;
     min-width: 100%;
-    caret-color: rgb(var(--cover-LVib1));
-}
+    caret-color: rgb(var(--cover-LVib1));}
 #header > div._17M8gvakqjyaw_cLo6ntdl.NMb_F0Q2lf6akyzaZBfLt._1bmuJRkMBGcApfJwlj_k-F._2YxXntwjdsceSnfMRClWHG.Panel > input{
-    color: white; filter: opacity(1);
-}
+    color: white; filter: opacity(1);}
 #header > div._17M8gvakqjyaw_cLo6ntdl.NMb_F0Q2lf6akyzaZBfLt._1bmuJRkMBGcApfJwlj_k-F._2YxXntwjdsceSnfMRClWHG.Panel > svg._2Ya83QVfgqLema1GlOi9_C._1l8jsSJRozEnzlhm5Q2m7U > path{
-    fill: white
-}
+    fill: white}
 /*active search placeholder text darkener*/ 
 
 /* ==========================================.............................................
     recently played
 -----------------------------------------------======================================== */
-
 /*hero zoom animation timing extension*/
-._30D-80Lg-Luy-KxOumBlaY ._1SRoxsfD-XkekIXfr0ofs3 { animation: 52s ease 0s 1 alternate none running _3WXchKkPvnl2QloRaF5aQ7;
-}
-
+._30D-80Lg-Luy-KxOumBlaY ._1SRoxsfD-XkekIXfr0ofs3 { animation: 52s ease 0s 1 alternate none running _3WXchKkPvnl2QloRaF5aQ7;}
 /*hero alterations*/
 ._3Mp8R2wnoCl6ko0HAX8IHE {
     width: 102%;
     height: auto;
-    object-fit: contain;
+    object-fit: contain; 
     opacity: 0.8;
-    filter: brightness(75%);
-
-}
+    filter: brightness(75%);}
 .BasicUI .WYgDg9NyCcMIVuMyZ_NBC::after {
-    border-radius: 7px;
-    content: "";
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
+    border-radius: 7px;content: "";position: absolute;left: 0px;right: 0px;top: 0px;bottom: 0px;
     background: linear-gradient(-45deg, rgba(245, 178, 255, 0.2) 30%, rgba(243, 163, 255, 0.3) 36%, #f7a3ff 49%, #fa9bff 51%, rgba(242, 154, 255, 0.395) 64%, rgba(243, 165, 255, 0.2) 70%);
     background-size: 300% 100%;
-    z-index: 2;
-    opacity: 0;
-    transition: opacity .1s cubic-bezier(0.16, 0.86, 0.43, 0.99);
-    mix-blend-mode: overlay;
-    pointer-events: none;
-}
+    z-index: 2;opacity: 0;transition: opacity .1s cubic-bezier(0.16, 0.86, 0.43, 0.99);mix-blend-mode: overlay;pointer-events: none;}
 ._3Mp8R2wnoCl6ko0HAX8IHE {
     width: 102%;
     height: auto;
@@ -246,7 +206,6 @@ svg > rect{fill: color-mix(in srgb, rgb(var(--cover-Vib1), 1)60% , rgb(255, 255,
     filter: brightness(80%);
     -webkit-mask-image: radial-gradient(100% 94% at 50%  10%,rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.84) 63%, rgba(0, 0, 0, 0.7) 93%, rgb(0 0 0 / .10%) 97%, rgba(0, 0, 0, 0.05) 100%), linear-gradient(180deg, rgba(0, 0, 0, .05), rgba(0, 0, 0, .05),rgba(0, 0, 0, .1),rgba(0, 0, 0, .2),rgba(0, 0, 0, .4),  rgba(0, 0, 0, .8));
     -webkit-mask-composite: source-out;}
-
 /*hero radial gradient fadeout*/
 .gamepadhomerecentgames_RecentGamesBackgroundContainer_QNkOt, .gamepadhomerecentgames_RecentGamesBackgroundImages_30D-8 {
     -webkit-mask-image: radial-gradient(100% 94% at 50%  10%,rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.85) 63%, rgba(0, 0, 0, 0.7) 93%, rgb(0 0 0 / .10%) 97%, rgba(0, 0, 0, 0.05) 100%), linear-gradient(180deg, rgba(0, 0, 0, .05), rgba(0, 0, 0, .05),rgba(0, 0, 0, .1),rgba(0, 0, 0, .2),rgba(0, 0, 0, .4),  rgba(0, 0, 0, .8));
@@ -254,46 +213,29 @@ svg > rect{fill: color-mix(in srgb, rgb(var(--cover-Vib1), 1)60% , rgb(255, 255,
     backdrop-filter: blur(22px);}
 .gamepadhomerecentgames_RecentGamesBackgroundContainer_QNkOt, .gamepadhomerecentgames_RecentGamesBackgroundImages_30D-8{
     background-image: linear-gradient(180deg, rgb(var(--cover-HERO2),.42),rgb(var(--cover-HERO2),.42), rgb(var(--cover-HERO)))!important;
-    transition: 0ms;
-}
-.gamepadhomerecentgames_RecentGamesBackgroundImage_3Mp8R {
-    opacity: 1;
-    filter: brightness(100%)!important;
-}
-.gamepadhomerecentgames_RecentGamesBackground_1SRox {
-    opacity: 1!important;
-    filter: none!important
-}
-
-
-
+    transition: 0ms; }
+.gamepadhomerecentgames_RecentGamesBackgroundImage_3Mp8R { opacity: 1; filter: brightness(100%)!important;}
+.gamepadhomerecentgames_RecentGamesBackground_1SRox { opacity: 1!important; filter: none!important }
 /*deleted elements*/
 [id="Footer"],  /*footer*/
 ._35iRep_MLGWeAmkLbeny7R /*home screen top text that fades in and out when you scroll ew why whose idea even was that*/
 ,.BasicUI ._3gwMkKp82bb5aZj4EeQnpi ._3DR9f2B3JQKviESgdrHp1u /*home screen card bottom-bottom text*/
 {display: none;} 
-
-
 /*main page height alteration & bg color*/
 ._39tNvaLedsTrVh0fFsP4Jm{min-height: calc(100% + 59px)!important;
 background-color: rgb(var(--cover-DVib1),1);}
-
 /*recently played cards move down*/
 ._3MdH5Czolhh5rC_nofUlcQ{padding: none;}
 #Main > div > div._1iKmxBdl6hxX7tJdDfn_uB > div > div > div > div > div > div._39tNvaLedsTrVh0fFsP4Jm.Panel > div > div._282X0J4BtrSF1IXctmOe-X > div > div{
  transform: translateY(calc(var(--met-game-carousel-height-tens) + var(--met-game-carousel-height-ones)));}
-
 /* Recent games and library border-radius*/
 ._3d_bT685lnWotXxgzKW6am.yDr03475kalWBTwAE-Rnw{border-radius: 7px;}
-[class="_1HIFNGSxh4-jOhPiDynR4C Panel"]{
-img{border-radius: 7px;}     
-}
+[class="_1HIFNGSxh4-jOhPiDynR4C Panel"]{img{border-radius: 7px;}}
 
 .WYgDg9NyCcMIVuMyZ_NBC{border-radius: 7px;}
 
 .BasicUI .WYgDg9NyCcMIVuMyZ_NBC.Focusable:focus {
     outline-color: rgb(var(--cover-LVib1),.8);}
-
 /* Recent games download progress bar / bar-background*/
 .kX-tIJx4a9vKVuUkKJARv .mA39Hqv8LacDppegb_Q_Z{
     background-color: color-mix(in srgb, rgb(var(--cover-Vib1), 1)70% , rgb(255, 255, 255) 30%) ;}
@@ -320,20 +262,19 @@ path{fill: color-mix(in srgb, rgb(var(--cover-DVib2), 1)90% , rgba(0, 0, 0, 1) 1
          color: black;
          font-weight: 500;
          text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);}
-
 /*most recently played card glow*/
 ._1HIFNGSxh4-jOhPiDynR4C._2eJEJmUJveWN1xIBo6qxQ_ ._1H3KfkJV5jxe2CR41DtUi0 {
-    transform: translateY(-200%) translateX(215px) scaleX(42) scaleY(7);
-}
+    transform: translateY(-200%) translateX(215px) scaleX(42) scaleY(7);}
 [class="_3gwMkKp82bb5aZj4EeQnpi _3CRLA2FFclTRCznNBgtiIH"]{
-    transform: translateY(.29em);
-}
+    transform: translateY(.29em);}
 /* ==========================================.............................................
    tabs beneath home/recently played (what's new / friends / recommended)
 -----------------------------------------------======================================== */
 /*header bg*/
 ._3IBLc81yyL08OJ7rfKtF00._31ZleDJpmmVr6YwR5VLHiu ._2JobstxtZVYF3078DblN2M::before, ._2JobstxtZVYF3078DblN2M._1jNhbFODJy7sNdcnEeZkz4::before {
     -webkit-perspective: 1000;
+    transform: translateY(-.1em)!important;
+    top: 0;
     background: rgb(var(--cover-DVib1),.9);
     transition: 0ms;
     backdrop-filter: blur(20px);
@@ -377,7 +318,6 @@ path{fill: color-mix(in srgb, rgb(var(--cover-DVib2), 1)90% , rgba(0, 0, 0, 1) 1
 /*main bg color for all tabs*/
 ._3LYP1SIxyoky-yW9Ug_1fq.b084mAvY8rgVMr3H04g9g{background: rgb(var(--cover-DVib1),1);}
 
-
 @keyframes _cardhov{
 0% {border-radius: 415px 415px 440px 440px;}
 100% {border-radius: 22px 22px 0px 0px!important;}}
@@ -416,13 +356,9 @@ background-color: rgb(var(--cover-card));
 ._2_b6LXxlIy7eEuPc0QGvOE,._1wLpmwH1g8b3Xra-xAL-iK{color: color-mix(in srgb, rgb(var(--cover-LVib1),.7) 60%, rgba(255, 255, 255, 0.8) 40%) }
 /*trending among friends cards (most horizontal store link cards)*/
 [class="fXdhjvKWFQqnjxUzju3jk Panel"]{
-._1R9r2OBCxAmtuUVrgBEUBw{border-radius: 7px 7px 0px 0px!important;}
-}
+._1R9r2OBCxAmtuUVrgBEUBw{border-radius: 7px 7px 0px 0px!important;}}
 [class="_1R9r2OBCxAmtuUVrgBEUBw _2E7G8grj_-tgxXbTXs1t2E ZsU8nIIpj8MJn0vzMzSp1"]{
- img{
-    border-radius: 7px 7px 0px 0px!important;
-}
-}
+ img{ border-radius: 7px 7px 0px 0px!important;}}
 .BasicUI .cnkoFkzVCby40gJ0jGGS4{background-color: rgb(var(--newgreen)); color: black; font-weight: 500;}
 .fXdhjvKWFQqnjxUzju3jk,.BasicUI ._2E7G8grj_-tgxXbTXs1t2E{background-color:#0000;}
 .fXdhjvKWFQqnjxUzju3jk ._3-GyQfKnKaWozIRLOw4BjY{
@@ -433,7 +369,6 @@ background-color: rgb(var(--cover-card));
 .fyHnacqM-lF0eryq8p9s9{background-color: color-mix(in srgb, rgb(var(--cover-LVib1)) 100%, rgb(255, 255, 255) 0%); color: black; font-weight: 400; }
 /*special offers cards*/
 ._28UlEb2LlG5AHd2ifU3SX ._3ogNRav_R8ddb2Dv5BCEHY{border-radius: 8px;}
-
 /*fr**nds tab*/
 /*friend is playing now card*/
 .KLo2nZeTMZykCUGVlKsab{border-radius: 8px;
@@ -462,7 +397,6 @@ border-radius: 0px 0px 7px 7px;}
 ._1Z2eJs9-zNTKcWKy4M-oDE{
 filter: brightness(3);}
 .mbFSnoK85dUXHz9VT-YNI._3KGi6ig3JCLHZP-dOsO-Wx ._3212ro0onZQImzF7Z-DBnV,._1ckvQc7fc_EgwWKrW6GISW .MGoYUyIslJerluzgnU7z9{font-weight: 500;}
-
 /* ==========================================.............................................
     gameview
 -----------------------------------------------======================================== */
@@ -504,7 +438,6 @@ svg > path{fill: color-mix(in srgb, var(--but1) 10% ,rgba(255, 255, 255, 0.7) 90
 .BasicUI .QsZdWtHTlIK9KIKbscNTt{background: none;}
 [class="_2q-gZ3XJzlvSGHSF-GvSmi _2AzIX5kl9k6JnxLfR5H4kX Focusable"],[class="_2q-gZ3XJzlvSGHSF-GvSmi _2AzIX5kl9k6JnxLfR5H4kX Focusable gpfocus gpfocuswithin"]{
     transform: translateX(.22em);}
-
 /*play/install button focus cute little animation*/
 .BasicUI ._3cI5TXsFX3bvpR-7EBOtxq ._2AzIX5kl9k6JnxLfR5H4kX.Focusable:focus:focus::after {
     border-radius: 5px;
@@ -563,10 +496,7 @@ svg > path{fill: color-mix(in srgb, var(--but2) 10% ,rgb(0, 0, 0) 90%)  !importa
 .BasicUI ._2AzIX5kl9k6JnxLfR5H4kX svg{stroke: none}
 .BasicUI ._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi svg path{stroke: rgba(255, 255, 255, 0.73)}
 
-
-
 ._3qDWQGB0rtwM3qpXTb11Q-{background-color: rgb(var(--cover-LVib2),.1); border-radius: 5px;}
-
 
 .BasicUI ._1IX7FPSY9Jb82KhBVBSkZa{background-color: rgb(var(--cover-Vib1),.1);
 box-shadow: inset 0px 0px 20em rgb(var(--cover-DVib1),.15);}
@@ -601,7 +531,7 @@ box-shadow: inset 0px 0px 20em rgb(var(--cover-DVib1),.15);}
     background: radial-gradient(100% 80% at 64% 95%, color-mix(in srgb, rgb(var(--cover-card2),.4) 90%, rgb(var(--cover-DVib1),.8) 10%) 0%, color-mix(in srgb, rgb(var(--cover-card2),.6) 90%, rgb(var(--cover-DVib1),.8) 10%)20%, color-mix(in srgb, rgb(var(--cover-card2),.8) 90%, rgb(var(--cover-DVib1),.9) 10%) 100%);}
 ._1AYE16384J_ecLpN0sEYc5 {
     background-color: black;
-     border-radius: 8px;
+    border-radius: 8px;
     border: none;
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.145);
     background: radial-gradient(100% 80% at 64% 95%, rgb(var(--cover-card2),.4) 0%, rgb(var(--cover-Vib2),.06)20%, rgb(var(--cover-card2),.6) 100%);}
@@ -613,13 +543,12 @@ box-shadow: inset 0px 0px 20em rgb(var(--cover-DVib1),.15);}
     .LibriMVXcLl1HB60ZUp78{background: none; background-color: rgb(var(--cover-card));box-shadow: inset 0px 0px 22em rgb(var(--cover-card2));}
 .fGDsmh9vz8h0RMEoRoAvF._3cX_vEKsN9S9EmR0O5w1Ol /*image filter*/{
     filter: blur(32px) sepia(1) hue-rotate(var(--sephue)) brightness(.5) opacity(.5);}
-    ._29bW1yCn25VTm4bFameBaV,._1-MBEyCblWLDI_ymHW40W8 ._2yt71EY8-YdWa8dBEE1DAW{color: rgb(var(--newblue))}/*text*/
+    ._29bW1yCn25VTm4bFameBaV,._1-MBEyCblWLDI_ymHW40W8 ._2yt71EY8-YdWa8dBEE1DAW,._1bZTWHCV-uVaS5pEQLn-0Z{color: rgb(var(--newblue))}/*text*/
     ._3fsjzvni7TQ1NphLHM_5r3{color: rgb(var(--cover-LVib1))}
     ._3zwBRDW1egliiT4pKYIXap,._-85o5-M_cGo-fefOuWwER .xsBpzsjWWv0lqaQr0yzrG,.BasicUI ._-85o5-M_cGo-fefOuWwER ._23Pup1qLf91kwjALd-jFGc,._39nnaT_CLE0m_WXVIrAwaG ._515RL2DZmyqkYq3yOP_m7 ._25wbocZtxiwZhUeWpm1pWF ._2310BE4LDI9G7LhkIKV0xI
     {color: white}
 ._3oMUSjOFNB0E9LWcL2sE7{background: linear-gradient(to right, rgba(25, 159, 255, 0) 0%, rgb(var(--newblue),.25) 18px, rgb(var(--newblue))  18px, rgb(var(--newblue)) 22px);
 transform: translateX(-5px);}/*left side indicator thing*/
-
 /*your stuff tab*/
 /*cheevo progress bar*/
 .BasicUI ._3ns9185LizH61StaAXuAp6 ._3Rm36_oeAhvIg6ZYP9l1Jj{
@@ -639,7 +568,6 @@ transform: translateX(-5px);}/*left side indicator thing*/
 /*media*/
 ._21yM8Jxi06nOAC-Lr1vfOh._1zPkVnKexQdCEe_yQuhRVw{border-radius: 7.5px;}
 ._2_TE0KLOU7kWWxa9LS7iXA ._2B8NkDc3EmF3XM6hl1qpQ8{background-color: none;}
-
 /*community tab*/
 ._1aP1bu_l_kDbKMN7XDNmzg .AxZMHRu3YIxDFr0a-MP6n{
     border-radius: 7px ;
@@ -653,7 +581,6 @@ transform: translateX(-5px);}/*left side indicator thing*/
     background: radial-gradient(132% 155% at 50% 28%, rgb(var(--cover-card),.5) 0%, rgba(75, 81, 92, 0) 60%), rgb(var(--cover-card));
     box-shadow: inset 0 0 0 6px rgba(0, 0, 0, .2);}
 ._39nnaT_CLE0m_WXVIrAwaG{background: rgb(var(--cover-card2));}
-
 /*game info tab*/
 .BasicUI ._3IWn-2rn7x98o5fDd0rAxb{border-radius: 7px;}
 .IIJeieZ-ZPRfIULY7uSDG{background-color: #0000!important;}
@@ -664,17 +591,14 @@ transform: translateX(-5px);}/*left side indicator thing*/
     -5px 0px 10px 0px rgb(var(--cover-LVib1),.55), 
     5px 0px 10px 0px rgb(var(--cover-LVib2),.55), inset 0px 0px 1.5em rgb(var(--cover-DVib1), .2);
     backdrop-filter: blur(1.5px);}
-
 .mPD42Bwx3VAs0qw9wubf2{color: rgb(var(--newyellow))}
 .kEODDe6M5cuHWuPlcQexX{color: rgb(var(--newgreen))}
 ._2LAaxz6RtHXrJJj9NzCNL4, .xBqU_GerRwzHIs8N9ratU, ._1Gr-Q9sFTdr7XhK5-j_qux{color: rgb(var(--newred)) }
 ._3eEbSktrstBdLk0dVpnKVI._3Gp1bACHx__POxmy6Gd3kG,._3eEbSktrstBdLk0dVpnKVI.gpfocus{
-svg > path{fill: black;}
-}
+svg > path{fill: black;}}
 /* ==========================================.............................................
     active sidebar focus bg
 -----------------------------------------------======================================== */
-
 /*bg color & backdrop filter*/
 ._3rsrz7BYWjqGBhzcpn-Auo._2NQoFicPv3MZKwGD6pJj-f {
     background: #0000;
@@ -688,11 +612,12 @@ svg > path{fill: black;}
 /*top bar alterations (removes bg color % texture*/
 ._1E_SL1bTibeQ3PQRBZoS_-::before {
     background-color: #00000000;
-
     backdrop-filter: none;}
 /* ==========================================.............................................
     opened news & updates
 -----------------------------------------------======================================== */
+/*outline*/
+.gpfocus ._2yuwUNFQ2ww14fydp8mCYB{ outline: 2px solid rgb(var(--cover-LVib2),.7)}
 .BasicUI ._1KsYSVzmvIfRivBTcx-_GE{border-radius: 9px; z-index: 42342342; }
 ._3_SEiDNs-lzwV7cTF6gcgt ._3z2NYCkFizMu4fMvWTIBUG{
     background: radial-gradient(ellipse at bottom center, rgb(var(--cover-card2),.1) 10%, rgba(255, 255, 255, 0) 80%);}
@@ -764,7 +689,7 @@ linear-gradient(180deg, rgba(var(--bg3),1),  rgba(var(--bg3),1))
 .BasicUI ._1bq4x9pa4-9RLY-dXWUZTp{
     background: radial-gradient(155.42% 100% at 0% 0%, rgb(var(--cover-card2)) 0 0%, rgb(var(--cover-card)) 100%);}
 .BasicUI ._1BxZDLT8KveuJzn-1q4NTP {
-    -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 138px, rgb(var(--cover-card)) 180px, rgb(var(--cover-card)) 100%);}
+    -webkit-mask-image: linear-gradient(to right, rgb(var(--cover-card),.4) 0%, rgb(var(--cover-card),.4) 138px, rgb(var(--cover-card)) 180px, rgb(var(--cover-card)) 100%);}
 ._3mZ2rKd2RECK4q4ufmsDYX ._3WauYi7bNDSGIogMLPVYES {
     -webkit-mask-image: linear-gradient(to right, rgb(var(--cover-card)) 40%, rgba(14, 20, 27, 0) 100%);}
 /*downloading bars / downloading data bar color*/    
@@ -781,21 +706,51 @@ linear-gradient(180deg, rgba(var(--bg3),1),  rgba(var(--bg3),1))
     background-color:color-mix(in srgb, rgb(var(--cover-LVib2),1) 70%, rgb(var(--cover-Vib2),1) 30%) ;} 
 /*paused progress bar color*/      
 ._1SyggnJY6qbRSmbZpkK3-H ._1vMU1vG5ZtLihr3mfXUymR._2XedpgsgZ3gMAUuPRtnfld div,.GamepadMode ._21P7c4MWmsU2QSZeL-uyZo.gpfocus ._1SyggnJY6qbRSmbZpkK3-H ._1vMU1vG5ZtLihr3mfXUymR._2XedpgsgZ3gMAUuPRtnfld div{
-        background-color: rgba(255, 255, 255, 0.8);}
+        background-color: rgba(255, 255, 255, 0.8)  ;}
 /*progress bars bg color*/      
 .GamepadMode ._21P7c4MWmsU2QSZeL-uyZo.gpfocus ._1SyggnJY6qbRSmbZpkK3-H ._1vMU1vG5ZtLihr3mfXUymR{
-    background-color: color-mix(in srgb, rgb(var(--cover-card2),1) 79%, white 21%);;
-}
+    background-color: color-mix(in srgb, rgb(var(--cover-card2),1) 79%, white 21%) ;}
 ._1VNuYHM6BPBOJspC6zPf5r:hover ._1vMU1vG5ZtLihr3mfXUymR,._1SyggnJY6qbRSmbZpkK3-H ._1vMU1vG5ZtLihr3mfXUymR{
-    background-color: color-mix(in srgb, rgb(var(--cover-card2),1) 85%, white 15%);}
-/*resume progress button*/      
-.BasicUI ._1VNuYHM6BPBOJspC6zPf5r.IbePLaw-vSvhG1GTenYFg ._3oavRVhIS9tC3vBsFT4Ggi.DialogButton:enabled,
+    background-color: color-mix(in srgb, rgb(var(--cover-card2),1) 85%, white 15%) ;}
+/*buttons*/      
+.BasicUI ._1VNuYHM6BPBOJspC6zPf5r.IbePLaw-vSvhG1GTenYFg ._3oavRVhIS9tC3vBsFT4Ggi.DialogButton:enabled,._1GdR5LbENV7LOGROJBxohI._1GdR5LbENV7LOGROJBxohI.DialogButton:enabled,
 ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi, ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi:enabled, ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi:active, ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi:hover, ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi:enabled:active:hover, ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi.DialogButton:enabled{
     background: color-mix(in srgb, rgb(var(--cover-card2),1) 78%, white 22%); }    
-.BasicUI ._1VNuYHM6BPBOJspC6zPf5r{
-    animation: none;}
-    /*focus bg*/  
+.BasicUI ._1VNuYHM6BPBOJspC6zPf5r{animation: none;}
+/*focus bg*/  
 .BasicUI ._21P7c4MWmsU2QSZeL-uyZo:focus,
 ._21P7c4MWmsU2QSZeL-uyZo.gpfocus:not(._74yh4KBx-CqtDEw0dDxpH) ._1VNuYHM6BPBOJspC6zPf5r.IbePLaw-vSvhG1GTenYFg{
     background-color: color-mix(in srgb, rgb(var(--cover-card2),1) 55%, rgb(var(--cover-card),1) 45%);
     animation: none;}
+/*"managing downloads for this device"*/  
+._1bq4x9pa4-9RLY-dXWUZTp ._32eLZRkdi_FgZPoefB5zMS{
+    background-color:rgb(var(--cover-card),.7) ;}
+/*hero image filter*/  
+.BasicUI ._3mZ2rKd2RECK4q4ufmsDYX ._3WauYi7bNDSGIogMLPVYES ._2NqL3nV35eJFAu56_Yu-WM img{
+    filter: sepia(1) hue-rotate(var(--sephue)) saturate(2.5) brightness(.4);}
+/*divider line*/  
+.qq2xItSXjpCsNrcxyPJtO ._1CTr1yKRkOXnJ4gSS1-1A3{
+    background-color: rgb(var(--cover-card2),1);}
+/* ==========================================.............................................
+    controller settings
+-----------------------------------------------======================================== */
+._2FqpD91Xarb7f0uIOuXFOR._1anH6MdqtFW4a9cvoZsjzI{
+    padding-bottom: 0px;}
+._20sN9G_C5kZ9GO_mVUuWTD{
+    background-color: rgb(var(--cover-DVib1));}
+.APY6jDS50MNUPuX38IgC0,._3RsRfCOW7Do0JNHcEs2nqX,._3TvBVwaH8eIBabTdki35oe{
+     background-color:color-mix(in srgb, rgb(var(--cover-DVib1),1) 70%, rgb(var(--cover-card),1) 30%) ;
+   ._3oKuxJPG6j0jXgLgDGS43c{
+    filter: sepia(1) hue-rotate(var(--sephue)) saturate(1);}
+._3TvBVwaH8eIBabTdki35oe ._3R2kU_aL39-YxgB3TuRgYc{
+     filter: sepia(1) hue-rotate(var(--sephue)) saturate(88);}}
+
+
+._3FmxxjyWNHU1PrBGnBe6tm._2l416KfEtI4CL0mCUEmOBw {
+    background-image: none; 
+}
+.W-nlXr3R1zCdUCobX_Wva{
+        filter: sepia(1) hue-rotate(var(--sephue)) saturate(2.4);
+}
+
+
