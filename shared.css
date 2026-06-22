@@ -374,9 +374,11 @@ path{fill: color-mix(in srgb, rgb(var(--cover-DVib2), 1)90% , rgba(0, 0, 0, 1) 1
     border: 0;background-size: 220% 220%;animation: rotate-gradient 19s cubic-bezier(.29,.44,.67,.56) infinite; transition: 110ms!important;}
 /*header tab inactive*/
 ._3eEbSktrstBdLk0dVpnKVI{transition: 0ms; background-color: rgb(var(--cover-LVib2),.15);}
-/*main bg color for all tabs*/
+/*main bg color for all tabs(figure something else out)
 [class="_1iKmxBdl6hxX7tJdDfn_uB"]{
-background-color: rgb(var(--cover-DVib1),1);}
+background-color: rgb(var(--cover-DVib1),1);}*/
+
+
 @keyframes _cardhov{
 0% {border-radius: 415px 415px 440px 440px;}
 100% {border-radius: 22px 22px 0px 0px!important;}}
@@ -391,7 +393,7 @@ background-color: rgb(var(--cover-DVib1),1);}
 .rT7EkJjqw27KBB7HxAAWk ._2pJftSRjT_UngZZ4BJimwg{transform: translateY(-.3em);}
 .XLJ9pwrMeZWR39iu-bFoV{border-radius: 8.2px 8.2px 0px 0px !important;}
 /*bottom of card*/
-._6TGe7-X6PrRRyqOPxNwRd{border-radius: 0px 0px 8.2px 8.2px !important;
+._6TGe7-X6PrRRyqO for thisPxNwRd{border-radius: 0px 0px 8.2px 8.2px !important;
 background-color: rgb(var(--cover-card));
  ._4LAnPYKRPeF-QDReu_VGm {color: color-mix(in srgb, rgb(var(--cover-LVib1)) 60%, rgb(255, 255, 255) 40%)}
     .MBkkhT4wei3tWetnWbiqn{color: color-mix(in srgb, rgb(var(--cover-LVib2)) 60%, rgb(255, 255, 255) 40%)}
