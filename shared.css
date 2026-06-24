@@ -846,12 +846,12 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton.gpfocus, button.cXzBZxhPBl7fZs9LODEnc.
     background: color-mix(in srgb, rgb(var(--cover-LVib1)) 60%, white 40%);}
 ._9Ql-oVe_j8E-vsDdyVdWo.yLrDAetGoWx0GYqA6ShfS ._1PQppcgkuXQAiFPar9AGi-{
  background: color-mix(in srgb, rgb(var(--cover-LVib1)) 80%, rgb(var(--cover-Vib1)) 20%);
-box-shadow: inset 0px 0px 15px rgb(var(--cover-Vib1),.2), 0px 0px .9em rgb(var(--cover-DVib1),.9);
+box-shadow: inset 0px 0px 15px rgb(var(--cover-Vib1),.2), 0px 0px .6em rgb(var(--cover-DVib1),.9);
 }
 ._9Ql-oVe_j8E-vsDdyVdWo.gpfocus:after{
     background: rgb(var(--cover-Vib2),.4);}
 .eKmEXJCm_lgme24Fp_HWt.gpfocuswithin ._2bl0iQ9xigbq4Zd1NI6NZl{
-    background: color-mix(in srgb, rgb(var(--cover-LVib1)) 25%, rgb(var(--cover-DVib1)) 75%);}
+    background: color-mix(in srgb, rgb(var(--cover-LVib1)) 25%, rgb(var(--cover-DVib1),.6) 75%);}
 .DialogBody a{color:rgb(var(--cover-LVib2),.6)}
 /*option dot*/  
 ._7EGqd8bdiXJBd2fj5Hh8r ._2sQtvR60AbFF5UzDwY9hit._1gKI37LOWj1Df3QSnxvKyF {
