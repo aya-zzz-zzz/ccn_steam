@@ -4,6 +4,27 @@
 
     --met-game-carousel-height-tens: 40vh;
 	--met-game-carousel-height-ones: 7vh;}
+
+/*darkened text*/
+.gpfocus .cbinvNOoQE045ZV5gCk_N,.gpfocus ._2fl-TfpJcuSi88OkNwGOCb/*focused settings accent text*/
+{color: black;}
+/*lightened text*/
+/*lightened text (white)*/
+._1Cva_kor3lWBIoeu9cQxJq,.UVeN0kaD3zv1feMj_mMw5 .QCKBqF2k_sRLcXJ5qQIEl,
+._1gljEIuhbsQpFCWuVhdKTJ,._3QrX3TTEetJIRvEW1x2Af2 ._3ca2d1qaIzPNm79jqRbi0J
+{color: white}
+/*lightened text (accent, mostly replaces steam's gray text)*/
+.BasicUI ._34lrt5-Fc3usZU6trA1P0-,/*gameview accent text*/
+._30EfXN4e7Ca_0PoATtbeGx,._1ujzuoxGhLunHZQqHAqRgg,.Ru7OBQzSxqIo3jIsbtV9g,.BDa6lbTAdR4RwtqgRNUnO,
+.S2Fu9HxHCA5MaCLGrN2ib ._19LfMT7PFWg2xHOqNjR99q,.UVeN0kaD3zv1feMj_mMw5 .QCKBqF2k_sRLcXJ5qQIEl .Gy1Y7lb4Y47vK8odzSru2,
+._2_TE0KLOU7kWWxa9LS7iXA ._1XRnApz7l5qm2BkR5hzzvS,._14kZVEyaz7WX57N47z4Yr1,._2ZcNQxY8YknnhNa4ZvIoU4 ._1vYL2q-91QLy-FBzntE7E5,
+._2jPMy2QZr8bWi6yrk5ZzHA,._1SIa8xLHqCJGyeA9sQ4yK_ ._1VoVzLPXjhlaguJLgO8htG,._2VByWZ91DPPVmK_PDiHEmq,.BasicUI ._3fFFsvII7Y2KXNLDk_krOW,
+.BasicUI ._3zVCVKrpcKJT5fd_dbyuwQ .xpRXvu3-lbtUHYWgwJCiJ,._3QrX3TTEetJIRvEW1x2Af2 ._2PMlMbFfEmv1xThuy6Vgqv,._2H1MiFt6wMYuJDB8kZElFs
+
+{color: rgb(205, 217, 255)}
+/*lightened text (accent 2)*/
+
+{color: rgb(255, 247, 198)}
 /* ==========================================.............................................
     Clean Gameview
    -----------------------------------------------======================================== */
@@ -113,7 +134,7 @@
         --cover-card:      15, 6, 46 ; /*card bg should contrast with main bg (DVib1) but not *that* much*/
         --cover-card2:     26, 12, 74 ; /*slightly lighter version of card color*/
 
-        --cover-cardhov:     2, 0, 14      ; /* darker version of muted color*/
+        --cover-cardhov:     2, 0, 14    ; /* darker version of muted color*/
         --cover-LMut1:     239, 188, 236 ; /* light version of muted color*/
 
         --cover-HERO:      14, 0, 34 ; /*Hero tint (dark)*/
@@ -125,14 +146,14 @@
         --newgreen:97, 255, 97; /*sometimes steam uses colors to indicate the state or type of something. i don't want to change what their color coding means but i still want to change the colors a little bit to suit my tastes ok?*/
         --newred: 255, 101, 144;
         --newblue: 140, 203, 255;
-        --newyellow: 237, 255, 117;
+        --newyellow: 255, 237, 147;
 
         --newgreenl: color-mix(in srgb, rgb(var(--newgreen)) 70%, white 30%);
 
         --but1: rgb(233, 87, 204); /*button color*/
         --but2: rgb(102, 133, 233);
         /*bhdf doesnt do nuthin it's just here to make color picking easier*/
-        --bhdf:    rgb(255, 253, 147);
+        --bhdf:    rgb(140, 203, 255);
     
         --sephue: 267deg;}
 
@@ -314,7 +335,7 @@ path{fill: color-mix(in srgb, rgb(var(--cover-DVib2), 1)90% , rgba(0, 0, 0, 1) 1
     color-mix(in srgb, var(--but1) 60% ,rgb(255, 255, 255) 40%));
     border: 0;background-size: 220% 220%;animation: rotate-gradient 19s cubic-bezier(.29,.44,.67,.56) infinite; transition: 110ms!important;}
 /*header tab inactive*/
-._3eEbSktrstBdLk0dVpnKVI{transition: 0ms; background-color: rgb(var(--cover-LVib2),.15);}
+._3eEbSktrstBdLk0dVpnKVI{transition: 0ms; background-color: rgb(var(--cover-card2),1);}
 /*main bg color for all tabs*/
 ._3LYP1SIxyoky-yW9Ug_1fq.b084mAvY8rgVMr3H04g9g{background: rgb(var(--cover-DVib1),1);}
 
@@ -329,6 +350,9 @@ path{fill: color-mix(in srgb, rgb(var(--cover-DVib2), 1)90% , rgba(0, 0, 0, 1) 1
 ._1mKVZY4-l46AZiZvctCEmx{color: black;}
 .O2jA-VCFl9bmblncfI4k2{ color: black; font-weight: 500;}
 /*news cards*/
+._1f0dZzzkepidbFYKDYcvUS._16alyvCWvtDwRsTAUJsXCx{color: rgb(var(--newblue));}
+._1f0dZzzkepidbFYKDYcvUS._1I2peGb5rR6xmiLe0J57sC, ._1f0dZzzkepidbFYKDYcvUS.qVIYlhHPEZjIo9z0OfH6y, ._1f0dZzzkepidbFYKDYcvUS.LeZ61ZeF36k_7RQsGnDnL,._1f0dZzzkepidbFYKDYcvUS._39b83mYvwoVaLgo987G5mv{
+    color: color-mix(in srgb, rgb(var(--newyellow)) 50%,white 50%);}
 .rT7EkJjqw27KBB7HxAAWk ._2pJftSRjT_UngZZ4BJimwg{transform: translateY(-.3em);}
 .XLJ9pwrMeZWR39iu-bFoV{border-radius: 8.2px 8.2px 0px 0px !important;}
 /*bottom of card*/
@@ -374,9 +398,12 @@ background-color: rgb(var(--cover-card));
 .KLo2nZeTMZykCUGVlKsab{border-radius: 8px;
 background-color: rgb(var(--cover-card),.7);
 background-image: linear-gradient(180deg, rgb(var(--cover-card),.7), rgba(0, 0, 0, 0.2));}
+.KLo2nZeTMZykCUGVlKsab:focus{
+background-color: rgb(var(--cover-card2),.7);
+background-image: linear-gradient(180deg, rgb(var(--cover-card),.7), rgba(0, 0, 0, 0.2));}
 /*cards style top & bottom*/
 .BasicUI .UVeN0kaD3zv1feMj_mMw5 .QCKBqF2k_sRLcXJ5qQIEl,.BasicUI ._38t1mljBjmJfqjpVzMT1CG{background-color: rgb(var(--cover-card),.7);
-background-image: linear-gradient(180deg, rgb(var(--cover-card),.7), rgba(0, 0, 0, 0.2));
+background-image: linear-gradient(180deg, rgb(var(--cover-card2),.7), rgba(0, 0, 0, 0.2));
 border-radius: 5px 5px 0px 0px;
 border-style: none none solid none;
 border-width: .4px;
@@ -503,6 +530,20 @@ svg > path{fill: color-mix(in srgb, var(--but2) 10% ,rgb(0, 0, 0) 90%)  !importa
 .BasicUI ._2AzIX5kl9k6JnxLfR5H4kX svg{stroke: none}
 .BasicUI ._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi svg path{stroke: rgba(255, 255, 255, 0.73)}
 
+/*game controls / settings buttons*/
+.BasicUI ._3qDWQGB0rtwM3qpXTb11Q-.Focusable{
+    background: rgb(var(--cover-card2));
+    border-radius: 6px;
+    transition: 0ms;
+}
+.BasicUI ._3qDWQGB0rtwM3qpXTb11Q-.Focusable:focus{
+  animation: rotate-gradient 30s cubic-bezier(.33,.48,.63,.47) infinite;
+    background-size: 450%;
+    background: linear-gradient(var(--rotate),  rgb(var(--cover-LVib1), 1),  rgb(var(--cover-LVib2), 1));
+    box-shadow:  0px 0px .6em rgb(var(--cover-Vib1), .3), inset 0px 0px 8em rgb(var(--cover-LVib2), .7);
+    transition: 200ms;
+}
+
 ._3qDWQGB0rtwM3qpXTb11Q-{background-color: rgb(var(--cover-LVib2),.1); border-radius: 5px;}
 
 .BasicUI ._1IX7FPSY9Jb82KhBVBSkZa{background-color: rgb(var(--cover-Vib1),.1);
@@ -533,6 +574,8 @@ box-shadow: inset 0px 0px 20em rgb(var(--cover-DVib1),.15);}
 /*activity bar*/
 .BasicUI ._3x31AgESSlUqX3D4MTHv2m ._1JlC29Ic6L-QvL-39X_d-X{background:color-mix(in srgb, rgb(var(--cover-card2),.75) 90%, rgb(var(--cover-DVib1),.9) 10%); border-radius: 8px;}
 /*news card overlayer and underlayer*/
+._1-llQnFWxBo1kyWdkDFyXp svg path{/*patch icon*/
+    fill: rgb(var(--cover-LVib2),.75);}
 ._1HZy7BvOZuPT8feUwadL4W {
     border-radius: 8px;
     background: radial-gradient(100% 80% at 64% 95%, color-mix(in srgb, rgb(var(--cover-card2),.4) 90%, rgb(var(--cover-DVib1),.8) 10%) 0%, color-mix(in srgb, rgb(var(--cover-card2),.6) 90%, rgb(var(--cover-DVib1),.8) 10%)20%, color-mix(in srgb, rgb(var(--cover-card2),.8) 90%, rgb(var(--cover-DVib1),.9) 10%) 100%);}
@@ -557,6 +600,8 @@ box-shadow: inset 0px 0px 20em rgb(var(--cover-DVib1),.15);}
 ._3oMUSjOFNB0E9LWcL2sE7{background: linear-gradient(to right, rgba(25, 159, 255, 0) 0%, rgb(var(--newblue),.25) 18px, rgb(var(--newblue))  18px, rgb(var(--newblue)) 22px);
 transform: translateX(-5px);}/*left side indicator thing*/
 /*your stuff tab*/
+.RPcyJMJC7chgPFkD4KWtO._2feGA5T49Nk1_dTnwfOnL{/*trading card empty badge dotted border*/
+    border-color:rgb(var(--cover-LVib2),.6) ;}
 /*cheevo progress bar*/
 .BasicUI ._3ns9185LizH61StaAXuAp6 ._3Rm36_oeAhvIg6ZYP9l1Jj{
     background-image: linear-gradient(var(--rotate),
@@ -574,7 +619,7 @@ transform: translateX(-5px);}/*left side indicator thing*/
     background-color: rgb(var(--cover-Vib2),.3); border-radius: 7.5px;}
 /*media*/
 ._21yM8Jxi06nOAC-Lr1vfOh._1zPkVnKexQdCEe_yQuhRVw{border-radius: 7.5px;}
-._2_TE0KLOU7kWWxa9LS7iXA ._2B8NkDc3EmF3XM6hl1qpQ8{background-color: none;}
+._2_TE0KLOU7kWWxa9LS7iXA ._2B8NkDc3EmF3XM6hl1qpQ8{background-color: #0000;}
 /*community tab*/
 ._1aP1bu_l_kDbKMN7XDNmzg .AxZMHRu3YIxDFr0a-MP6n{
     border-radius: 7px ;
@@ -654,6 +699,8 @@ color: color-mix(in srgb, rgb(var(--cover-LVib1),.7) 66%, white 34%);}
 {filter: sepia(1) hue-rotate(var(--sephue)) saturate(2.1) brightness(1.3);}
 /*library layout change adds a little extra buffer vertically*/
 div._3vHkmRShhzwd67_MtEq8-n._11p6Fm47YPaY-YjtuLYMMJ.Panel{gap: 47.5px 16px !important;}
+/*library search bg*/
+.P_AlEAb9tP0lcq1K5lA_z,._2FqpD91Xarb7f0uIOuXFOR._2msTK3-o4cp9CtotjGbijT{background: #0000;}
 /* ==========================================.............................................
     downloads
 -----------------------------------------------======================================== */
@@ -769,6 +816,7 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton, button.cXzBZxhPBl7fZs9LODEnc.DialogBu
     color: white;
     border-radius: 6px;}
 /*option container focus bg*/  
+.BasicUI ._2n6FNLKyb6al_YPk13xS7S ._2RCSUgg2X_uF_C0e1lrcqc:focus,
 .eKmEXJCm_lgme24Fp_HWt:not(._2QgNsvFPYTZ5yRiTm7mUyu)._2HFrmMgB38Ike5w4rVxzEX.gpfocus, .eKmEXJCm_lgme24Fp_HWt:not(._2QgNsvFPYTZ5yRiTm7mUyu)._2HFrmMgB38Ike5w4rVxzEX.gpfocuswithin{
         background: color-mix(in srgb, rgb(var(--cover-card)) 20%, rgb(var(--cover-card2)) 80%);
         animation: none; }
@@ -783,6 +831,23 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton.gpfocus, button.cXzBZxhPBl7fZs9LODEnc.
     background: rgb(var(--cover-Vib2));}
 ._1PQppcgkuXQAiFPar9AGi-{
     background: color-mix(in srgb, rgb(var(--cover-LVib1)) 40%, white 60%);}
+._9Ql-oVe_j8E-vsDdyVdWo.gpfocus:after{
+    background: rgb(var(--cover-Vib2));
+}
+.eKmEXJCm_lgme24Fp_HWt.gpfocuswithin ._2bl0iQ9xigbq4Zd1NI6NZl{
+    background: color-mix(in srgb, rgb(var(--cover-card)) 80%, white 20%);
+}
+.DialogBody a{color:rgb(var(--cover-LVib2),.6) }
+/*option dot*/  
+._7EGqd8bdiXJBd2fj5Hh8r ._2sQtvR60AbFF5UzDwY9hit._1gKI37LOWj1Df3QSnxvKyF {
+    border: 3px solid color-mix(in srgb, rgb(var(--cover-LVib1)) 40%, white 60%);
+    background-color: rgb(var(--cover-Vib1));}
+._7EGqd8bdiXJBd2fj5Hh8r ._2sQtvR60AbFF5UzDwY9hit{
+    background-color: rgb(var(--cover-LVib2),.6) ;}
+/*button focus*/  
+button.cXzBZxhPBl7fZs9LODEnc.DialogButton.gpfocus.Primary, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:active.Primary, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled.gpfocus.Primary, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled:active.Primary, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:active.gpfocus.Primary, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:active:active.Primary, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled:active:hover.gpfocus.Primary, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled:active:hover:active.Primary{
+    background: rgb(var(--cover-Vib2));
+    color: black}
 /* ==========================================.............................................
     controller settings
 -----------------------------------------------======================================== */
@@ -793,14 +858,37 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton.gpfocus, button.cXzBZxhPBl7fZs9LODEnc.
 .APY6jDS50MNUPuX38IgC0,._3RsRfCOW7Do0JNHcEs2nqX,._3TvBVwaH8eIBabTdki35oe{
      background-color:color-mix(in srgb, rgb(var(--cover-DVib1),1) 70%, rgb(var(--cover-card),1) 30%) ;
    ._3oKuxJPG6j0jXgLgDGS43c{
-    filter: none}
-._3TvBVwaH8eIBabTdki35oe ._3R2kU_aL39-YxgB3TuRgYc{
-    filter: sepia(1) hue-rotate(var(--sephue)) saturate(.8) contrast(1.1);}}
+    filter: none}}
+
 ._1DHGq556k6U7kJghbkCZ79 ._1XK4-j-wCLCWc1009H2cN1{
     color: rgb(var(--newgreen))}
 ._1DHGq556k6U7kJghbkCZ79 .TA5dR9XJAWRyQcgS4_una{
     background: rgb(var(--newblue));}
 ._1DHGq556k6U7kJghbkCZ79 .TA5dR9XJAWRyQcgS4_una:after{
     border-bottom-color: rgb(var(--newblue));}
+
+._27Q1TQNf9VysifeaxYFyyU ._3Fz8obBd3-0bKFgiLVPpoT.pywHIi8MBtTWNlCbZ_7Qx{
+    color: greenyellow;
+}
+
+._3TvBVwaH8eIBabTdki35oe ._1cmUfAiZMYwq7nMWNRhtcG .QAVElkR0V7KPXLjPVsvl- {
+    max-height: 90px;
+    overflow-y: hidden;
+    mask-image: linear-gradient(greenyellow 85px, transparent);
+}
+._3TvBVwaH8eIBabTdki35oe .QAVElkR0V7KPXLjPVsvl-{
+    border-style: solid;
+    border-color: #0000;
+}
+._3Fz8obBd3-0bKFgiLVPpoT ._2nNX3pr2N_f959ggzWgRlp{
+    filter: sepia(1) hue-rotate(var(--sephue)) saturate(24);
+}
+
+._3TvBVwaH8eIBabTdki35oe .QAVElkR0V7KPXLjPVsvl-:focus{
+        color: rgb(var(--cover-LVib1));
+    background-color: rgb(var(--cover-card2),1);
+    border-style: solid;
+    border-color:  rgb(var(--cover-LVib1));
+}
 
 
