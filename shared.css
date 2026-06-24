@@ -10,13 +10,13 @@
 {color: black;}
 /*lightened text*/
 /*lightened text (white)*/
-._1Cva_kor3lWBIoeu9cQxJq,.UVeN0kaD3zv1feMj_mMw5 .QCKBqF2k_sRLcXJ5qQIEl,
-._1gljEIuhbsQpFCWuVhdKTJ,._3QrX3TTEetJIRvEW1x2Af2 ._3ca2d1qaIzPNm79jqRbi0J
+._1Cva_kor3lWBIoeu9cQxJq,.UVeN0kaD3zv1feMj_mMw5 .QCKBqF2k_sRLcXJ5qQIEl,._1F8RyqHWE1uz9fWgUhyN59,
+._1gljEIuhbsQpFCWuVhdKTJ,._3QrX3TTEetJIRvEW1x2Af2 ._3ca2d1qaIzPNm79jqRbi0J,._3jC8om-5Sci_dkUB-6VYiU
 {color: white}
 /*lightened text (accent, mostly replaces steam's gray text)*/
 .BasicUI ._34lrt5-Fc3usZU6trA1P0-,/*gameview accent text*/
-._30EfXN4e7Ca_0PoATtbeGx,._1ujzuoxGhLunHZQqHAqRgg,.Ru7OBQzSxqIo3jIsbtV9g,.BDa6lbTAdR4RwtqgRNUnO,
-.S2Fu9HxHCA5MaCLGrN2ib ._19LfMT7PFWg2xHOqNjR99q,.UVeN0kaD3zv1feMj_mMw5 .QCKBqF2k_sRLcXJ5qQIEl .Gy1Y7lb4Y47vK8odzSru2,
+._30EfXN4e7Ca_0PoATtbeGx,._1ujzuoxGhLunHZQqHAqRgg,.Ru7OBQzSxqIo3jIsbtV9g,.BDa6lbTAdR4RwtqgRNUnO,.BasicUI .fUTblKw-DF3ph-FUGHA1d,
+.S2Fu9HxHCA5MaCLGrN2ib ._19LfMT7PFWg2xHOqNjR99q,.UVeN0kaD3zv1feMj_mMw5 .QCKBqF2k_sRLcXJ5qQIEl .Gy1Y7lb4Y47vK8odzSru2,._3eEbSktrstBdLk0dVpnKVI,
 ._2_TE0KLOU7kWWxa9LS7iXA ._1XRnApz7l5qm2BkR5hzzvS,._14kZVEyaz7WX57N47z4Yr1,._2ZcNQxY8YknnhNa4ZvIoU4 ._1vYL2q-91QLy-FBzntE7E5,
 ._2jPMy2QZr8bWi6yrk5ZzHA,._1SIa8xLHqCJGyeA9sQ4yK_ ._1VoVzLPXjhlaguJLgO8htG,._2VByWZ91DPPVmK_PDiHEmq,.BasicUI ._3fFFsvII7Y2KXNLDk_krOW,
 .BasicUI ._3zVCVKrpcKJT5fd_dbyuwQ .xpRXvu3-lbtUHYWgwJCiJ,._3QrX3TTEetJIRvEW1x2Af2 ._2PMlMbFfEmv1xThuy6Vgqv,._2H1MiFt6wMYuJDB8kZElFs
@@ -24,7 +24,7 @@
 {color: rgb(205, 217, 255)}
 /*lightened text (accent 2)*/
 
-{color: rgb(255, 247, 198)}
+
 /* ==========================================.............................................
     Clean Gameview
    -----------------------------------------------======================================== */
@@ -153,7 +153,7 @@
         --but1: rgb(233, 87, 204); /*button color*/
         --but2: rgb(102, 133, 233);
         /*bhdf doesnt do nuthin it's just here to make color picking easier*/
-        --bhdf:    rgb(140, 203, 255);
+        --bhdf:    rgb(255, 202, 245);
     
         --sephue: 267deg;}
 
@@ -350,7 +350,7 @@ path{fill: color-mix(in srgb, rgb(var(--cover-DVib2), 1)90% , rgba(0, 0, 0, 1) 1
 ._1mKVZY4-l46AZiZvctCEmx{color: black;}
 .O2jA-VCFl9bmblncfI4k2{ color: black; font-weight: 500;}
 /*news cards*/
-._1f0dZzzkepidbFYKDYcvUS._16alyvCWvtDwRsTAUJsXCx{color: rgb(var(--newblue));}
+._1f0dZzzkepidbFYKDYcvUS._16alyvCWvtDwRsTAUJsXCx,._1f0dZzzkepidbFYKDYcvUS._2iLnun1_p_feLgX4ACRThG{color: rgb(var(--newblue));}
 ._1f0dZzzkepidbFYKDYcvUS._1I2peGb5rR6xmiLe0J57sC, ._1f0dZzzkepidbFYKDYcvUS.qVIYlhHPEZjIo9z0OfH6y, ._1f0dZzzkepidbFYKDYcvUS.LeZ61ZeF36k_7RQsGnDnL,._1f0dZzzkepidbFYKDYcvUS._39b83mYvwoVaLgo987G5mv{
     color: color-mix(in srgb, rgb(var(--newyellow)) 50%,white 50%);}
 .rT7EkJjqw27KBB7HxAAWk ._2pJftSRjT_UngZZ4BJimwg{transform: translateY(-.3em);}
@@ -412,7 +412,7 @@ border-color: rgba(0, 0, 0, 0.812);}
  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.23), rgb(var(--cover-card2),.3));   
 border-radius: 0px 0px 7px 7px;}
 /*cheevo style and hover style*/
-.BasicUI .yJLy7HDLJT44C1fcm6lPI ._26QliGU0MSP6WN4r-RtI5q{div{color: rgba(255, 255, 255, 0.7); font-weight: 500;} }
+.BasicUI .yJLy7HDLJT44C1fcm6lPI ._26QliGU0MSP6WN4r-RtI5q{div{color: rgba(255, 255, 255, .8); font-weight: 500;} }
 .BasicUI .yJLy7HDLJT44C1fcm6lPI ._26QliGU0MSP6WN4r-RtI5q:focus,.mbFSnoK85dUXHz9VT-YNI._3KGi6ig3JCLHZP-dOsO-Wx
 {   div{color: rgba(0, 0, 0, 0.756);}
     border-radius: 8px;
@@ -785,6 +785,8 @@ linear-gradient(180deg, rgba(var(--bg3),1),  rgba(var(--bg3),1))
 /*divider line*/  
 .qq2xItSXjpCsNrcxyPJtO ._1CTr1yKRkOXnJ4gSS1-1A3{
     background-color: rgb(var(--cover-card2),1);}
+._3kXEpnxa2qb5znYMSbKT0p{/*"patch notes" icon and text*/ 
+    color: rgb(var(--newblue))}
 /* ==========================================.............................................
     settings
 -----------------------------------------------======================================== */
@@ -827,12 +829,14 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton.gpfocus, button.cXzBZxhPBl7fZs9LODEnc.
     color: black;}
 .x5D0RRkGlMxFppHblGf4u,._2XRQAKpCI_hXmaX5fGjz-2{color: rgb(var(--newgreen))}
 /*switch*/  
+._2bl0iQ9xigbq4Zd1NI6NZl{
+    background: rgb(var(--cover-LVib1),.25);}
 ._2bl0iQ9xigbq4Zd1NI6NZl::before,._2_vG6TwMW2XtyLlTEaODH9::before{
     background: rgb(var(--cover-Vib2));}
 ._1PQppcgkuXQAiFPar9AGi-{
     background: color-mix(in srgb, rgb(var(--cover-LVib1)) 40%, white 60%);}
 ._9Ql-oVe_j8E-vsDdyVdWo.gpfocus:after{
-    background: rgb(var(--cover-Vib2));
+    background: rgb(var(--cover-Vib2),.4);
 }
 .eKmEXJCm_lgme24Fp_HWt.gpfocuswithin ._2bl0iQ9xigbq4Zd1NI6NZl{
     background: color-mix(in srgb, rgb(var(--cover-card)) 80%, white 20%);
@@ -844,6 +848,9 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton.gpfocus, button.cXzBZxhPBl7fZs9LODEnc.
     background-color: rgb(var(--cover-Vib1));}
 ._7EGqd8bdiXJBd2fj5Hh8r ._2sQtvR60AbFF5UzDwY9hit{
     background-color: rgb(var(--cover-LVib2),.6) ;}
+._9Ql-oVe_j8E-vsDdyVdWo.gpfocus:not(.aIeh3X5T2M074RLW1qn6_) ._1PQppcgkuXQAiFPar9AGi-{
+    border-color:rgb(var(--cover-LVib1),1) ;
+}
 /*button focus*/  
 button.cXzBZxhPBl7fZs9LODEnc.DialogButton.gpfocus.Primary, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:active.Primary, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled.gpfocus.Primary, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled:active.Primary, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:active.gpfocus.Primary, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:active:active.Primary, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled:active:hover.gpfocus.Primary, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled:active:hover:active.Primary{
     background: rgb(var(--cover-Vib2));
