@@ -198,7 +198,7 @@ svg > rect{fill: color-mix(in srgb, rgb(var(--cover-Vib1), 1)60% , rgb(255, 255,
     color: rgb(var(--cover-DVib1));}}
 /*active search bg*/    
 ._17M8gvakqjyaw_cLo6ntdl._1bmuJRkMBGcApfJwlj_k-F:not(.gpfocuswithin) ._3F4YRi5x8CjExTV0rOdSL-._1l8jsSJRozEnzlhm5Q2m7U{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(var(--cover-card2),.4);
     animation: rotate-gradient 30s cubic-bezier(.33,.48,.63,.47) infinite;
     background-size: 450%;
     background: linear-gradient(var(--rotate),  rgb(var(--cover-Vib1), .2),  rgb(var(--cover-Vib2), .2));
@@ -213,7 +213,17 @@ svg > rect{fill: color-mix(in srgb, rgb(var(--cover-Vib1), 1)60% , rgb(255, 255,
     color: white; filter: opacity(1);}
 #header > div._17M8gvakqjyaw_cLo6ntdl.NMb_F0Q2lf6akyzaZBfLt._1bmuJRkMBGcApfJwlj_k-F._2YxXntwjdsceSnfMRClWHG.Panel > svg._2Ya83QVfgqLema1GlOi9_C._1l8jsSJRozEnzlhm5Q2m7U > path{
     fill: white}
+
+._3F4YRi5x8CjExTV0rOdSL-._1l8jsSJRozEnzlhm5Q2m7U{
+     background-color: rgb(var(--text1),.8);
+	-webkit-background-clip: text !important;
+	-webkit-text-fill-color: transparent !important;
+	font-weight: 600;
+	font-kerning: none;}
+
+    
 /*active search placeholder text darkener*/ 
+
 
 /* ==========================================.............................................
     recently played
@@ -939,15 +949,12 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton.gpfocus.Primary, button.cXzBZxhPBl7fZs
     search boxes
 -----------------------------------------------======================================== */
 ._2o2fXzn99OddeqZMjbDuxQ .DialogInput_Wrapper,.BasicUI ._3x31AgESSlUqX3D4MTHv2m ._1JlC29Ic6L-QvL-39X_d-X{
-    background-color: rgb(var(--text1,.8));
+    background-color: color-mix(in srgb, rgb(var(--text1)) 50%, white 50%);
 	-webkit-background-clip: text !important;
 	-webkit-text-fill-color: transparent !important;
 	font-weight: 600;
 	font-kerning: none;
-	border-style: solid;
-	border-color: rgb(var(--cover-LVib2),.5);
-	border-width: 2px;
-    border-radius: 8px;
-	max-width: 98.3%;}
+	outline: 2px solid rgb(var(--cover-LVib2),.4); 
+    border-radius: 8px;}
 .BasicUI ._3ZR32BdxJUNwAA6Fu6n00p{
     background: rgba(var(--cover-card),.2);}
