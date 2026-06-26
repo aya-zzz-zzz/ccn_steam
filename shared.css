@@ -897,43 +897,55 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton.gpfocus.Primary, button.cXzBZxhPBl7fZs
 ._1DHGq556k6U7kJghbkCZ79 .TA5dR9XJAWRyQcgS4_una:after{
     border-bottom-color: rgb(var(--newblue));}
 
-._27Q1TQNf9VysifeaxYFyyU ._3Fz8obBd3-0bKFgiLVPpoT.pywHIi8MBtTWNlCbZ_7Qx{
-    color: greenyellow;
-}
+.nnOTTmLAJXKRiD2yyn3Zy ._12TaaD8c9mqsb61o6m6nr1,._1dzOHECUtTrYr0AdBzvYZg,._1Udh1F77I5Vr1kf4HNMsdx p,._25G91syHs9A2C8sCON_Pe{
+    color: rgb(var(--text1))}
 
-._3TvBVwaH8eIBabTdki35oe ._1cmUfAiZMYwq7nMWNRhtcG .QAVElkR0V7KPXLjPVsvl- {
-    max-height: 90px;
-    overflow-y: hidden;
-    mask-image: linear-gradient(greenyellow 85px, transparent);
-}
 ._3TvBVwaH8eIBabTdki35oe .QAVElkR0V7KPXLjPVsvl-{
     border-style: solid;
-    border-color: #0000;
-}
-._3Fz8obBd3-0bKFgiLVPpoT ._2nNX3pr2N_f959ggzWgRlp{
-    filter: sepia(1) hue-rotate(var(--sephue)) saturate(24);
-}
+    border-color: #0000;}
 
 ._3TvBVwaH8eIBabTdki35oe .QAVElkR0V7KPXLjPVsvl-:focus{
         color: rgb(var(--cover-LVib1));
     background-color: rgb(var(--cover-card2),1);
     border-style: solid;
-    border-color:  rgb(var(--cover-LVib1));
+    border-color:  rgb(var(--cover-Vib1));}
+._2luCNihqvaHXeE1nGg0AXj{
+    background-color: rgb(var(--cover-card2),.7);}
+._2luCNihqvaHXeE1nGg0AXj.gpfocus{
+    background:rgb(var(--cover-LVib1)); 
+    color: rgb(var(--cover-DVib1));
+}
+.gpfocus ._1dzOHECUtTrYr0AdBzvYZg{color: black;}
+._2luCNihqvaHXeE1nGg0AXj.Gp6XGVynhqerKkZQrWoeo {
+    color: rgb(var(--cover-LVib1));;
+    border-left: 2px solid rgb(var(--cover-LVib1));
+    background: linear-gradient(90deg, rgb(var(--cover-card2),.5) 0%, rgb(var(--cover-card2)) 20%);
+}
+._3XAvqbR9DJNn4oQ0U7VE-v{
+    color: rgb(var(--text1),.7);
 }
 
 /* ==========================================.............................................
     search boxes
 -----------------------------------------------======================================== */
-._2o2fXzn99OddeqZMjbDuxQ .DialogInput_Wrapper,.BasicUI ._3x31AgESSlUqX3D4MTHv2m ._1JlC29Ic6L-QvL-39X_d-X{
-    background-color: color-mix(in srgb, rgb(var(--text1)) 50%, white 50%);
+
+    
+.BasicUI ._3ZR32BdxJUNwAA6Fu6n00p,.BasicUI ._3ZR32BdxJUNwAA6Fu6n00p{
+       background-color: color-mix(in srgb, rgb(var(--text1),.7) 50%, rgba(255, 255, 255, 0.7) 50%);
 	-webkit-background-clip: text !important;
 	-webkit-text-fill-color: transparent !important;
 	font-weight: 600;
 	font-kerning: none;
 	border: 2px solid rgb(var(--cover-LVib2),.4); 
     border-radius: 8px;
+    max-width:97% ;}
+ .BasicUI ._3ZR32BdxJUNwAA6Fu6n00p:not(.disabled):not(.gpfocus):hover, .BasicUI ._3ZR32BdxJUNwAA6Fu6n00p:not(.disabled):focus{
+         background-color: color-mix(in srgb, rgb(var(--text1),.7) 50%, rgba(255, 255, 255, 0.7) 50%);
+	-webkit-background-clip: text !important;
+	-webkit-text-fill-color: transparent !important;
+	font-weight: 600;
+	font-kerning: none;
+	border: 2px solid rgb(var(--cover-LVib2),.8); 
+    border-radius: 8px;
     max-width:97% ;
-    }
-    
-.BasicUI ._3ZR32BdxJUNwAA6Fu6n00p{
-    background: rgba(var(--cover-card),.2);}
+ }
