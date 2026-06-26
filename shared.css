@@ -954,7 +954,10 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton.gpfocus.Primary, button.cXzBZxhPBl7fZs
 	-webkit-text-fill-color: transparent !important;
 	font-weight: 600;
 	font-kerning: none;
-	outline: 2px solid rgb(var(--cover-LVib2),.4); 
-    border-radius: 8px;}
+	border: 2px solid rgb(var(--cover-LVib2),.4); 
+    border-radius: 8px;
+    max-width:97% ;
+    }
+    
 .BasicUI ._3ZR32BdxJUNwAA6Fu6n00p{
     background: rgba(var(--cover-card),.2);}
