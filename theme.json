@@ -1,0 +1,155 @@
+{
+  "name": "cotton candy testo",
+  "author": "aya",
+  "version": "v1.0",
+  "manifest_version": 8,
+  "inject": {
+    "shared.css": [
+      "SP","bigpicture", "QuickAccess", "MainMenu"
+    ]
+  },
+  "patches": {
+    "Carousel Height": {
+      "type": "slider",
+      "default": "40",
+      "values": {
+        "0": {
+          "--met-game-carousel-height-tens": [
+            "0vh",
+            "SP"
+          ]
+        },
+        "10": {
+          "--met-game-carousel-height-tens": [
+            "10vh",
+            "SP"
+          ]
+        },
+        "20": {
+          "--met-game-carousel-height-tens": [
+            "20vh",
+            "SP"
+          ]
+        },
+        "30": {
+          "--met-game-carousel-height-tens": [
+            "30vh",
+            "SP"
+          ]
+        },
+        "40": {
+          "--met-game-carousel-height-tens": [
+            "40vh",
+            "SP"
+          ]
+        },
+        "50": {
+          "--met-game-carousel-height-tens": [
+            "50vh",
+            "SP"
+          ]
+        },
+        "60": {
+          "--met-game-carousel-height-tens": [
+            "60vh",
+            "SP"
+          ]
+        },
+        "70": {
+          "--met-game-carousel-height-tens": [
+            "70vh",
+            "SP"
+          ]
+        },
+        "80": {
+          "--met-game-carousel-height-tens": [
+            "80vh",
+            "SP"
+          ]
+        },
+        "90": {
+          "--met-game-carousel-height-tens": [
+            "90vh",
+            "SP"
+          ]
+        },
+        "100": {
+          "--met-game-carousel-height-tens": [
+            "100vh",
+            "SP"
+          ]
+        }
+    
+      },
+      "components": []
+    },
+    "Carousel Height - Fine Control": {
+      "type": "slider",
+      "default": "0",
+      "values": {
+        "0": {
+          "--met-game-carousel-height-ones": [
+            "0vh",
+            "SP"
+          ]
+        },
+        "1": {
+          "--met-game-carousel-height-ones": [
+            "1vh",
+            "SP"
+          ]
+        },
+        "2": {
+          "--met-game-carousel-height-ones": [
+            "2vh",
+            "SP"
+          ]
+        },
+        "3": {
+          "--met-game-carousel-height-ones": [
+            "3vh",
+            "SP"
+          ]
+        },
+        "4": {
+          "--met-game-carousel-height-ones": [
+            "4vh",
+            "SP"
+          ]
+        },
+        "5": {
+          "--met-game-carousel-height-ones": [
+            "5vh",
+            "SP"
+          ]
+        },
+        "6": {
+          "--met-game-carousel-height-ones": [
+            "6vh",
+            "SP"
+          ]
+        },
+        "7": {
+          "--met-game-carousel-height-ones": [
+            "7vh",
+            "SP"
+          ]
+        },
+        "8": {
+          "--met-game-carousel-height-ones": [
+            "8vh",
+            "SP"
+          ]
+        },
+        "9": {
+          "--met-game-carousel-height-ones": [
+            "9vh",
+            "SP"
+          ]
+        }
+      },
+      "components": []
+    }
+  }
+
+}
