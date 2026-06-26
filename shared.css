@@ -996,6 +996,7 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton.gpfocus.Primary, button.cXzBZxhPBl7fZs
  /* ==========================================.............................................
     center popups
 -----------------------------------------------======================================== */
+._2pq9my4HQChCImf0dPb9Kd{color: color-mix(in srgb, rgb(var(--cover-LVib2)) 50%, white 50%)}
 /*reg'lar popup*/
 ._34o03-8cUc3fQX1u650c0L{color: rgb(var(--text1),.8)}
 ._34o03-8cUc3fQX1u650c0L._3-IFyrv9R_fZqALBsjlUS5 .SVGIcon_DownArrowContextMenu{
@@ -1009,7 +1010,8 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton.gpfocus.Primary, button.cXzBZxhPBl7fZs
     margin-bottom: 3px;
     border-radius: 10px;
     backdrop-filter: blur(2em) saturate(3) brightness(1.5);}
-.oZw50c4oJ6-r0HP8UWv25{margin-right: 3px;margin-left: 3px;}
+
+    
 @media (prefers-contrast: no-preference) {#MainNavMenu-Rest .ixiWPQKqTMxnq43WgT3vj {display: none;}}
 
 ._34o03-8cUc3fQX1u650c0L._2XVTVAadkIvrBujZYN5jbL{
@@ -1020,7 +1022,9 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton.gpfocus.Primary, button.cXzBZxhPBl7fZs
     box-shadow:  inset 0px 0px 2em rgb(var(--cover-LVib2), .7);
 .SVGIcon_DownArrowContextMenu{
     fill:black}}
-
+.oZw50c4oJ6-r0HP8UWv25{
+    margin-left: 4px;
+}
 
 
 ._34o03-8cUc3fQX1u650c0L.Stream, ._34o03-8cUc3fQX1u650c0L.Connect, ._34o03-8cUc3fQX1u650c0L.Launch, ._34o03-8cUc3fQX1u650c0L.PlayMusic, ._34o03-8cUc3fQX1u650c0L.Play, ._34o03-8cUc3fQX1u650c0L.Resume, ._34o03-8cUc3fQX1u650c0L.BorrowApp {
