@@ -912,7 +912,7 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton.gpfocus.Primary, button.cXzBZxhPBl7fZs
 ._2luCNihqvaHXeE1nGg0AXj{
     background-color: rgb(var(--cover-card2),.7);}
 ._2luCNihqvaHXeE1nGg0AXj.gpfocus{
-    background:rgb(var(--cover-LVib1)); 
+       background: color-mix(in srgb, rgb(var(--cover-LVib1)) 50%, rgb(var(--cover-Vib1)) 50%);
     color: rgb(var(--cover-DVib1));
 }
 .gpfocus ._1dzOHECUtTrYr0AdBzvYZg{color: black;}
@@ -920,6 +920,9 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton.gpfocus.Primary, button.cXzBZxhPBl7fZs
     color: rgb(var(--cover-LVib1));;
     border-left: 2px solid rgb(var(--cover-LVib1));
     background: linear-gradient(90deg, rgb(var(--cover-card2),.5) 0%, rgb(var(--cover-card2)) 20%);
+}
+._2luCNihqvaHXeE1nGg0AXj.Gp6XGVynhqerKkZQrWoeo.gpfocus{
+    background: color-mix(in srgb, rgb(var(--cover-LVib2)) 50%, rgb(var(--cover-Vib2)) 50%);
 }
 ._3XAvqbR9DJNn4oQ0U7VE-v{
     color: rgb(var(--text1),.7);
@@ -938,14 +941,31 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton.gpfocus.Primary, button.cXzBZxhPBl7fZs
 	font-kerning: none;
 	border: 2px solid rgb(var(--cover-LVib2),.4); 
     border-radius: 8px;
+    margin: 0 auto; 
     max-width:97% ;}
  .BasicUI ._3ZR32BdxJUNwAA6Fu6n00p:not(.disabled):not(.gpfocus):hover, .BasicUI ._3ZR32BdxJUNwAA6Fu6n00p:not(.disabled):focus{
          background-color: color-mix(in srgb, rgb(var(--text1),.7) 50%, rgba(255, 255, 255, 0.7) 50%);
 	-webkit-background-clip: text !important;
 	-webkit-text-fill-color: transparent !important;
 	font-weight: 600;
+    margin: 0 auto; 
 	font-kerning: none;
 	border: 2px solid rgb(var(--cover-LVib2),.8); 
     border-radius: 8px;
     max-width:97% ;
+ }
+
+ .BasicUI ._3x31AgESSlUqX3D4MTHv2m ._1JlC29Ic6L-QvL-39X_d-X{
+        background-color: color-mix(in srgb, rgb(var(--text1),.7) 50%, rgba(255, 255, 255, 0.7) 50%);
+	-webkit-background-clip: text !important;
+	-webkit-text-fill-color: transparent !important;
+	font-weight: 600;
+	font-kerning: none;
+	border: 2px solid rgb(var(--cover-LVib2),.4); 
+    border-radius: 8px;
+    margin: 0 auto; 
+    max-width:97% ;
+ }
+ .BasicUI ._3x31AgESSlUqX3D4MTHv2m ._1JlC29Ic6L-QvL-39X_d-X:focus,._3ZR32BdxJUNwAA6Fu6n00p.gpfocus, ._3ZR32BdxJUNwAA6Fu6n00p.gpfocus:hover{
+    color: rgb(var(--cover-LVib1))
  }
