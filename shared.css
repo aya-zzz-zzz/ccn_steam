@@ -209,7 +209,7 @@ svg > rect{fill: color-mix(in srgb, rgb(var(--cover-Vib1), 1)60% , rgb(255, 255,
     width: 100%;
     min-width: 100%;
     caret-color: rgb(var(--cover-LVib1));}
-#header > div._17M8gvakqjyaw_cLo6ntdl.NMb_F0Q2lf6akyzaZBfLt._1bmuJRkMBGcApfJwlj_k-F._2YxXntwjdsceSnfMRClWHG.Panel > input{
+#header > div._17M8gvakqjyaw_cLo6ntdl.NMb_F0Q2lf6akyzaZBfLt._1bmuJRkMBGcApfJwlj_k-F._2YxXntwjdsceSnfMRClWHG.Panel > input,._17M8gvakqjyaw_cLo6ntdl ._2Ya83QVfgqLema1GlOi9_C._1l8jsSJRozEnzlhm5Q2m7U{
     color: white; filter: opacity(1);}
 #header > div._17M8gvakqjyaw_cLo6ntdl.NMb_F0Q2lf6akyzaZBfLt._1bmuJRkMBGcApfJwlj_k-F._2YxXntwjdsceSnfMRClWHG.Panel > svg._2Ya83QVfgqLema1GlOi9_C._1l8jsSJRozEnzlhm5Q2m7U > path{
     fill: white}
@@ -954,7 +954,7 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton.gpfocus.Primary, button.cXzBZxhPBl7fZs
 	-webkit-text-fill-color: transparent !important;
 	font-weight: 600;
 	font-kerning: none;
-	border: 2px solid color-mix(in srgb, rgb(var(--cover-card2),.9) 70%, rgba(255, 255, 255, 0.5) 30%); 
+	border: 2px solid rgb(var(--cover-LVib2),.4); 
     border-radius: 8px;
     max-width:97% ;
     }
