@@ -196,32 +196,8 @@ svg > rect{fill: color-mix(in srgb, rgb(var(--cover-Vib1), 1)60% , rgb(255, 255,
     background: linear-gradient(var(--rotate),  rgb(var(--cover-LVib1), 1),  rgb(var(--cover-LVib2), 1));
     box-shadow:  inset 0px 0px 8em rgb(var(--cover-LVib2), .7);
     color: rgb(var(--cover-DVib1));}}
-/*active search bg*/    
-._17M8gvakqjyaw_cLo6ntdl._1bmuJRkMBGcApfJwlj_k-F:not(.gpfocuswithin) ._3F4YRi5x8CjExTV0rOdSL-._1l8jsSJRozEnzlhm5Q2m7U{
-    background-color: rgb(var(--cover-card2),.4);
-    animation: rotate-gradient 30s cubic-bezier(.33,.48,.63,.47) infinite;
-    background-size: 450%;
-    background: linear-gradient(var(--rotate),  rgb(var(--cover-Vib1), .2),  rgb(var(--cover-Vib2), .2));
-    box-shadow:  inset 0px 0px 8em rgb(var(--cover-Vib2), .2);}
-._2a1-sPpExCp24Q8dfImB0a.gpfocus, ._17M8gvakqjyaw_cLo6ntdl._1bmuJRkMBGcApfJwlj_k-F ._2a1-sPpExCp24Q8dfImB0a {
-    color: #ffffff;
-    opacity: 1;
-    width: 100%;
-    min-width: 100%;
-    caret-color: rgb(var(--cover-LVib1));}
-#header > div._17M8gvakqjyaw_cLo6ntdl.NMb_F0Q2lf6akyzaZBfLt._1bmuJRkMBGcApfJwlj_k-F._2YxXntwjdsceSnfMRClWHG.Panel > input,._17M8gvakqjyaw_cLo6ntdl ._2Ya83QVfgqLema1GlOi9_C._1l8jsSJRozEnzlhm5Q2m7U{
-    color: white; filter: opacity(1);}
 #header > div._17M8gvakqjyaw_cLo6ntdl.NMb_F0Q2lf6akyzaZBfLt._1bmuJRkMBGcApfJwlj_k-F._2YxXntwjdsceSnfMRClWHG.Panel > svg._2Ya83QVfgqLema1GlOi9_C._1l8jsSJRozEnzlhm5Q2m7U > path{
     fill: white}
-
-._3F4YRi5x8CjExTV0rOdSL-._1l8jsSJRozEnzlhm5Q2m7U{
-     background-color: rgb(var(--text1),.8);
-	-webkit-background-clip: text !important;
-	-webkit-text-fill-color: transparent !important;
-	font-weight: 600;
-	font-kerning: none;}
-
-    
 /*active search placeholder text darkener*/ 
 
 
