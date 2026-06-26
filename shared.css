@@ -11,9 +11,7 @@
 /*lightened text*/
 /*lightened text (white)*/
 ._1Cva_kor3lWBIoeu9cQxJq,.UVeN0kaD3zv1feMj_mMw5 .QCKBqF2k_sRLcXJ5qQIEl,._1F8RyqHWE1uz9fWgUhyN59,
-._1gljEIuhbsQpFCWuVhdKTJ,._3QrX3TTEetJIRvEW1x2Af2 ._3ca2d1qaIzPNm79jqRbi0J,._3jC8om-5Sci_dkUB-6VYiU,
-
-._1ui4IlLDo2hf32UFCezr1t
+._1gljEIuhbsQpFCWuVhdKTJ,._3QrX3TTEetJIRvEW1x2Af2 ._3ca2d1qaIzPNm79jqRbi0J,._3jC8om-5Sci_dkUB-6VYiU
 {color: white}
 /*lightened text (accent, mostly replaces steam's gray text)*/
 .BasicUI ._34lrt5-Fc3usZU6trA1P0-,/*gameview accent text*/._1EC1xjjUGqI7fqX6PVzJA3,
@@ -24,13 +22,19 @@
 .BasicUI ._3zVCVKrpcKJT5fd_dbyuwQ .xpRXvu3-lbtUHYWgwJCiJ,._3QrX3TTEetJIRvEW1x2Af2 ._2PMlMbFfEmv1xThuy6Vgqv,._2H1MiFt6wMYuJDB8kZElFs,.BasicUI ._2jPMy2QZr8bWi6yrk5ZzHA ._1uS70KI6ZbUE94jUB27ioB ._3GkV1NVDKuXYTLyRt2Uirz,
 ._1yWgPveQ73QeYCdLcs6oFQ ._3grvnr9zzkvx6NoBOdmTnf, ._1yWgPveQ73QeYCdLcs6oFQ ._2RkIcXHXACX4EdBluR3nAH, ._1yWgPveQ73QeYCdLcs6oFQ ._1S3Q9rK5wn6PAIXII0mBz4,
 
-.Evi7gq_iuz9HbjzrCjgUG ._3lI6DwiNJMGRe0rZNDFIw,.Evi7gq_iuz9HbjzrCjgUG .LRVqOMfI5WTkpNe1dAnmZ,._3pteVMTgNRdIzZreR6HnTp
-{color: rgb(205, 217, 255)}
+.Evi7gq_iuz9HbjzrCjgUG ._3lI6DwiNJMGRe0rZNDFIw,.Evi7gq_iuz9HbjzrCjgUG .LRVqOMfI5WTkpNe1dAnmZ,._3pteVMTgNRdIzZreR6HnTp,._1ui4IlLDo2hf32UFCezr1t,._1W1to_azoBRG95oNAFpf9Q
+{color: rgb(var(--text1))}
 ._1yWgPveQ73QeYCdLcs6oFQ ._1OhPtd0sU2yzZwckCTGRNC svg,/*gameview icons to match text*/
  ._1yWgPveQ73QeYCdLcs6oFQ ._1OhPtd0sU2yzZwckCTGRNC path, ._1yWgPveQ73QeYCdLcs6oFQ ._1R6Oubrk1mRaGQf56EQwd4 svg, ._1yWgPveQ73QeYCdLcs6oFQ ._1R6Oubrk1mRaGQf56EQwd4 path, ._1yWgPveQ73QeYCdLcs6oFQ .QL3AayCY6oJkK95jwGibN svg, ._1yWgPveQ73QeYCdLcs6oFQ .QL3AayCY6oJkK95jwGibN path{
-fill: rgb(205, 217, 255)}
-/*lightened text (accent 2)*/
+fill: rgb(var(--text1))}
+/*lightened text (semi-opaque accent)*/
+.BasicUI ._2n6FNLKyb6al_YPk13xS7S .d9dlNsZ74TUTz3j0b1Syi ._g4ceYb5tVuSmXg0aNEdR ._2B8djgiwv5XCyvzl7GxWBA,._2n6FNLKyb6al_YPk13xS7S .d9dlNsZ74TUTz3j0b1Syi ._g4ceYb5tVuSmXg0aNEdR svg,._2n6FNLKyb6al_YPk13xS7S .d9dlNsZ74TUTz3j0b1Syi ._g4ceYb5tVuSmXg0aNEdR ._3HOm6KmoXLktGGI2qrr6bu,
 
+._2sCvZTD6ZTZz3p9_ekH_gI ._1r3ouwFT2-tsTAcnXYZ6NU ._3nx-k9xXUVgejG1BIAc84r,.Ayu--dDVVaKmP2gNYPAQ0 ._1iulCOMUxV6sBbqoKo_yXw,.sv3ZHPWbrD7yjwx5Mi3u5 ._1dHjjSl-57o1KQsQ1m1HSA,._1SyggnJY6qbRSmbZpkK3-H,
+.sv3ZHPWbrD7yjwx5Mi3u5,.BasicUI ._1zv2D9H37p5yuOJNsCemS3 ._1nCT-M7nZcoNzedbVzbXha,._117rQTHH1RIewY7sSlvg3Z,.qq2xItSXjpCsNrcxyPJtO ._1CGnw50aAma6AYKF51Qzsm,.BasicUI ._2LWo2qq9d-zuglW2VlM_Xu,._1SyggnJY6qbRSmbZpkK3-H ._2ns4wnmgr4XBzARpwn2NZ1 ._3WavcSX0NkHlBh5fICWKyB,
+
+._3ZUP3RJr6PRn6IzODoxZDx{
+    color: rgb(var(--text1),.7)}
 
 /* ==========================================.............................................
     Clean Gameview
@@ -156,6 +160,8 @@ fill: rgb(205, 217, 255)}
         --newyellow: 255, 237, 147;
 
         --newgreenl: color-mix(in srgb, rgb(var(--newgreen)) 70%, white 30%);
+
+        --text1: 205, 217, 255;
 
         --but1: rgb(233, 87, 204); /*button color*/
         --but2: rgb(102, 133, 233);
@@ -434,6 +440,7 @@ filter: brightness(3);}
 /* ==========================================.............................................
     gameview
 -----------------------------------------------======================================== */
+._2bzio1wm1zWNDGZdaQ2qHo{background: black;}
 /* ==========================================.............................................
     game bootup animation and bg 
 -----------------------------------------------======================================== */
@@ -538,7 +545,7 @@ svg > path{fill: color-mix(in srgb, var(--but2) 10% ,rgb(0, 0, 0) 90%)  !importa
 .BasicUI ._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi svg path{stroke: rgba(255, 255, 255, 0.73)}
 
 /*game controls / settings buttons*/
-.BasicUI ._3qDWQGB0rtwM3qpXTb11Q-.Focusable{
+.BasicUI ._3qDWQGB0rtwM3qpXTb11Q-.Focusable,._3x31AgESSlUqX3D4MTHv2m ._37e7DrDNmf1FmsMGA5y0A0 ._2JSyABqFEh-v_dwaTnBydR.bGfjajFo4DI-ULSQxw1KY{
     background: rgb(var(--cover-card2));
     border-radius: 6px;
     transition: 0ms;
@@ -579,7 +586,7 @@ box-shadow: inset 0px 0px 20em rgb(var(--cover-DVib1),.15);}
 .BasicUI ._31ptFGGMZrSQc5BCX1e5lm._3KfxIwlXEvum7FCD_AM2_t{background:color-mix(in srgb, rgb(var(--cover-card2),.5) 90%, rgb(var(--cover-DVib1),.9) 10%); border-radius: 8px;}
 .BasicUI .UVeN0kaD3zv1feMj_mMw5 .QCKBqF2k_sRLcXJ5qQIEl:focus{background: rgb(var(--cover-card2),.5);}
 /*activity bar*/
-.BasicUI ._3x31AgESSlUqX3D4MTHv2m ._1JlC29Ic6L-QvL-39X_d-X{background:color-mix(in srgb, rgb(var(--cover-card2),.75) 90%, rgb(var(--cover-DVib1),.9) 10%); border-radius: 8px;}
+
 /*news card overlayer and underlayer*/
 ._1-llQnFWxBo1kyWdkDFyXp svg path{/*patch icon*/
     fill: rgb(var(--cover-LVib2),.75);}
@@ -797,6 +804,15 @@ linear-gradient(180deg, rgba(var(--bg3),1),  rgba(var(--bg3),1))
 /* ==========================================.............................................
     settings
 -----------------------------------------------======================================== */
+/*storage bar colors*/
+._22KCiI1IJ7Op5fP8OZtqa-{background-color: rgb(var(--newblue));}
+._1SwNAeBlLusPoHHiJK1PGk,._3A9P8X3ruWMzNiRVnwf_pq{background: rgb(var(--newyellow));}
+._1W6jWiFmoiCg9NZKWnF1sn{background-color: rgb(var(--newgreen));}
+._3mzewepCzbFGOjI5X0u_Xh{background-color: rgb(var(--newred));}
+._1EubJAK9z7JtdGks5M2f8t { background: repeating-linear-gradient(315deg, rgb(var(--cover-Vib2),.3), rgb(var(--cover-Vib2),.3) 10px, rgb(var(--cover-card2)) 10px, rgb(var(--cover-card2)) 20px);}
+._3Lz1Rs6a2Lc6Mx3J86VKKE{background-color: color-mix(in srgb, rgb(var(--cover-Vib2),1) 50%, rgb(var(--cover-card2)) 50%);}
+._12aBP1DmpEKuMxfFuCMbiN ._2ylO_6ttogcI00S20omegQ svg{color: rgb(var(--newyellow));}
+
 .Evi7gq_iuz9HbjzrCjgUG{background-color: #0000;}
 ._2mL2HfT5AkDXRi1YBnRWKa:focus{
     background: linear-gradient(90deg, rgb(var(--cover-Vib2),.4) 0%, rgba(26, 159, 255, 0) 100%);
@@ -919,4 +935,19 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton.gpfocus.Primary, button.cXzBZxhPBl7fZs
     border-color:  rgb(var(--cover-LVib1));
 }
 
-
+/* ==========================================.............................................
+    search boxes
+-----------------------------------------------======================================== */
+._2o2fXzn99OddeqZMjbDuxQ .DialogInput_Wrapper,.BasicUI ._3x31AgESSlUqX3D4MTHv2m ._1JlC29Ic6L-QvL-39X_d-X{
+    background-color: rgb(var(--text1,.8));
+	-webkit-background-clip: text !important;
+	-webkit-text-fill-color: transparent !important;
+	font-weight: 600;
+	font-kerning: none;
+	border-style: solid;
+	border-color: rgb(var(--cover-LVib2),.5);
+	border-width: 2px;
+    border-radius: 8px;
+	max-width: 98.3%;}
+.BasicUI ._3ZR32BdxJUNwAA6Fu6n00p{
+    background: rgba(var(--cover-card),.2);}
