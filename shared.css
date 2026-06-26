@@ -11,16 +11,20 @@
 /*lightened text*/
 /*lightened text (white)*/
 ._1Cva_kor3lWBIoeu9cQxJq,.UVeN0kaD3zv1feMj_mMw5 .QCKBqF2k_sRLcXJ5qQIEl,._1F8RyqHWE1uz9fWgUhyN59,
-._1gljEIuhbsQpFCWuVhdKTJ,._3QrX3TTEetJIRvEW1x2Af2 ._3ca2d1qaIzPNm79jqRbi0J,._3jC8om-5Sci_dkUB-6VYiU
+._1gljEIuhbsQpFCWuVhdKTJ,._3QrX3TTEetJIRvEW1x2Af2 ._3ca2d1qaIzPNm79jqRbi0J,._3jC8om-5Sci_dkUB-6VYiU,
+
+._1ui4IlLDo2hf32UFCezr1t
 {color: white}
 /*lightened text (accent, mostly replaces steam's gray text)*/
-.BasicUI ._34lrt5-Fc3usZU6trA1P0-,/*gameview accent text*/
+.BasicUI ._34lrt5-Fc3usZU6trA1P0-,/*gameview accent text*/._1EC1xjjUGqI7fqX6PVzJA3,
 ._30EfXN4e7Ca_0PoATtbeGx,._1ujzuoxGhLunHZQqHAqRgg,.Ru7OBQzSxqIo3jIsbtV9g,.BDa6lbTAdR4RwtqgRNUnO,.BasicUI .fUTblKw-DF3ph-FUGHA1d,
 .S2Fu9HxHCA5MaCLGrN2ib ._19LfMT7PFWg2xHOqNjR99q,.UVeN0kaD3zv1feMj_mMw5 .QCKBqF2k_sRLcXJ5qQIEl .Gy1Y7lb4Y47vK8odzSru2,._3eEbSktrstBdLk0dVpnKVI,
 ._2_TE0KLOU7kWWxa9LS7iXA ._1XRnApz7l5qm2BkR5hzzvS,._14kZVEyaz7WX57N47z4Yr1,._2ZcNQxY8YknnhNa4ZvIoU4 ._1vYL2q-91QLy-FBzntE7E5,
 ._2jPMy2QZr8bWi6yrk5ZzHA,._1SIa8xLHqCJGyeA9sQ4yK_ ._1VoVzLPXjhlaguJLgO8htG,._2VByWZ91DPPVmK_PDiHEmq,.BasicUI ._3fFFsvII7Y2KXNLDk_krOW,
 .BasicUI ._3zVCVKrpcKJT5fd_dbyuwQ .xpRXvu3-lbtUHYWgwJCiJ,._3QrX3TTEetJIRvEW1x2Af2 ._2PMlMbFfEmv1xThuy6Vgqv,._2H1MiFt6wMYuJDB8kZElFs,.BasicUI ._2jPMy2QZr8bWi6yrk5ZzHA ._1uS70KI6ZbUE94jUB27ioB ._3GkV1NVDKuXYTLyRt2Uirz,
-._1yWgPveQ73QeYCdLcs6oFQ ._3grvnr9zzkvx6NoBOdmTnf, ._1yWgPveQ73QeYCdLcs6oFQ ._2RkIcXHXACX4EdBluR3nAH, ._1yWgPveQ73QeYCdLcs6oFQ ._1S3Q9rK5wn6PAIXII0mBz4
+._1yWgPveQ73QeYCdLcs6oFQ ._3grvnr9zzkvx6NoBOdmTnf, ._1yWgPveQ73QeYCdLcs6oFQ ._2RkIcXHXACX4EdBluR3nAH, ._1yWgPveQ73QeYCdLcs6oFQ ._1S3Q9rK5wn6PAIXII0mBz4,
+
+.Evi7gq_iuz9HbjzrCjgUG ._3lI6DwiNJMGRe0rZNDFIw,.Evi7gq_iuz9HbjzrCjgUG .LRVqOMfI5WTkpNe1dAnmZ,._3pteVMTgNRdIzZreR6HnTp
 {color: rgb(205, 217, 255)}
 ._1yWgPveQ73QeYCdLcs6oFQ ._1OhPtd0sU2yzZwckCTGRNC svg,/*gameview icons to match text*/
  ._1yWgPveQ73QeYCdLcs6oFQ ._1OhPtd0sU2yzZwckCTGRNC path, ._1yWgPveQ73QeYCdLcs6oFQ ._1R6Oubrk1mRaGQf56EQwd4 svg, ._1yWgPveQ73QeYCdLcs6oFQ ._1R6Oubrk1mRaGQf56EQwd4 path, ._1yWgPveQ73QeYCdLcs6oFQ .QL3AayCY6oJkK95jwGibN svg, ._1yWgPveQ73QeYCdLcs6oFQ .QL3AayCY6oJkK95jwGibN path{
@@ -793,6 +797,7 @@ linear-gradient(180deg, rgba(var(--bg3),1),  rgba(var(--bg3),1))
 /* ==========================================.............................................
     settings
 -----------------------------------------------======================================== */
+.Evi7gq_iuz9HbjzrCjgUG{background-color: #0000;}
 ._2mL2HfT5AkDXRi1YBnRWKa:focus{
     background: linear-gradient(90deg, rgb(var(--cover-Vib2),.4) 0%, rgba(26, 159, 255, 0) 100%);
     border-left: 2px solid rgb(var(--cover-Vib2),1);
@@ -806,8 +811,11 @@ linear-gradient(180deg, rgba(var(--bg3),1),  rgba(var(--bg3),1))
 ._1d6VIquCc410kNE7rDAje6{
     background: color-mix(in srgb, rgb(var(--cover-card)) 90%, black 10%);}
 /*bg*/
-._2_vG6TwMW2XtyLlTEaODH9,.ZjHHXZlnZhCahNrBFplWc,._2Dptk9e7W_k4zYB5wfRTcp .Qeg4qAFIMLaYd3mHOBndS{
+.ZjHHXZlnZhCahNrBFplWc,._2Dptk9e7W_k4zYB5wfRTcp .Qeg4qAFIMLaYd3mHOBndS{
     background: rgb(var(--cover-DVib1));}
+._2_vG6TwMW2XtyLlTEaODH9,.u8QEaEpjqBM8RuPzRLjMy{
+    background:rgb(var(--cover-LVib1),.2) ;
+}
 /*option container*/
 ._7EGqd8bdiXJBd2fj5Hh8r,._1ml4SNc3LIyBDHIf8ekVSw,.HijmccPB1BKyhOwhX1EVl,
 .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI,._3Vl2zkYPoCpw1q_1n28D3z{
@@ -833,21 +841,17 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton.gpfocus, button.cXzBZxhPBl7fZs9LODEnc.
 .x5D0RRkGlMxFppHblGf4u,._2XRQAKpCI_hXmaX5fGjz-2{color: rgb(var(--newgreen))}
 /*switch*/  
 ._2bl0iQ9xigbq4Zd1NI6NZl{/*unchecked bg*/  
-
     background: color-mix(in srgb, rgb(var(--cover-LVib1)) 25%, rgb(var(--cover-DVib1)) 75%);}
-._2bl0iQ9xigbq4Zd1NI6NZl::before,._2_vG6TwMW2XtyLlTEaODH9::before{/*checked bg*/  
+._2bl0iQ9xigbq4Zd1NI6NZl::before{/*checked bg*/  
      animation: rotate-gradient 5s cubic-bezier(.33,.48,.63,.47) infinite;
     background-size: 250%;
     background: linear-gradient(var(--rotate),  rgb(var(--cover-LVib1), 1),  rgb(var(--cover-LVib2), 1));
-    box-shadow: inset 0px 0px .3em rgb(var(--cover-Vib2), .7);
-}
+    box-shadow: inset 0px 0px .3em rgb(var(--cover-Vib2), .7);}
 ._1PQppcgkuXQAiFPar9AGi-{/*dot*/  
-   
     background: color-mix(in srgb, rgb(var(--cover-LVib1)) 60%, white 40%);}
-._9Ql-oVe_j8E-vsDdyVdWo.yLrDAetGoWx0GYqA6ShfS ._1PQppcgkuXQAiFPar9AGi-{
- background: color-mix(in srgb, rgb(var(--cover-LVib1)) 80%, rgb(var(--cover-Vib1)) 20%);
-box-shadow: inset 0px 0px 15px rgb(var(--cover-Vib1),.2), 0px 0px .6em rgb(var(--cover-DVib1),.9);
-}
+._9Ql-oVe_j8E-vsDdyVdWo.yLrDAetGoWx0GYqA6ShfS ._1PQppcgkuXQAiFPar9AGi-,._11PBfip2UlKlY3vWSz8PA4{
+ background: color-mix(in srgb, rgb(var(--cover-LVib1)) 83%, rgb(var(--cover-Vib1)) 17%);
+box-shadow: inset 0px 0px 8px rgb(var(--cover-Vib1),.25), -4px 0px .35em rgb(var(--cover-DVib1),.33);}
 ._9Ql-oVe_j8E-vsDdyVdWo.gpfocus:after{
     background: rgb(var(--cover-Vib2),.4);}
 .eKmEXJCm_lgme24Fp_HWt.gpfocuswithin ._2bl0iQ9xigbq4Zd1NI6NZl{
@@ -860,12 +864,18 @@ box-shadow: inset 0px 0px 15px rgb(var(--cover-Vib1),.2), 0px 0px .6em rgb(var(-
 ._7EGqd8bdiXJBd2fj5Hh8r ._2sQtvR60AbFF5UzDwY9hit{
     background-color: rgb(var(--cover-LVib2),.6) ;}
 ._9Ql-oVe_j8E-vsDdyVdWo.gpfocus:not(.aIeh3X5T2M074RLW1qn6_) ._1PQppcgkuXQAiFPar9AGi-{
-    border-color:rgb(var(--cover-LVib1),1) ;
-}
+    border-color:rgb(var(--cover-LVib1),1) ;}
 /*button focus*/  
 button.cXzBZxhPBl7fZs9LODEnc.DialogButton.gpfocus.Primary, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:active.Primary, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled.gpfocus.Primary, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled:active.Primary, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:active.gpfocus.Primary, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:active:active.Primary, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled:active:hover.gpfocus.Primary, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled:active:hover:active.Primary{
     background: rgb(var(--cover-Vib2));
     color: black}
+/*slider bar*/
+._2_vG6TwMW2XtyLlTEaODH9::before{
+    background: linear-gradient(91deg,  rgb(var(--cover-LVib1), 1),  rgb(var(--cover-LVib2), 1));
+    box-shadow: inset 0px 0px .3em rgb(var(--cover-Vib2), .7);}
+.u8QEaEpjqBM8RuPzRLjMy.j418S4TEV2LS3JHn6an4s{
+    background-color:rgb(var(--cover-LVib2), 1) ;
+}
 /* ==========================================.............................................
     controller settings
 -----------------------------------------------======================================== */
