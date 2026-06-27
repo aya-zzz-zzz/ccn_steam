@@ -203,8 +203,6 @@ svg > rect{fill: color-mix(in srgb, rgb(var(--cover-Vib1), 1)60% , rgb(255, 255,
 /*hovered icon*/
 ._2HnVd7wV6yVaTiXfrBe3gq.gpfocus, ._2HnVd7wV6yVaTiXfrBe3gq.gpfocuswithin {
 svg > rect{fill: color-mix(in srgb, rgb(var(--cover-Vib1), 1)15% , rgb(0, 0, 0) 85%) ; transition: 130ms;}
-svg > path:nth-child(3){fill: rgb(var(--newgreen));}
-
     animation: rotate-gradient 30s cubic-bezier(.33,.48,.63,.47) infinite;
     background-size: 450%;
     background: linear-gradient(var(--rotate),  rgb(var(--cover-LVib1), 1),  rgb(var(--cover-LVib2), 1));
@@ -214,9 +212,12 @@ svg > path:nth-child(3){fill: rgb(var(--newgreen));}
     fill: white}
 /*full battery (test)*/ 
 
-#header > div._2HnVd7wV6yVaTiXfrBe3gq._8sPcK-HDVUh0QbFshamLa._1_6kL0vUt78Sy-ZAp63E3e.Panel > div > div > svg > path:nth-child(3){
-fill: black;}
 
+
+[class="_2HnVd7wV6yVaTiXfrBe3gq _8sPcK-HDVUh0QbFshamLa _1_6kL0vUt78Sy-ZAp63E3e Panel Focusable gpfocus gpfocuswithin"]{
+#header > div._2HnVd7wV6yVaTiXfrBe3gq._8sPcK-HDVUh0QbFshamLa._1_6kL0vUt78Sy-ZAp63E3e.Panel > div > div > svg > path:nth-child(3){
+fill: rgb(255, 255, 255);}
+}
 
 
 /* ==========================================.............................................
