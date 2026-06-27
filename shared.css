@@ -1133,7 +1133,7 @@ svg > path{fill: color-mix(in srgb, var(--but2) 10% ,rgb(0, 0, 0) 90%)  !importa
     plugin corner
 -----------------------------------------------======================================== */
 /*steamgriddb*/ 
-#sgdb-wrap,#sgdb-wrap #images-container .asset-box-wrap .image-wrap{background: rgb(var(--cover-DVib1))!important;border-radius: 7px;}
+#sgdb-wrap,#sgdb-wrap #images-container .asset-box-wrap .image-wrap{background: rgb(var(--cover-card2),.2)!important;border-radius: 7px;}
 #sgdb-wrap .spinnyboi > img, #sgdb-wrap .spinnyboi.loaded > img,._3sa1NXudhvcc1U7HrlLdNQ img {
     filter: sepia(1) hue-rotate(var(--sephue)) saturate(2)}
 #sgdb-wrap #images-container .asset-box-wrap .image-wrap.type-logo > .thumb, #sgdb-wrap #images-container .asset-box-wrap .image-wrap.type-icon > .thumb{
