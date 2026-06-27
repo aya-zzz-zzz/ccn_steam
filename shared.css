@@ -210,12 +210,22 @@ svg > rect{fill: color-mix(in srgb, rgb(var(--cover-Vib1), 1)60% , rgb(255, 255,
     color: rgb(var(--cover-DVib1));}}
 #header > div._17M8gvakqjyaw_cLo6ntdl.NMb_F0Q2lf6akyzaZBfLt._1bmuJRkMBGcApfJwlj_k-F._2YxXntwjdsceSnfMRClWHG.Panel > svg._2Ya83QVfgqLema1GlOi9_C._1l8jsSJRozEnzlhm5Q2m7U > path{
     fill: white}
-/*active search placeholder text darkener*/ 
-
+/*full battery (test)*/ 
+#header > div._2HnVd7wV6yVaTiXfrBe3gq._8sPcK-HDVUh0QbFshamLa._1_6kL0vUt78Sy-ZAp63E3e.Panel > div > div > svg > path:nth-child(1)
+{fill: rgb(var(--newgreen));}
+#header > div._2HnVd7wV6yVaTiXfrBe3gq._8sPcK-HDVUh0QbFshamLa._1_6kL0vUt78Sy-ZAp63E3e.Panel > div > div > svg > path:nth-child(3){
+fill: black;}
 
 /* ==========================================.............................................
     recently played
 -----------------------------------------------======================================== */
+
+._1qOWMo-qOzCUkMGY4f_EP5 {
+    height: 227px;
+    width: 2px;
+    background: linear-gradient(to bottom, rgba(187, 187, 187, 0), color-mix(in srgb, rgb(var(--cover-LVib2), .35) 75%, rgba(255, 255, 255, 0.3) 25%) , rgba(187, 187, 187, 0));
+    margin: -15.2px 6.25px;
+}
 /*hero zoom animation timing extension*/
 ._30D-80Lg-Luy-KxOumBlaY ._1SRoxsfD-XkekIXfr0ofs3 { animation: 52s ease 0s 1 alternate none running _3WXchKkPvnl2QloRaF5aQ7;}
 /*hero alterations*/
