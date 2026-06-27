@@ -891,12 +891,14 @@ img{
     background: rgb(var(--cover-card));
     border-radius: 8px;}
 /*option container buttons*/ 
-.BasicUI ._3VQeLk37GAZSmurTc4HPP6,.BasicUI ._3Z54cf1bu_s_rPX-HtZ73M, .BasicUI ._3Z54cf1bu_s_rPX-HtZ73M:enabled, .BasicUI ._3Z54cf1bu_s_rPX-HtZ73M:active, .BasicUI ._3Z54cf1bu_s_rPX-HtZ73M:hover, .BasicUI ._3Z54cf1bu_s_rPX-HtZ73M:enabled:active:hover,
+.BasicUI ._3VQeLk37GAZSmurTc4HPP6, .BasicUI ._3Z54cf1bu_s_rPX-HtZ73M:active, .BasicUI ._3Z54cf1bu_s_rPX-HtZ73M:hover, .BasicUI ._3Z54cf1bu_s_rPX-HtZ73M:enabled:active:hover,
 ._7EGqd8bdiXJBd2fj5Hh8r.MYyvJ6lNQZtM4MHwS-Y3g,
 button.cXzBZxhPBl7fZs9LODEnc.DialogButton, button.cXzBZxhPBl7fZs9LODEnc.DialogButton.Primary, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled.Primary, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:active, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:active.Primary, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled:active:hover, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled:active:hover.Primary{
     background: rgb(var(--cover-card2));
     color: white;
     border-radius: 6px;}
+.BasicUI ._3Z54cf1bu_s_rPX-HtZ73M, .BasicUI ._3Z54cf1bu_s_rPX-HtZ73M:enabled{
+    background: rgb(var(--text1));}
 /*option container focus bg*/  
 .BasicUI ._2n6FNLKyb6al_YPk13xS7S ._2RCSUgg2X_uF_C0e1lrcqc:focus,
 .eKmEXJCm_lgme24Fp_HWt:not(._2QgNsvFPYTZ5yRiTm7mUyu)._2HFrmMgB38Ike5w4rVxzEX.gpfocus, .eKmEXJCm_lgme24Fp_HWt:not(._2QgNsvFPYTZ5yRiTm7mUyu)._2HFrmMgB38Ike5w4rVxzEX.gpfocuswithin{
@@ -964,6 +966,12 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton.gpfocus.Primary, button.cXzBZxhPBl7fZs
 ._11I0_AlsB40ak50752rsuy._2fKVyx5la8VQm8SreJZbjL ._3aMlipGagTx2AjSsMP_yZj, ._11I0_AlsB40ak50752rsuy._2fKVyx5la8VQm8SreJZbjL ._1iWWSmS4pDD1vKNDTkghbh{
     outline: solid 2px rgb(var(--newred));
 }
+
+/*active checkmark*/
+stop:nth-child(1){stop-color: color-mix(in srgb, rgb(var(--cover-LVib2)) 20%, rgb(var(--cover-Vib2)) 80%);}
+stop:nth-child(2){stop-color: color-mix(in srgb, rgb(var(--cover-LVib1)) 90%, rgb(var(--cover-Vib1)) 10%);}
+
+.DialogCheckbox{background-color: rgb(var(--text1),.13);}
 /* ==========================================.............................................
     controller settings
 -----------------------------------------------======================================== */
@@ -1214,8 +1222,16 @@ border-radius: 7px;}
 #sgdb-wrap #images-container .asset-box-wrap .image-wrap.type-logo{
 .thumb img,.thumb img{
     border-radius: 0px!Important;}}
+/*decky store*/
+.Mlgx-ApV1rLC2F6xc4J4- .p0xxKK3ZUU1muQIFKd-DZ ._1-WaO6kg_B8sblq-HefuBh{
+    color: rgb(var(--newblue));} 
+/*PlayCount*/
+div._3lDczhulqraStjCitLYJ1K._2l416KfEtI4CL0mCUEmOBw._3FmxxjyWNHU1PrBGnBe6tm > div > div.playerBadge > button{
+    background-color: color-mix(in srgb, rgb(var(--cover-card2),.93) 40%, rgb(var(--cover-card),.93) 60%)!important;}
 
-
+div.playerBadge > button > div > svg{
+    fill: rgb(var(--cover-LVib1))!important;
+    color: rgb(var(--cover-LVib1))!important;}
 /* ==========================================.............................................
    ==========================================............................................. 
     quick access (right side menu)
@@ -1389,3 +1405,15 @@ div._1RN_UxDCIp9wCvlh0m7OL5.Panel > svg > path{
 body, body._2LxgdMcpWJRjkxZKbmeEEb{color: rgb(var(--text1))}
 button.cXzBZxhPBl7fZs9LODEnc.DialogButton.Disabled, button.cXzBZxhPBl7fZs9LODEnc.DialogButton[disabled], button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled.Disabled, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled[disabled], button.cXzBZxhPBl7fZs9LODEnc.DialogButton:active.Disabled, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:active[disabled], button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled:active:hover.Disabled, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled:active:hover[disabled]{
     background: #0000;}
+
+
+
+
+
+
+
+
+
+._3YTh805w3-xgPkHE_22XcA{background-color: #0000;}
+
+.fntOoeLPSTpmyXGGmgf99{background-color: rgb(var(--cover-card2));}
