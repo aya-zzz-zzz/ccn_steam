@@ -1172,6 +1172,9 @@ background: rgb(var(--cover-DVib1),.7);}
 /*border between icons and main*/ 
 ._3Ag1wVkrYOaZyOUNWGLf3Y::after{
     background: color-mix(in srgb, rgb(var(--cover-LVib1),.5) 55%, rgba(255, 255, 255, 0.2) 45%);}
+.eKmEXJCm_lgme24Fp_HWt._2QgNsvFPYTZ5yRiTm7mUyu.GxgIyq8R5xTOeu4ftGrgX.GxgIyq8R5xTOeu4ftGrgX::after, .eKmEXJCm_lgme24Fp_HWt._2QgNsvFPYTZ5yRiTm7mUyu._39x36zDuDr8Z0Z_UnJkY4S.GxgIyq8R5xTOeu4ftGrgX::after{
+    background: color-mix(in srgb, rgb(var(--cover-LVib2),.5) 55%, rgba(255, 255, 255, 0.2) 45%);
+}
 /*icon focus transition*/ 
 @keyframes _2YeD3ssgsSnvTv7ns3TJxH{
 0% {background: #0000;
@@ -1205,6 +1208,47 @@ background: #0000;
 box-shadow: none;
 color: color-mix(in srgb, rgb(var(--cover-LVib1)) 55%, white 45%)}
 
+/*selection/focus*/ 
+@keyframes _2NVMbdV4wBIACWgwBU2kyz{
+0% {background: rgb(var(--cover-DVib1),.7);
+    color: #8b929a;}
+100% {
+    background: rgb(var(--cover-card2));
+    color: color-mix(in srgb, rgb(var(--cover-LVib1)) 55%, white 45%);  }}
+.BasicUI ._30fVm4Rsel-4nUKEiPJgz9:hover, .BasicUI ._30fVm4Rsel-4nUKEiPJgz9.gpfocus{background-color: rgb(var(--cover-card2));}
+
+
+.eKmEXJCm_lgme24Fp_HWt._2QgNsvFPYTZ5yRiTm7mUyu._2HFrmMgB38Ike5w4rVxzEX.gpfocus, .eKmEXJCm_lgme24Fp_HWt._2QgNsvFPYTZ5yRiTm7mUyu._2HFrmMgB38Ike5w4rVxzEX.gpfocuswithin, .eKmEXJCm_lgme24Fp_HWt._2QgNsvFPYTZ5yRiTm7mUyu._2HuzvKQ2QMUJ-JJOeApaF1:not(.aIeh3X5T2M074RLW1qn6_):hover{
+    background: rgb(var(--cover-card2));
+}
+
 /*friends tab*/ 
 .GamepadMode.friendlist,.multiChatDialog.GamepadMode, .GamepadMode .multiChatDialog,._1osHa9KHOmdCDNrA232z4N.GamepadMode, .GamepadMode ._1osHa9KHOmdCDNrA232z4N{
     background: #0000;}
+.multiChatDialog.GamepadMode.gpfocuswithin, .GamepadMode .multiChatDialog.gpfocuswithin{
+    background: #0000;
+    background-color: rgb(var(--cover-card),.5);
+}
+
+[id="QuickAccess-NA"]{
+svg > rect{
+    fill: rgb(var(--cover-LVib1));
+}
+}
+/*notification tab*/ 
+._2h6KD6p6y4vIgO2Toxx-_K ._26v9mHAi56x63OwY-jxett, ._3oKFhPrh1lbp-WtA72Q2Yi ._26v9mHAi56x63OwY-jxett{
+    color: white;}
+._3q7nNrnxIUlXvIZkxi5mom, ._1N5mcKPHLaAfi4MA2HzjuQ,._2h6KD6p6y4vIgO2Toxx-_K ._3hEeummFKRey8l5VXxZwxz, ._3oKFhPrh1lbp-WtA72Q2Yi ._3hEeummFKRey8l5VXxZwxz{
+    color: rgb(var(--text1))}
+._2h6KD6p6y4vIgO2Toxx-_K ._7XKFnSNjW_tHfyxaezoD3, ._3oKFhPrh1lbp-WtA72Q2Yi ._7XKFnSNjW_tHfyxaezoD3{
+    color: rgb(var(--text1),.7)}
+div._1VRx9qVxigUC4qeM0NWNMR > svg > path:nth-child(1){
+    fill: color-mix(in srgb, rgb(var(--cover-LVib1)) 65%, white 35%)}
+div._1VRx9qVxigUC4qeM0NWNMR > svg > path:nth-child(2),
+div._1VRx9qVxigUC4qeM0NWNMR > svg > path:nth-child(3){
+     fill: color-mix(in srgb, rgb(var(--cover-Vib1)) 65%, white 35%)}
+
+/*quick settings tab*/ 
+._1IigUZ3GHaZS2Y-3V3T2rT,.dbACWBb8zr4cf4u05jQ4x{
+    color: rgb(var(--text1))
+}
