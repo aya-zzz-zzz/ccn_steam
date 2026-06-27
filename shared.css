@@ -202,7 +202,7 @@ fill: rgb(var(--text1))}
 svg > rect{fill: color-mix(in srgb, rgb(var(--cover-Vib1), 1)60% , rgb(255, 255, 255) 40%) ; transition: 60ms;}
 /*full battery (test)*/ 
 #header > div._2HnVd7wV6yVaTiXfrBe3gq._8sPcK-HDVUh0QbFshamLa._1_6kL0vUt78Sy-ZAp63E3e.Panel > div > div > svg > path:nth-child(3){
-fill: black;}
+fill: rgb(var(--newgreen));}
 /*hovered icon*/
 ._2HnVd7wV6yVaTiXfrBe3gq.gpfocus, ._2HnVd7wV6yVaTiXfrBe3gq.gpfocuswithin {
     svg > rect{fill: color-mix(in srgb, rgb(var(--cover-Vib1), 1)15% , rgb(0, 0, 0) 85%) ; transition: 150ms;}
