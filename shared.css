@@ -218,10 +218,10 @@ svg > rect{fill: color-mix(in srgb, rgb(var(--cover-Vib1), 1)15% , rgb(0, 0, 0) 
 
 
 #header > div._2HnVd7wV6yVaTiXfrBe3gq._8sPcK-HDVUh0QbFshamLa._1_6kL0vUt78Sy-ZAp63E3e.Panel > div > div > svg > path:nth-child(3)
-{fill: rgb(255, 230, 0)}
+{fill: rgb(var(--newgreen))}
 [class="_2HnVd7wV6yVaTiXfrBe3gq _8sPcK-HDVUh0QbFshamLa _1_6kL0vUt78Sy-ZAp63E3e Panel Focusable gpfocus gpfocuswithin"]{
-div._2HnVd7wV6yVaTiXfrBe3gq._8sPcK-HDVUh0QbFshamLa._1_6kL0vUt78Sy-ZAp63E3e.Panel > div > div > svg > path:nth-child(3){
-fill: rgb(94, 97, 255);}
+ div > div > svg > path:nth-child(3){
+fill: rgb(0, 0, 0)!important;}
 }
 /* ==========================================.............................................
     recently played
