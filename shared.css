@@ -1228,10 +1228,14 @@ border-radius: 7px;}
 /*PlayCount*/
 div._3lDczhulqraStjCitLYJ1K._2l416KfEtI4CL0mCUEmOBw._3FmxxjyWNHU1PrBGnBe6tm > div > div.playerBadge > button{
     background-color: color-mix(in srgb, rgb(var(--cover-card2),.93) 40%, rgb(var(--cover-card),.93) 60%)!important;}
-
 div.playerBadge > button > div > svg{
-    fill: rgb(var(--cover-LVib1))!important;
-    color: rgb(var(--cover-LVib1))!important;}
+    fill: rgb(var(--cover-LVib1))!important;}
+/*hltb*/
+.hltb-info-clean-default{
+    background: color-mix(in srgb, rgb(var(--cover-card2),.7) 40%, rgb(var(--cover-card),.7) 60%)!important;
+    transform: translateY(-10px);
+    padding-bottom: 1em;}
+.hltb-details-btn{filter: sepia(1) hue-rotate(var(--sephue)) brightness(2);}
 /* ==========================================.............................................
    ==========================================............................................. 
     quick access (right side menu)
