@@ -1260,6 +1260,7 @@ box-shadow: inset 99em rgb(var(--cover-DVib1),.99);
     margin-bottom: 20px;
     margin-top: 20px;
     border-radius: 15px 0px 0px 15px;
+    backdrop-filter: blur(20px) brightness(.3);
 }
 
 
