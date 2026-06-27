@@ -1154,3 +1154,6 @@ border-radius: 7px;}
     border-radius: 7px;}
 #sgdb-wrap #images-container .asset-box-wrap .chips{
     top:3.5px!important}
+[class="image-wrap type-logo Panel"]{
+#sgdb-wrap #images-container .asset-box-wrap .image-wrap > .thumb img, #sgdb-wrap #images-container .asset-box-wrap .image-wrap > .thumb video{
+    border-radius: 0px!Important;}}
