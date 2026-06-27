@@ -1133,14 +1133,16 @@ svg > path{fill: color-mix(in srgb, var(--but2) 10% ,rgb(0, 0, 0) 90%)  !importa
     plugin corner
 -----------------------------------------------======================================== */
 /*steamgriddb bg*/ 
-#sgdb-wrap{background: #0000;}
-
+#sgdb-wrap{background: #0000 !important;}
 #sgdb-wrap .spinnyboi > img, #sgdb-wrap .spinnyboi.loaded > img {
     filter: sepia(1) hue-rotate(var(--sephue)) saturate(2)}
 #sgdb-wrap #images-container .asset-box-wrap .image-wrap.type-logo > .thumb, #sgdb-wrap #images-container .asset-box-wrap .image-wrap.type-icon > .thumb{
-    background: #0000;
-    animation: rotate-gradient 30s cubic-bezier(.33,.48,.63,.47) infinite;
-    background-size: 450%;
-    background-image: linear-gradient(var(--rotate),  rgb(var(--cover-LVib1), .6),  rgb(var(--cover-LVib2), .6));;
-    box-shadow:  inset 0px 0px 2em rgb(var(--cover-LVib2), .7);
-}
+    background: #0000!important;
+    animation: rotate-gradient 30s cubic-bezier(.33,.48,.63,.47) infinite!important;
+    background-size: 450%!important;
+    background-image: linear-gradient(var(--rotate),  rgb(var(--cover-LVib1), .5),  rgb(var(--cover-LVib2), .5))!important;
+    box-shadow:  inset 0px 0px 2em rgb(var(--cover-LVib2), .3);}
+#sgdb-wrap .spinnyboi{
+    background: rgb(var(--cover-DVib1)) !important; }
+#sgdb-wrap #images-container .asset-box-wrap .image-wrap:hover{
+    outline-color: rgb(var(--cover-LVib1),.7)!important;}
