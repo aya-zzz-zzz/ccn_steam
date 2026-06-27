@@ -211,10 +211,12 @@ svg > rect{fill: color-mix(in srgb, rgb(var(--cover-Vib1), 1)60% , rgb(255, 255,
 #header > div._17M8gvakqjyaw_cLo6ntdl.NMb_F0Q2lf6akyzaZBfLt._1bmuJRkMBGcApfJwlj_k-F._2YxXntwjdsceSnfMRClWHG.Panel > svg._2Ya83QVfgqLema1GlOi9_C._1l8jsSJRozEnzlhm5Q2m7U > path{
     fill: white}
 /*full battery (test)*/ 
-#header > div._2HnVd7wV6yVaTiXfrBe3gq._8sPcK-HDVUh0QbFshamLa._1_6kL0vUt78Sy-ZAp63E3e.Panel > div > div > svg > path:nth-child(1)
-{fill: rgb(var(--newgreen));}
+
 #header > div._2HnVd7wV6yVaTiXfrBe3gq._8sPcK-HDVUh0QbFshamLa._1_6kL0vUt78Sy-ZAp63E3e.Panel > div > div > svg > path:nth-child(3){
 fill: black;}
+#header > div._2HnVd7wV6yVaTiXfrBe3gq._8sPcK-HDVUh0QbFshamLa._1_6kL0vUt78Sy-ZAp63E3e.Panel > div > div > svg > path:nth-child(2){
+fill: rgb(var(--newgreen))
+}
 
 /* ==========================================.............................................
     recently played
