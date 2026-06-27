@@ -730,7 +730,7 @@ svg > path{fill: black;}}
 ._1LJqx_qFOC8199RBQO5kU8._31wTtQjCH2ZSKgMiMZLhAM{background-color: color-mix(in srgb, rgb(var(--cover-card2),.7) 66%, rgb(var(--cover-Vib1),.7) 34%);
 color: color-mix(in srgb, rgb(var(--cover-LVib1),.7) 66%, white 34%);}
 /*100% cheevos ribbon*/
-._1LJqx_qFOC8199RBQO5kU8._31wTtQjCH2ZSKgMiMZLhAM svg,._2YS0EBJmY2Rvs07zZ90UIJ svg
+._1LJqx_qFOC8199RBQO5kU8._31wTtQjCH2ZSKgMiMZLhAM svg,._2YS0EBJmY2Rvs07zZ90UIJ svg, svg.BhQwnfut-s9IR38Ou2632
 {filter: sepia(1) hue-rotate(var(--sephue)) saturate(2.1) brightness(1.3);}
 /*library layout change adds a little extra buffer vertically*/
 div._3vHkmRShhzwd67_MtEq8-n._11p6Fm47YPaY-YjtuLYMMJ.Panel{gap: 47.5px 16px !important;}
@@ -837,10 +837,13 @@ linear-gradient(180deg, rgba(var(--bg3),1),  rgba(var(--bg3),1))
 :root{--gpColor-Blue: color-mix(in srgb, rgb(var(--cover-LVib1)) 60%, rgb(var(--cover-Vib1)) 40%)  ;}
 ._1-nHjRywUoX7Mpyc6JOPaQ{background: rgb(var(--cover-DVib1),.8);}
 .gpfocus ._1-nHjRywUoX7Mpyc6JOPaQ{  background: rgb(var(--cover-DVib1),1);}
-div._1R9r2OBCxAmtuUVrgBEUBw._2E7G8grj_-tgxXbTXs1t2E._26pwi20g808PP4RVYpqyZD._294HV0se7vdDLPe-RvRZbb > img{
+[class="_1R9r2OBCxAmtuUVrgBEUBw _2E7G8grj_-tgxXbTXs1t2E _26pwi20g808PP4RVYpqyZD _294HV0se7vdDLPe-RvRZbb"]{
+img{
     filter: sepia(1) hue-rotate(var(--sephue)) opacity(.5) saturate(2) contrast(2);
-    -webkit-mask-image: radial-gradient(100% 94% at 50%  10%,rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.84) 30%, rgba(0, 0, 0, 0.7) 40%, rgb(0 0 0 / .10%) 70%, rgba(0, 0, 0, 0.05) 100%), linear-gradient(180deg, rgba(0, 0, 0, .05), rgba(0, 0, 0, .05),rgba(0, 0, 0, .1),rgba(0, 0, 0, .2),rgba(0, 0, 0, .4),  rgba(0, 0, 0, .8));
+    -webkit-mask-image: radial-gradient(100% 94% at 50%  10%,rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.84) 30%, rgba(0, 0, 0, 0.7) 43%, rgb(0 0 0 / .10%) 48%, rgba(0, 0, 0, 0.05) 100%), linear-gradient(180deg, rgba(0, 0, 0, .05), rgba(0, 0, 0, .05),rgba(0, 0, 0, .1),rgba(0, 0, 0, .2),rgba(0, 0, 0, .4),  rgba(0, 0, 0, .8));
     -webkit-mask-composite: source-out;}
+}
+
 
 ._1UXC2lGcmNTGepRJTwtuH0{background-color: rgb(var(--cover-DVib1));}
 ._gDkIgrqhJq-FtbuR9wJi{background-color: rgb(var(--cover-card2),.5); border-radius: 8px;}
