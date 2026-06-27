@@ -39,6 +39,9 @@ fill: rgb(var(--text1))}
 ._3ZUP3RJr6PRn6IzODoxZDx{
     color: rgb(var(--text1),.7)}
 
+.BasicUI ._3gwMkKp82bb5aZj4EeQnpi ._3CRLA2FFclTRCznNBgtiIH{
+    color: color-mix(in srgb, rgb(var(--text1)) 38%, white 62%)}
+
 /* ==========================================.............................................
     Clean Gameview
    -----------------------------------------------======================================== */
@@ -185,6 +188,12 @@ fill: rgb(var(--text1))}
 -----------------------------------------------======================================== */
 /*removes pfp effect*/
 [class="_3fM0F85j3aWVzr4RJM9-eu"],.N8aJrSpxQ6II4CY_aFdYI{display: none;}
+._3h-QRJGxnVOIExtHD1R0f2.GamepadMode, .GamepadMode ._3h-QRJGxnVOIExtHD1R0f2{
+    border-radius: 4px 0px 0px 4px;
+}
+._3xUpb5DWXPFNcHHIcv-9pe.right.GamepadMode, .GamepadMode ._3xUpb5DWXPFNcHHIcv-9pe.right{
+    border-radius: 0px 4px 4px 0px;
+}
 /*downloading bar*/
 ._2ssr3-L3TQNdrX6NI1-Gzn ._1PbL3TgQGIsmPs2HZkpCkb .vo3Tt3EsYkcybM5oKH4Lq .AK_Ax_siTCH1_LT3APMlx,.BasicUI ._25YVDTaClw6Y2COPsU0UaV ._1FnTqlsi2_-TJf1d5apoS6{
     background-color: color-mix(in srgb, rgb(var(--cover-Vib1), 1)60% , rgb(255, 255, 255) 40%) ;}
@@ -1009,8 +1018,8 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton.gpfocus.Primary, button.cXzBZxhPBl7fZs
 ._34o03-8cUc3fQX1u650c0L._3-IFyrv9R_fZqALBsjlUS5 .SVGIcon_DownArrowContextMenu{
     fill:rgb(var(--text1));}
 ._34o03-8cUc3fQX1u650c0L .SVGIcon_PlusCircle line{
-    stroke: rgb(var(--text1));
-}
+    stroke: rgb(var(--text1));}
+
 ._34o03-8cUc3fQX1u650c0L{
     font-weight: 500;
     background: color-mix(in srgb, rgb(var(--cover-card2),.8) 95%, white 5%);
@@ -1029,10 +1038,7 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton.gpfocus.Primary, button.cXzBZxhPBl7fZs
     box-shadow:  inset 0px 0px 2em rgb(var(--cover-LVib2), .7);
 .SVGIcon_DownArrowContextMenu{
     fill:black}}
-.oZw50c4oJ6-r0HP8UWv25{
-    margin-left: 4px;
-}
-
+.oZw50c4oJ6-r0HP8UWv25{margin-left: 4px;}
 
 ._34o03-8cUc3fQX1u650c0L.Stream, ._34o03-8cUc3fQX1u650c0L.Connect, ._34o03-8cUc3fQX1u650c0L.Launch, ._34o03-8cUc3fQX1u650c0L.PlayMusic, ._34o03-8cUc3fQX1u650c0L.Play, ._34o03-8cUc3fQX1u650c0L.Resume, ._34o03-8cUc3fQX1u650c0L.BorrowApp {
     color: rgba(0, 0, 0, 0.9);
@@ -1065,7 +1071,6 @@ svg > path{fill: color-mix(in srgb, var(--but1) 10% ,rgba(255, 255, 255, 0.7) 90
     border: 0;background-size: 220% 220%;animation: rotate-gradient 19s cubic-bezier(.29,.44,.67,.56) infinite; 
     svg > path{fill: color-mix(in srgb, var(--but1) 10% ,rgb(var(--cover-DVib1)) 90%)  !important;}}
 
-
 ._34o03-8cUc3fQX1u650c0L.Download, ._34o03-8cUc3fQX1u650c0L.Update, ._34o03-8cUc3fQX1u650c0L.PreLoad, ._34o03-8cUc3fQX1u650c0L.Install, ._34o03-8cUc3fQX1u650c0L.Pause, ._34o03-8cUc3fQX1u650c0L.Stop, ._34o03-8cUc3fQX1u650c0L.Cancel {
     color: rgba(0, 0, 0, 0.9);
     margin-bottom: 3px;
@@ -1080,8 +1085,7 @@ svg > path{fill: color-mix(in srgb, var(--but1) 10% ,rgba(255, 255, 255, 0.7) 90
     color-mix(in srgb, var(--but2) 60% ,rgb(255, 255, 255) 40%),
     color-mix(in srgb, var(--but2) 58% ,rgb(255, 255, 255) 40%));
     border: 0;background-size: 220% 220%;animation: rotate-gradient 19s cubic-bezier(.29,.44,.67,.56) infinite; 
-svg > path{fill: color-mix(in srgb, var(--but2) 10% ,rgba(255, 255, 255, 0.7) 90%)  !important;}
-}
+svg > path{fill: color-mix(in srgb, var(--but2) 10% ,rgba(255, 255, 255, 0.7) 90%)  !important;}}
 ._34o03-8cUc3fQX1u650c0L._2XVTVAadkIvrBujZYN5jbL._2awU7ejQ3Qs_g0XnuSmgOP, ._34o03-8cUc3fQX1u650c0L._2XVTVAadkIvrBujZYN5jbL.Download, ._34o03-8cUc3fQX1u650c0L._2XVTVAadkIvrBujZYN5jbL.Update, ._34o03-8cUc3fQX1u650c0L._2XVTVAadkIvrBujZYN5jbL.PreLoad, ._34o03-8cUc3fQX1u650c0L._2XVTVAadkIvrBujZYN5jbL.Install, ._34o03-8cUc3fQX1u650c0L._2XVTVAadkIvrBujZYN5jbL.Pause {
     box-shadow: 0px 0px .2em rgb(var(--cover-LVib2),.4);
     filter: brightness(1.25);
@@ -1095,8 +1099,7 @@ svg > path{fill: color-mix(in srgb, var(--but2) 10% ,rgba(255, 255, 255, 0.7) 90
     color-mix(in srgb, var(--but2) 60% ,rgb(255, 255, 255) 40%),
     color-mix(in srgb, var(--but2) 58% ,rgb(255, 255, 255) 40%));
     border: 0;background-size: 220% 220%;animation: rotate-gradient 19s cubic-bezier(.29,.44,.67,.56) infinite; 
-svg > path{fill: color-mix(in srgb, var(--but2) 10% ,rgb(0, 0, 0) 90%)  !important;}
-}
+svg > path{fill: color-mix(in srgb, var(--but2) 10% ,rgb(0, 0, 0) 90%)  !important;}}
 
 ._34o03-8cUc3fQX1u650c0L._3-IFyrv9R_fZqALBsjlUS5.OQmT6NKuekm5HuXQnkl2a{
     font-weight: 500;
@@ -1113,17 +1116,13 @@ svg > path{fill: color-mix(in srgb, var(--but2) 10% ,rgb(0, 0, 0) 90%)  !importa
 ._34o03-8cUc3fQX1u650c0L._2XVTVAadkIvrBujZYN5jbL._1HXm3O7vOzyuTFDaKPNUxy, ._34o03-8cUc3fQX1u650c0L._2XVTVAadkIvrBujZYN5jbL.Stop, ._34o03-8cUc3fQX1u650c0L._2XVTVAadkIvrBujZYN5jbL.Cancel{
     background: rgb(var(--newred));
     color: black;
-    box-shadow: none;
-}
+    box-shadow: none;}
 
 /*download popup*/  
 ._3A5ujtARm6atH4phJ5i1i6>._16sYNwqxz6giarbVaRUl7R {
  ._2xfEFASY3upHap7ykUbzlU ._2fRwXrDjTiH3VVBTa1WNDd svg{
-    color: rgb(var(--cover-LVib1),.8)
- }
-
-
-   margin: auto;
+    color: rgb(var(--cover-LVib1),.8)}
+    margin: auto;
     background-color: rgb(var(--cover-card),.5);
     border: 2px solid rgb(var(--cover-LVib1),.5);
     border-radius: 15px;
@@ -1160,3 +1159,52 @@ border-radius: 7px;}
 #sgdb-wrap #images-container .asset-box-wrap .image-wrap.type-logo{
 .thumb img,.thumb img{
     border-radius: 0px!Important;}}
+
+
+/* ==========================================.............................................
+   ==========================================............................................. 
+    quick access (right side menu)
+-----------------------------------------------======================================== 
+-----------------------------------------------======================================== */
+/*bg and border radius*/ 
+.V0cr-SAnDhzAWmPZdrJQJ{border-radius: 15px 0px 0px 15px;
+background: rgb(var(--cover-DVib1),.7);}
+/*border between icons and main*/ 
+._3Ag1wVkrYOaZyOUNWGLf3Y::after{
+    background: color-mix(in srgb, rgb(var(--cover-LVib1),.5) 55%, rgba(255, 255, 255, 0.2) 45%);}
+/*icon focus transition*/ 
+@keyframes _2YeD3ssgsSnvTv7ns3TJxH{
+0% {background: #0000;
+      animation: rotate-gradient 30s cubic-bezier(.33,.48,.63,.47) infinite!important;
+      background-size: 450%!important;
+      background-image: linear-gradient(var(--rotate),  rgb(var(--cover-LVib1), 1),  rgb(var(--cover-LVib2), 1))!important;
+      box-shadow:  inset 0px 0px 1em rgb(var(--cover-LVib2), .5);
+      color: #000000;}
+100% {
+    background: #0000;
+    animation: rotate-gradient 30s cubic-bezier(.33,.48,.63,.47) infinite!important;
+    background-size: 450%!important;
+    background-image: linear-gradient(var(--rotate),  rgb(var(--cover-LVib1), 1),  rgb(var(--cover-LVib2), 1))!important;
+    box-shadow:  inset 0px 0px 1em rgb(var(--cover-LVib2), .5);
+    color: #000000;}}
+@keyframes _2dyj6SNu79q4w35u3hWY--{
+0% {background: rgb(var(--cover-DVib1),.7);
+      color: color-mix(in srgb, rgb(var(--cover-LVib1)) 65%, white 35%)}
+100% {background: #0000;
+      animation: rotate-gradient 30s cubic-bezier(.33,.48,.63,.47) infinite!important;
+      background-size: 450%!important;
+      background-image: linear-gradient(var(--rotate),  rgb(var(--cover-LVib1), 1),  rgb(var(--cover-LVib2), 1))!important;
+      box-shadow:  inset 0px 0px 1em rgb(var(--cover-LVib2), .5);
+      color: #000000;}}
+/*left-icons*/ 
+._1S76C3gQf4oOTbLdTMVH0m{
+    color: color-mix(in srgb, rgb(var(--cover-LVib1)) 65%, white 35%)}
+/*header*/ 
+._34nl5vUoFCDYYnmHNL7axB{
+background: #0000;
+box-shadow: none;
+color: color-mix(in srgb, rgb(var(--cover-LVib1)) 55%, white 45%)}
+
+/*friends tab*/ 
+.GamepadMode.friendlist,.multiChatDialog.GamepadMode, .GamepadMode .multiChatDialog,._1osHa9KHOmdCDNrA232z4N.GamepadMode, .GamepadMode ._1osHa9KHOmdCDNrA232z4N{
+    background: #0000;}
