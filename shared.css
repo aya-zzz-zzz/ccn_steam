@@ -1328,10 +1328,11 @@ div._1RN_UxDCIp9wCvlh0m7OL5.Panel > svg > path{
     ._23IDiI-F_FxXotrgpY71r8{background-color: rgb(var(--cover-DVib1)); margin-bottom: 0px; border-radius: 0px;}}
 ._12NNtyso3nbzJGi2XxHzcN{
     border-radius: 15px 0px 0px 15px;
-    transform: translateX(3px);
+    transform: translateX(2px);
     border-left: none;
+    border-image-source: linear-gradient(145deg, rgb(2 147 255 / 0%), rgb(38 255 2 / 0%) 50%, rgb(var(--cover-card2),.8));
     background: linear-gradient(to bottom, 
-    rgb(var(--cover-card2)) 0%, rgb(var(--cover-card)) 30%,
+    rgb(var(--cover-card2),.59) 0%, rgb(var(--cover-card)) 30%,
     rgb(var(--cover-DVib1))    78%, rgb(var(--cover-DVib1)) 100%);}
 ._12NNtyso3nbzJGi2XxHzcN:before{
     background: radial-gradient(circle at 50% 50%,
@@ -1348,5 +1349,5 @@ div._1RN_UxDCIp9wCvlh0m7OL5.Panel > svg > path{
     background-image: radial-gradient(ellipse at center, rgb(var(--cover-card)), rgb(var(--cover-DVib1)));}
 .sfthxkhui6WSgvnbllI_n{
     background-color: #0000;
-    background-image: none;
-}
+    background-image: none;}
+[class="_3Il1BD4p9lccpjISQKhR1X"]{filter: sepia(1) hue-rotate(var(--sephue));}
