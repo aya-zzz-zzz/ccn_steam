@@ -23,6 +23,8 @@
 ._1yWgPveQ73QeYCdLcs6oFQ ._3grvnr9zzkvx6NoBOdmTnf, ._1yWgPveQ73QeYCdLcs6oFQ ._2RkIcXHXACX4EdBluR3nAH, ._1yWgPveQ73QeYCdLcs6oFQ ._1S3Q9rK5wn6PAIXII0mBz4,
 
 .Evi7gq_iuz9HbjzrCjgUG ._3lI6DwiNJMGRe0rZNDFIw,.Evi7gq_iuz9HbjzrCjgUG .LRVqOMfI5WTkpNe1dAnmZ,._3pteVMTgNRdIzZreR6HnTp,._1ui4IlLDo2hf32UFCezr1t,._1W1to_azoBRG95oNAFpf9Q
+
+,._2LWo2qq9d-zuglW2VlM_Xu ._35T9nZ2RsVs8kf7OMPlaxe
 {color: rgb(var(--text1))}
 ._1yWgPveQ73QeYCdLcs6oFQ ._1OhPtd0sU2yzZwckCTGRNC svg,/*gameview icons to match text*/
  ._1yWgPveQ73QeYCdLcs6oFQ ._1OhPtd0sU2yzZwckCTGRNC path, ._1yWgPveQ73QeYCdLcs6oFQ ._1R6Oubrk1mRaGQf56EQwd4 svg, ._1yWgPveQ73QeYCdLcs6oFQ ._1R6Oubrk1mRaGQf56EQwd4 path, ._1yWgPveQ73QeYCdLcs6oFQ .QL3AayCY6oJkK95jwGibN svg, ._1yWgPveQ73QeYCdLcs6oFQ .QL3AayCY6oJkK95jwGibN path{
@@ -32,6 +34,7 @@ fill: rgb(var(--text1))}
 
 ._2sCvZTD6ZTZz3p9_ekH_gI ._1r3ouwFT2-tsTAcnXYZ6NU ._3nx-k9xXUVgejG1BIAc84r,.Ayu--dDVVaKmP2gNYPAQ0 ._1iulCOMUxV6sBbqoKo_yXw,.sv3ZHPWbrD7yjwx5Mi3u5 ._1dHjjSl-57o1KQsQ1m1HSA,._1SyggnJY6qbRSmbZpkK3-H,
 .sv3ZHPWbrD7yjwx5Mi3u5,.BasicUI ._1zv2D9H37p5yuOJNsCemS3 ._1nCT-M7nZcoNzedbVzbXha,._117rQTHH1RIewY7sSlvg3Z,.qq2xItSXjpCsNrcxyPJtO ._1CGnw50aAma6AYKF51Qzsm,.BasicUI ._2LWo2qq9d-zuglW2VlM_Xu,._1SyggnJY6qbRSmbZpkK3-H ._2ns4wnmgr4XBzARpwn2NZ1 ._3WavcSX0NkHlBh5fICWKyB,
+.Rgy-7t7i1Yv97qhWQae7K,
 
 ._3ZUP3RJr6PRn6IzODoxZDx{
     color: rgb(var(--text1),.7)}
@@ -593,7 +596,7 @@ box-shadow: inset 0px 0px 20em rgb(var(--cover-DVib1),.15);}
     .LibriMVXcLl1HB60ZUp78{background: none; background-color: rgb(var(--cover-card));box-shadow: inset 0px 0px 22em rgb(var(--cover-card2));}
 .fGDsmh9vz8h0RMEoRoAvF._3cX_vEKsN9S9EmR0O5w1Ol /*image filter*/{
     filter: blur(32px) sepia(1) hue-rotate(var(--sephue)) brightness(.5) opacity(.5);}
-    ._29bW1yCn25VTm4bFameBaV,._1-MBEyCblWLDI_ymHW40W8 ._2yt71EY8-YdWa8dBEE1DAW,._1bZTWHCV-uVaS5pEQLn-0Z{color: rgb(var(--newblue))}/*text*/
+    ._29bW1yCn25VTm4bFameBaV,._1-MBEyCblWLDI_ymHW40W8 ._2yt71EY8-YdWa8dBEE1DAW,._1bZTWHCV-uVaS5pEQLn-0Z,._1f0dZzzkepidbFYKDYcvUS{color: rgb(var(--newblue))}/*text*/
     ._3fsjzvni7TQ1NphLHM_5r3{color: rgb(var(--cover-LVib1))}
     ._3zwBRDW1egliiT4pKYIXap,._-85o5-M_cGo-fefOuWwER .xsBpzsjWWv0lqaQr0yzrG,.BasicUI ._-85o5-M_cGo-fefOuWwER ._23Pup1qLf91kwjALd-jFGc,._39nnaT_CLE0m_WXVIrAwaG ._515RL2DZmyqkYq3yOP_m7 ._25wbocZtxiwZhUeWpm1pWF ._2310BE4LDI9G7LhkIKV0xI
     {color: white}
@@ -900,6 +903,10 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton.gpfocus.Primary, button.cXzBZxhPBl7fZs
 /* ==========================================.............................................
     controller settings
 -----------------------------------------------======================================== */
+._1gbYTRKOuSbpYyaZAgKwkA{background: rgb(var(--cover-LVib2),.4);
+    border-radius: 3px;
+}
+
 ._2fl-TfpJcuSi88OkNwGOCb,._1xfC8oO6JVNnioU1NPTN9s ._38ea5_wDu5ekK5O8kShRrf ._2-E4it_HPj0sp_1ugoLYp0
 {color: rgb(var(--text1))}
 ._1L7YnMgAtYrMlCCKSzrBjN{color: white;}
@@ -1122,3 +1129,18 @@ svg > path{fill: color-mix(in srgb, var(--but2) 10% ,rgb(0, 0, 0) 90%)  !importa
     border-radius: 15px;
     backdrop-filter: blur(2em) saturate(3) brightness(1.5)}
 ._1dbgUdk0xgEX7E4Db_r5mb{background: #0000;}
+/* ==========================================.............................................
+    plugin corner
+-----------------------------------------------======================================== */
+/*steamgriddb bg*/ 
+#sgdb-wrap{background: #0000;}
+
+#sgdb-wrap .spinnyboi > img, #sgdb-wrap .spinnyboi.loaded > img {
+    filter: sepia(1) hue-rotate(var(--sephue)) saturate(2)}
+#sgdb-wrap #images-container .asset-box-wrap .image-wrap.type-logo > .thumb, #sgdb-wrap #images-container .asset-box-wrap .image-wrap.type-icon > .thumb{
+    background: #0000;
+    animation: rotate-gradient 30s cubic-bezier(.33,.48,.63,.47) infinite;
+    background-size: 450%;
+    background-image: linear-gradient(var(--rotate),  rgb(var(--cover-LVib1), .6),  rgb(var(--cover-LVib2), .6));;
+    box-shadow:  inset 0px 0px 2em rgb(var(--cover-LVib2), .7);
+}
