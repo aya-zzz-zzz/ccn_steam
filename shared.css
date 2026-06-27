@@ -210,7 +210,7 @@ svg > rect{fill: color-mix(in srgb, rgb(var(--cover-Vib1), 1)15% , rgb(0, 0, 0) 
     color: rgb(var(--cover-DVib1));}}
 
 #header > div._17M8gvakqjyaw_cLo6ntdl.NMb_F0Q2lf6akyzaZBfLt._1bmuJRkMBGcApfJwlj_k-F._2YxXntwjdsceSnfMRClWHG.Panel > svg._2Ya83QVfgqLema1GlOi9_C._1l8jsSJRozEnzlhm5Q2m7U > path{
-    fill: rgb(3, 0, 25)}
+    fill: rgb(0, 0, 0)}
 
 /*full battery (test)*/ 
 
@@ -218,10 +218,10 @@ svg > rect{fill: color-mix(in srgb, rgb(var(--cover-Vib1), 1)15% , rgb(0, 0, 0) 
 
 
 #header > div._2HnVd7wV6yVaTiXfrBe3gq._8sPcK-HDVUh0QbFshamLa._1_6kL0vUt78Sy-ZAp63E3e.Panel > div > div > svg > path:nth-child(3)
-{fill: rgb(var(--newgreen))}
+{fill: #000}
 [class="_2HnVd7wV6yVaTiXfrBe3gq _8sPcK-HDVUh0QbFshamLa _1_6kL0vUt78Sy-ZAp63E3e Panel Focusable gpfocus gpfocuswithin"]{
  div > div > svg > path:nth-child(3){
-fill: rgb(0, 0, 0)!important;}
+fill: rgb(var(--newgreen))!important;}
 }
 /* ==========================================.............................................
     recently played
