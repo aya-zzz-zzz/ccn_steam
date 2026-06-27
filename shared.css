@@ -200,10 +200,13 @@ fill: rgb(var(--text1))}
 #header {
 /*battery health indicator*/
 svg > rect{fill: color-mix(in srgb, rgb(var(--cover-Vib1), 1)60% , rgb(255, 255, 255) 40%) ; transition: 60ms;}
+/*full battery (test)*/ 
+#header > div._2HnVd7wV6yVaTiXfrBe3gq._8sPcK-HDVUh0QbFshamLa._1_6kL0vUt78Sy-ZAp63E3e.Panel > div > div > svg > path:nth-child(3){
+fill: black;}
 /*hovered icon*/
 ._2HnVd7wV6yVaTiXfrBe3gq.gpfocus, ._2HnVd7wV6yVaTiXfrBe3gq.gpfocuswithin {
     svg > rect{fill: color-mix(in srgb, rgb(var(--cover-Vib1), 1)15% , rgb(0, 0, 0) 85%) ; transition: 150ms;}
-    #header > div._2HnVd7wV6yVaTiXfrBe3gq._8sPcK-HDVUh0QbFshamLa._1_6kL0vUt78Sy-ZAp63E3e.Panel > div > div > svg > path:nth-child(3){
+    div._2HnVd7wV6yVaTiXfrBe3gq._8sPcK-HDVUh0QbFshamLa._1_6kL0vUt78Sy-ZAp63E3e.Panel > div > div > svg > path:nth-child(3){
     fill: rgb(var(--newgreen));transition: 120ms;}
     animation: rotate-gradient 30s cubic-bezier(.33,.48,.63,.47) infinite;
     background-size: 450%;
@@ -212,10 +215,7 @@ svg > rect{fill: color-mix(in srgb, rgb(var(--cover-Vib1), 1)60% , rgb(255, 255,
     color: rgb(var(--cover-DVib1));}}
 #header > div._17M8gvakqjyaw_cLo6ntdl.NMb_F0Q2lf6akyzaZBfLt._1bmuJRkMBGcApfJwlj_k-F._2YxXntwjdsceSnfMRClWHG.Panel > svg._2Ya83QVfgqLema1GlOi9_C._1l8jsSJRozEnzlhm5Q2m7U > path{
     fill: white}
-/*full battery (test)*/ 
 
-#header > div._2HnVd7wV6yVaTiXfrBe3gq._8sPcK-HDVUh0QbFshamLa._1_6kL0vUt78Sy-ZAp63E3e.Panel > div > div > svg > path:nth-child(3){
-fill: black;}
 
 
 
