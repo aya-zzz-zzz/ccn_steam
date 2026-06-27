@@ -1267,24 +1267,24 @@ div._1VRx9qVxigUC4qeM0NWNMR > svg > path:nth-child(3){
 }
 
 
-[class="BasicUI GamepadMode gbo6EORF-ApmV-2TYgZPr _1LWDGJZGtEiAR1kwL94f5Q WideWindow"]
+
 
 
 [class="QsvsRVwbsApgKt1MhM0fz l25AfossKXBOZGYoty0tM WindowFocus"]{
 ._3A5ujtARm6atH4phJ5i1i6>._16sYNwqxz6giarbVaRUl7R {
-    background-color: rgb(var(--cover-card), 1);
-    border-radius: 15px;
+  background-color: rgb(var(--cover-card), 1)!important;
+
 }}
 
 [class="_3LYP1SIxyoky-yW9Ug_1fq _3vBmcbg6WSKb3WjBjg_8KO"]{
     ._3A5ujtARm6atH4phJ5i1i6>._16sYNwqxz6giarbVaRUl7R {
-    background-color: rgb(var(--cover-card), 1);
-    border-radius: 15px;
+  background-color: rgb(var(--cover-card), 1)!important;
+  
 }}
 
 [class="ModalOverlayContent active"]{
      ._3A5ujtARm6atH4phJ5i1i6>._16sYNwqxz6giarbVaRUl7R {
-    background-color: rgb(var(--cover-card), 1);
-    border-radius: 15px;
+    background-color: rgb(var(--cover-card), 1)!important;
+   
 }
 }
