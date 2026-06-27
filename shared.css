@@ -1076,7 +1076,7 @@ svg > path{fill: color-mix(in srgb, var(--but1) 10% ,rgba(255, 255, 255, 0.7) 90
 svg > path{fill: color-mix(in srgb, var(--but2) 10% ,rgba(255, 255, 255, 0.7) 90%)  !important;}
 }
 ._34o03-8cUc3fQX1u650c0L._2XVTVAadkIvrBujZYN5jbL._2awU7ejQ3Qs_g0XnuSmgOP, ._34o03-8cUc3fQX1u650c0L._2XVTVAadkIvrBujZYN5jbL.Download, ._34o03-8cUc3fQX1u650c0L._2XVTVAadkIvrBujZYN5jbL.Update, ._34o03-8cUc3fQX1u650c0L._2XVTVAadkIvrBujZYN5jbL.PreLoad, ._34o03-8cUc3fQX1u650c0L._2XVTVAadkIvrBujZYN5jbL.Install, ._34o03-8cUc3fQX1u650c0L._2XVTVAadkIvrBujZYN5jbL.Pause {
-    box-shadow: 0px 0px 1em rgb(var(--cover-LVib2),.4);
+    box-shadow: 0px 0px .2em rgb(var(--cover-LVib2),.4);
     filter: brightness(1.25);
     color: black!important;
     background-color: #0000;
@@ -1103,13 +1103,22 @@ svg > path{fill: color-mix(in srgb, var(--but2) 10% ,rgb(0, 0, 0) 90%)  !importa
 ._34o03-8cUc3fQX1u650c0L .SVGIcon_PlusCircle line{
    filter: brightness(0);
 }}
+._34o03-8cUc3fQX1u650c0L._2XVTVAadkIvrBujZYN5jbL._1HXm3O7vOzyuTFDaKPNUxy, ._34o03-8cUc3fQX1u650c0L._2XVTVAadkIvrBujZYN5jbL.Stop, ._34o03-8cUc3fQX1u650c0L._2XVTVAadkIvrBujZYN5jbL.Cancel{
+    background: rgb(var(--newred));
+    color: black;
+    box-shadow: none;
+}
 
 /*download popup*/  
 ._3A5ujtARm6atH4phJ5i1i6>._16sYNwqxz6giarbVaRUl7R {
-    margin: auto;
+ ._2xfEFASY3upHap7ykUbzlU ._2fRwXrDjTiH3VVBTa1WNDd svg{
+    color: rgb(var(--cover-LVib1),.8)
+ }
+
+
+   margin: auto;
     background-color: rgb(var(--cover-card),.5);
     border: 2px solid rgb(var(--cover-LVib1),.5);
     border-radius: 15px;
-    margin-bottom: 2em;
     backdrop-filter: blur(2em) saturate(3) brightness(1.5)}
 ._1dbgUdk0xgEX7E4Db_r5mb{background: #0000;}
