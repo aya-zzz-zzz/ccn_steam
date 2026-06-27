@@ -184,7 +184,7 @@ fill: rgb(var(--text1))}
     top bar
 -----------------------------------------------======================================== */
 /*removes pfp effect*/
-[class="_3fM0F85j3aWVzr4RJM9-eu"]{display: none;}
+[class="_3fM0F85j3aWVzr4RJM9-eu"],.N8aJrSpxQ6II4CY_aFdYI{display: none;}
 /*downloading bar*/
 ._2ssr3-L3TQNdrX6NI1-Gzn ._1PbL3TgQGIsmPs2HZkpCkb .vo3Tt3EsYkcybM5oKH4Lq .AK_Ax_siTCH1_LT3APMlx,.BasicUI ._25YVDTaClw6Y2COPsU0UaV ._1FnTqlsi2_-TJf1d5apoS6{
     background-color: color-mix(in srgb, rgb(var(--cover-Vib1), 1)60% , rgb(255, 255, 255) 40%) ;}
@@ -1136,8 +1136,8 @@ svg > path{fill: color-mix(in srgb, var(--but2) 10% ,rgb(0, 0, 0) 90%)  !importa
 #sgdb-wrap{background:rgb(var(--cover-DVib1))!important ;}
 #sgdb-wrap #images-container .asset-box-wrap .image-wrap{background: color-mix(in srgb, rgb(var(--cover-card2)) 10%, rgb(var(--cover-DVib1)) 90%)!important;border-radius: 7px;
 box-shadow: inset 0px 0px 6em color-mix(in srgb, rgb(var(--cover-card2),.2) 80%, rgba(255, 255, 255, 0.2) 20%) ;}
-#sgdb-wrap .spinnyboi > img, #sgdb-wrap .spinnyboi.loaded > img,._3sa1NXudhvcc1U7HrlLdNQ img {
-    filter: sepia(1) hue-rotate(var(--sephue)) saturate(2)}
+#sgdb-wrap .spinnyboi > img, #sgdb-wrap .spinnyboi.loaded > img,._3sa1NXudhvcc1U7HrlLdNQ img,#sgdb-wrap #images-container .asset-box-wrap .dload-overlay > img {
+    filter: sepia(1) hue-rotate(var(--sephue)) saturate(1.5)}
 #sgdb-wrap #images-container .asset-box-wrap .image-wrap.type-logo > .thumb, #sgdb-wrap #images-container .asset-box-wrap .image-wrap.type-icon > .thumb{
     background: rgb(var(--cover-DVib1))!important;
     animation: rotate-gradient 30s cubic-bezier(.33,.48,.63,.47) infinite!important;
@@ -1150,10 +1150,11 @@ border-radius: 7px;}
     background: rgb(var(--cover-DVib1)) !important; }
 #sgdb-wrap #images-container .asset-box-wrap .image-wrap:hover{
     outline-color: rgb(var(--cover-LVib1),.7)!important;}
-#sgdb-wrap #images-container .asset-box-wrap .image-wrap > .thumb img, #sgdb-wrap #images-container .asset-box-wrap .image-wrap > .thumb video{
-    border-radius: 7px;}
+#sgdb-wrap #images-container .asset-box-wrap .image-wrap > .thumb img, #sgdb-wrap #images-container .asset-box-wrap .image-wrap > .thumb video,
+#sgdb-wrap #images-container .asset-box-wrap .dload-overlay
+{border-radius: 7px;}
 #sgdb-wrap #images-container .asset-box-wrap .chips{
-    top:3.5px!important}
+    top:3px!important}
 #sgdb-wrap #images-container .asset-box-wrap .image-wrap.type-logo{
 .thumb img,.thumb img{
     border-radius: 0px!Important;}}
