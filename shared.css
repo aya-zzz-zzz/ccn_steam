@@ -1123,8 +1123,10 @@ svg > path{fill: color-mix(in srgb, var(--but2) 10% ,rgb(0, 0, 0) 90%)  !importa
  ._2xfEFASY3upHap7ykUbzlU ._2fRwXrDjTiH3VVBTa1WNDd svg{
     color: rgb(var(--cover-LVib1),.8)}
     margin: auto;
+    background-color: rgb(var(--cover-card),.5);
     border: 2px solid rgb(var(--cover-LVib1),.5);
-    border-radius: 15px;}
+    border-radius: 15px;
+    backdrop-filter: blur(2em) saturate(3) brightness(1.5)}
 ._1dbgUdk0xgEX7E4Db_r5mb{background: #0000;}
 /* ==========================================.............................................
     plugin corner
@@ -1275,10 +1277,8 @@ div._1VRx9qVxigUC4qeM0NWNMR > svg > path:nth-child(3){
         background-color: rgb(var(--cover-card), 1) !important;
     }
 }
-
-[class="_3LYP1SIxyoky-yW9Ug_1fq b084mAvY8rgVMr3H04g9g"]{
+[class="BasicUI GamepadMode gbo6EORF-ApmV-2TYgZPr MediumWindow"]{
      ._3A5ujtARm6atH4phJ5i1i6>._16sYNwqxz6giarbVaRUl7R {
-        background-color: rgb(var(--cover-card),.7) !important;
-        backdrop-filter: blur(2em) saturate(3) brightness(1.5);
+        background-color: rgb(var(--cover-card), 1) !important;
     }
 }
