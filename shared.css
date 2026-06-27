@@ -1325,6 +1325,16 @@ div._1RN_UxDCIp9wCvlh0m7OL5.Panel > svg > path{
 
 
 [class="_23IDiI-F_FxXotrgpY71r8 _3apLK4XGwOjawDa-8X1CUa Panel Focusable gpfocuswithin"]{
-  
-    ._23IDiI-F_FxXotrgpY71r8{background-color: rgb(var(--cover-DVib1)); margin-bottom: 0px;}
-  }
+    ._23IDiI-F_FxXotrgpY71r8{background-color: rgb(var(--cover-DVib1)); margin-bottom: 0px; border-radius: 0px;}}
+._12NNtyso3nbzJGi2XxHzcN{
+    background: linear-gradient(to bottom, 
+    rgb(var(--cover-card2)) 0%, rgb(var(--cover-card)) 30%,
+    rgb(var(--cover-DVib1))    78%, rgb(var(--cover-DVib1)) 100%);}
+._12NNtyso3nbzJGi2XxHzcN:before{
+    background: radial-gradient(circle at 50% 50%,
+     rgb(var(--cover-LVib1),.35) 0%,
+      rgb(var(--cover-LVib2),.1) 43%,
+      rgba(255, 255, 255, 0) 66%);}
+.sfthxkhui6WSgvnbllI_n,.RAI0lLN8sCtqCMI36rLiB._3moC2HsDsMTWYCzhAnW4tu{
+    background-color: rgb(var(--cover-DVib1));
+    background-image: radial-gradient(ellipse at center, rgb(var(--cover-card)), rgb(var(--cover-DVib1)));}
