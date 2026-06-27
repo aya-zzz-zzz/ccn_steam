@@ -1255,9 +1255,11 @@ div._1VRx9qVxigUC4qeM0NWNMR > svg > path:nth-child(3){
 
 
 [class="BasicUI _3DHXr5yONRuNdsrNwBiEm5 _-6ESh2T8Qc_pZPgOLBhZJ _2m0zlP8eZ_9SlQsO52oxql"]
-{background: rgb(var(--cover-DVib1));
+{background: rgb(var(--cover-DVib1),.99);
+box-shadow: inset 99em rgb(var(--cover-DVib1),.99);
     margin-bottom: 20px;
     margin-top: 20px;
+    border-radius: 15px 0px 0px 15px;
 }
 
 
