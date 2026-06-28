@@ -1231,10 +1231,14 @@ div._3lDczhulqraStjCitLYJ1K._2l416KfEtI4CL0mCUEmOBw._3FmxxjyWNHU1PrBGnBe6tm > di
 div.playerBadge > button > div > svg{
     fill: rgb(var(--cover-LVib1))!important;}
 
+div.playerBadge > button:focus{
+    outline: rgb(var(--cover-LVib1)) solid 2.5px !important;
+    box-shadow: 0px 0px 1em rgb(var(--cover-DVib1),.2)!important;
+    transition: 0ms !important; }
 div.playerBadge > button:focus-visible{
     outline: rgb(var(--cover-LVib1)) solid 2.5px !important;
     box-shadow: 0px 0px 1em rgb(var(--cover-DVib1),.2)!important;
-    transition: 500ms !important; }
+    transition: 0ms !important; }
 /*hltb*/
 .hltb-info-clean-default{
     background: color-mix(in srgb, rgb(var(--cover-card2),.7) 40%, rgb(var(--cover-card),.7) 60%)!important;
