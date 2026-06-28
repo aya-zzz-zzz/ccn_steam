@@ -105,6 +105,12 @@ fill: rgb(var(--text1))}
 
 
 
+
+
+
+
+
+
 /* ==========================================.............................................
     Centered Game Text
    -----------------------------------------------======================================== */
@@ -376,9 +382,10 @@ path{fill: color-mix(in srgb, rgb(var(--cover-DVib2), 1)90% , rgba(0, 0, 0, 1) 1
 /*header bg*/
 ._3IBLc81yyL08OJ7rfKtF00._2DyJbqMHOMZgSTh2g1UL8s ._2JobstxtZVYF3078DblN2M:not(._1jNhbFODJy7sNdcnEeZkz4)::before,
 ._3IBLc81yyL08OJ7rfKtF00._31ZleDJpmmVr6YwR5VLHiu ._2JobstxtZVYF3078DblN2M::before, ._2JobstxtZVYF3078DblN2M._1jNhbFODJy7sNdcnEeZkz4::before {
-   
-    background: rgb(var(--cover-card),.9);
-    backdrop-filter: blur(20px);}
+   transform: translatey(-1px);
+    background-color: rgb(var(--cover-card),.0);
+    background-image: radial-gradient(ellipse at top center, rgb(var(--cover-card),.75) 0%, rgb(var(--cover-card),.8)  60%, color-mix(in srgb, rgb(var(--cover-card2),.85) 50%, rgb(var(--cover-card),.85) 50%) 85%, rgb(var(--cover-card2),.9) 100%);
+   }
 
 ._38sNQt6oEVaeO9D-gI_Lhl._15VplG8ZhNCYs8IUwaufpO.mHKj-UeGQdjT9lC0rOGdq{background-color: rgb(var(--newgreen));path{fill: black} transition: 0ms;}
 ._38sNQt6oEVaeO9D-gI_Lhl._15VplG8ZhNCYs8IUwaufpO ._1AWi083XV4SMCpq1RXuDO-{color: black; transition: 0ms;}
