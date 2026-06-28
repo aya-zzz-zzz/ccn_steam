@@ -84,9 +84,12 @@ fill: rgb(var(--text1))}
 
 /* (by aya) shoves the background up a little so if the header doesn't show up there's not just like a bunch of shit there */
 .BasicUI ._2-ns_GqXzymHk0jsXBBWJ1{transform: translateY(3em); padding-bottom: 3em;}
-
+#Main > div > div._1iKmxBdl6hxX7tJdDfn_uB > div > div > div._3VQUewWB8g6Z5qB4C7dGFr._2iE-78WxX2Pj4GHbq7YJiA > div._3lDczhulqraStjCitLYJ1K._2l416KfEtI4CL0mCUEmOBw._3FmxxjyWNHU1PrBGnBe6tm > div > div._1_cYNJSvS6IXs9vLTEYjy5.Panel > div > div._3fp5y6tdU77MdrCQZt_aS9.Panel > div._2-ns_GqXzymHk0jsXBBWJ1.Panel > div > div.WDa0_WKNSWIa38S26gl_T._3I3IMjI1KLE-MxCViJ_6Np.Panel > div > div{
 /* forces community tab content to stick to the bottom of the page, potentially fixes issue w/ og CGV but we testing it */
-._1X4dtbZ_AMX_DXT-SGiK01{bottom: 0;position: fixed;}
+  position: fixed;
+  bottom: 0;
+}
+
 /* ==========================================.............................................
     Centered Game Text
    -----------------------------------------------======================================== */
@@ -594,7 +597,7 @@ svg > path{fill: color-mix(in srgb, var(--but2) 10% ,rgb(0, 0, 0) 90%)  !importa
 
 /*game controls / settings buttons*/
 .BasicUI ._3qDWQGB0rtwM3qpXTb11Q-.Focusable,._3x31AgESSlUqX3D4MTHv2m ._37e7DrDNmf1FmsMGA5y0A0 ._2JSyABqFEh-v_dwaTnBydR.bGfjajFo4DI-ULSQxw1KY{
-    background: rgb(var(--cover-card2));
+    background: color-mix(in srgb, rgb(var(--cover-card2),.175) 50%, rgba(255, 255, 255, 0.175) 50%);
     box-shadow: inset 0px 0px 2em rgba(255, 255, 255, 0.06), 0px 0px .9em rgba(0, 0, 0, 0.16);
     border-radius: 6px;
     transition: 0ms;
