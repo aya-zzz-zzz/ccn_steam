@@ -86,7 +86,7 @@ fill: rgb(var(--text1))}
 .BasicUI ._2-ns_GqXzymHk0jsXBBWJ1{transform: translateY(3em); padding-bottom: 3em;}
 
 /* forces community tab content to stick to the bottom of the page, potentially fixes issue w/ og CGV but we testing it */
-._1X4dtbZ_AMX_DXT-SGiK01{bottom: 0}
+._1X4dtbZ_AMX_DXT-SGiK01{bottom: 0;position: fixed;}
 /* ==========================================.............................................
     Centered Game Text
    -----------------------------------------------======================================== */
@@ -595,6 +595,7 @@ svg > path{fill: color-mix(in srgb, var(--but2) 10% ,rgb(0, 0, 0) 90%)  !importa
 /*game controls / settings buttons*/
 .BasicUI ._3qDWQGB0rtwM3qpXTb11Q-.Focusable,._3x31AgESSlUqX3D4MTHv2m ._37e7DrDNmf1FmsMGA5y0A0 ._2JSyABqFEh-v_dwaTnBydR.bGfjajFo4DI-ULSQxw1KY{
     background: rgb(var(--cover-card2));
+    box-shadow: inset 0px 0px 2em rgba(255, 255, 255, 0.06), 0px 0px .9em rgba(0, 0, 0, 0.16);
     border-radius: 6px;
     transition: 0ms;
 }
@@ -926,6 +927,7 @@ img{
 ._7EGqd8bdiXJBd2fj5Hh8r.MYyvJ6lNQZtM4MHwS-Y3g,
 button.cXzBZxhPBl7fZs9LODEnc.DialogButton, button.cXzBZxhPBl7fZs9LODEnc.DialogButton.Primary, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled.Primary, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:active, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:active.Primary, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled:active:hover, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled:active:hover.Primary{
     background: rgb(var(--cover-card2));
+    box-shadow: 0px 0px 1em color-mix(in srgb, rgb(var(--cover-card)) 85%, black 15%), inset 0px 0px 1.5em rgba(255, 255, 255, 0.04);
     color: white;
     border-radius: 6px;}
 .BasicUI ._3Z54cf1bu_s_rPX-HtZ73M, .BasicUI ._3Z54cf1bu_s_rPX-HtZ73M:enabled{
@@ -1046,8 +1048,7 @@ stop:nth-child(2){stop-color: color-mix(in srgb, rgb(var(--cover-LVib1)) 90%, rg
     background-color: rgb(var(--cover-card2),.7);}
 ._2luCNihqvaHXeE1nGg0AXj.gpfocus{
        background: color-mix(in srgb, rgb(var(--cover-LVib1)) 50%, rgb(var(--cover-Vib1)) 50%);
-    color: rgb(var(--cover-DVib1));
-}
+    color: rgb(var(--cover-DVib1));}
 .gpfocus ._1dzOHECUtTrYr0AdBzvYZg{color: black;}
 ._2luCNihqvaHXeE1nGg0AXj.Gp6XGVynhqerKkZQrWoeo {
     color: rgb(var(--cover-LVib1));;
@@ -1059,6 +1060,16 @@ stop:nth-child(2){stop-color: color-mix(in srgb, rgb(var(--cover-LVib1)) 90%, rg
 }
 ._3XAvqbR9DJNn4oQ0U7VE-v{
     color: rgb(var(--text1),.7);
+}
+._2luCNihqvaHXeE1nGg0AXj._2v9eLFWF0ktRTlXWzGMij1{
+     border-image-slice: 1;
+    color: rgb(var(--cover-LVib1));;
+    border-left: 2px solid transparent;
+    border-image-source: linear-gradient(180deg, rgb(var(--cover-Vib2)), rgb(var(--cover-Vib1)));
+    background: linear-gradient(90deg, rgb(var(--cover-card2),.5) 0%, rgb(var(--cover-card2)) 20%);}
+._2luCNihqvaHXeE1nGg0AXj._2v9eLFWF0ktRTlXWzGMij1:focus{
+     background: color-mix(in srgb, rgb(var(--cover-LVib2)) 50%, rgb(var(--cover-Vib2)) 50%);
+     border-image-source: linear-gradient(180deg, rgb(var(--cover-LVib1)), rgb(var(--cover-Vib1)));
 }
 
 /* ==========================================.............................................
@@ -1113,14 +1124,21 @@ stop:nth-child(2){stop-color: color-mix(in srgb, rgb(var(--cover-LVib1)) 90%, rg
     fill:rgb(var(--text1));}
 ._34o03-8cUc3fQX1u650c0L .SVGIcon_PlusCircle line{
     stroke: rgb(var(--text1));}
-
+.oZw50c4oJ6-r0HP8UWv25{ padding: .2em;}
 ._34o03-8cUc3fQX1u650c0L{
     font-weight: 500;
     background: color-mix(in srgb, rgb(var(--cover-card2),.8) 95%, white 5%);
     margin-bottom: 3px;
     border-radius: 10px;
+    box-shadow: inset 0px 0px 2em rgba(255, 255, 255, 0.06), 0px 0px .2em rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(2em) saturate(3) brightness(1.5);}
-
+/*selected option*/
+._34o03-8cUc3fQX1u650c0L._3fVa8M_7D9Vjz28uYnahhd{
+    background: color-mix(in srgb, rgb(var(--cover-card2),1) 99%, white 1%);
+    color: rgb(var(--cover-LVib1));}
+._34o03-8cUc3fQX1u650c0L._3fVa8M_7D9Vjz28uYnahhd:focus{
+    background: linear-gradient(var(--rotate),  rgb(var(--cover-Vib1), 1),  rgb(var(--cover-Vib2), 1));
+    color: black}
     
 @media (prefers-contrast: no-preference) {#MainNavMenu-Rest .ixiWPQKqTMxnq43WgT3vj {display: none;}}
 
@@ -1132,7 +1150,7 @@ stop:nth-child(2){stop-color: color-mix(in srgb, rgb(var(--cover-LVib1)) 90%, rg
     box-shadow:  inset 0px 0px 2em rgb(var(--cover-LVib2), .7);
 .SVGIcon_DownArrowContextMenu{
     fill:black}}
-.oZw50c4oJ6-r0HP8UWv25{margin-left: 4px;}
+.oZw50c4oJ6-r0HP8UWv25{margin-left: -.175em; filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0))}
 
 ._34o03-8cUc3fQX1u650c0L.Stream, ._34o03-8cUc3fQX1u650c0L.Connect, ._34o03-8cUc3fQX1u650c0L.Launch, ._34o03-8cUc3fQX1u650c0L.PlayMusic, ._34o03-8cUc3fQX1u650c0L.Play, ._34o03-8cUc3fQX1u650c0L.Resume, ._34o03-8cUc3fQX1u650c0L.BorrowApp {
     color: rgba(0, 0, 0, 0.9);
