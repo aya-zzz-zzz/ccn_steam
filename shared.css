@@ -107,7 +107,9 @@ fill: rgb(var(--text1))}
 
 
 
-
+._3IBLc81yyL08OJ7rfKtF00._31ZleDJpmmVr6YwR5VLHiu ._2JobstxtZVYF3078DblN2M::before{
+    height: 101px;
+}
 
 
 
@@ -420,7 +422,7 @@ path{fill: color-mix(in srgb, rgb(var(--cover-DVib2), 1)90% , rgba(0, 0, 0, 1) 1
     color-mix(in srgb, var(--but1) 60% ,rgb(255, 255, 255) 40%));
     border: 0;background-size: 220% 220%;animation: rotate-gradient 19s cubic-bezier(.29,.44,.67,.56) infinite; transition: 110ms!important;}
 /*header tab inactive*/
-._3eEbSktrstBdLk0dVpnKVI{transition: 0ms; background-color: rgb(var(--cover-card2),1);box-shadow: 0px 0px 1em rgba(0, 0, 0, 0.4);}
+._3eEbSktrstBdLk0dVpnKVI{transition: 0ms; background-color: rgb(var(--cover-card2),1);box-shadow: 0px 0px 1em rgba(0, 0, 0, 0.42), inset 0px 0px 1em rgba(255, 255, 255, 0.04);}
 /*main bg color for all tabs*/
 ._3LYP1SIxyoky-yW9Ug_1fq.b084mAvY8rgVMr3H04g9g{background: rgb(var(--cover-DVib1),1);}
 
