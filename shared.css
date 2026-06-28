@@ -45,74 +45,47 @@ fill: rgb(var(--text1))}
 .BasicUI ._3gwMkKp82bb5aZj4EeQnpi ._3CRLA2FFclTRCznNBgtiIH{
     color: color-mix(in srgb, rgb(var(--text1)) 38%, white 62%)}
 
+
 /* ==========================================.............................................
     Clean Gameview
    -----------------------------------------------======================================== */
 :root {
     --CGV-play-bar-height: 80px;
-    --CGV-top-panel-height: calc(100vh - var(--CGV-play-bar-height) - var(--CGV-footer-height));
-    --CGV-image-height: calc(100vh - var(--CGV-footer-height));
+    --CGV-play-bar-height: 80px;
 
     --CGV-footer-height: 0px;
     --CGV-play-anim-heigh: 100vh;
     --CGV-image-height: 100%;
-}
 
-:root {
-    --CGV-play-bar-height: 80px;
     --CGV-top-panel-height: calc(100vh - var(--CGV-play-bar-height) - var(--CGV-footer-height));
-    --CGV-image-height: calc(100vh - var(--CGV-footer-height));
-}
+    --CGV-image-height: calc(100vh - var(--CGV-footer-height));}
 
-.BasicUI .sharedappdetailsheader_TopCapsule_2meE3 {
-    height: var(--CGV-top-panel-height);
-}
+/* height of main gameview area */
+div._2gZXhRmKUk68pA28-5ZmGQ.tXlLvuTxOVL1w3aVPX4bm._6-WKlwpwjgMWFow-NM_W4{ 
+height: var(--CGV-top-panel-height);}
 
-.sharedappdetailsheader_HeaderBackgroundImage_1sarA {
-    height: var(--CGV-image-height);
-}
+/* height of gameview hero */
+.sharedappdetailsheader_HeaderBackgroundImage_1sarA {height: var(--CGV-image-height);}
 
-.BasicUI .sharedappdetailsheader_TopCapsule_2meE3.sharedappdetailsheader_FullscreenEnterStart_P7eLv {
-    animation-name: makethinggodown;
-    animation-duration: 21s;
-}
+/* idk some element behind the contenet or something */
+.sharedappdetailsheader_TitleSection_1P_tv {padding: 0;}
 
-.BasicUI .sharedappdetailsheader_TopCapsule_2meE3.sharedappdetailsheader_FullscreenEnterDone_1PRtu {
-    height: var(--CGV-play-anim-height);
-}
-
-.sharedappdetailsheader_TitleSection_1P_tv {
-    padding: 0;
-}
-
-.sharedappdetailsheader_SVGTitle_2w_Zq {
-    background: rgba(14,20,27,.5);
-    padding-top: 10px;
-    padding-left: 24px;
-    padding-bottom: 16px;
-    margin-bottom: -6px;
-    width: 100%;
-}
-
-@keyframes makethinggodown {
-    from {height: var(--CGV-top-panel-height);}
-    to {height: var(--CGV-play-anim-height);}
-}
+/* bg and bd filter for gameview play bar */
 .basicappdetailssectionstyler_PlaySection_3scbH,.sharedappdetailsheader_TitleSection_1P_tv {
     background: rgba(14,20,27,.33);
-    backdrop-filter: blur(8px);
-}
+    backdrop-filter: blur(8px);}
 
+/* (by aya) slight alterations of scroll-down header */
+._3IBLc81yyL08OJ7rfKtF00._2DyJbqMHOMZgSTh2g1UL8s ._2JobstxtZVYF3078DblN2M:not(._1jNhbFODJy7sNdcnEeZkz4)::before{
+    transform: translateY(-1px);
+    animation-duration: .15s;
+    height: 101px;}
 
+/* (by aya) shoves the background up a little so if the header doesn't show up there's not just like a bunch of shit there */
+.BasicUI ._2-ns_GqXzymHk0jsXBBWJ1{transform: translateY(3em); padding-bottom: 3em;}
 
-
-
-._3IBLc81yyL08OJ7rfKtF00._31ZleDJpmmVr6YwR5VLHiu ._2JobstxtZVYF3078DblN2M::before{
-    height: 101px;
-}
-
-
-
+/* forces community tab content to stick to the bottom of the page, potentially fixes issue w/ og CGV but we testing it */
+._1X4dtbZ_AMX_DXT-SGiK01{bottom: 0}
 /* ==========================================.............................................
     Centered Game Text
    -----------------------------------------------======================================== */
