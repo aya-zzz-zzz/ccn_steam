@@ -597,8 +597,8 @@ svg > path{fill: color-mix(in srgb, var(--but2) 10% ,rgb(0, 0, 0) 90%)  !importa
 
 /*game controls / settings buttons*/
 .BasicUI ._3qDWQGB0rtwM3qpXTb11Q-.Focusable,._3x31AgESSlUqX3D4MTHv2m ._37e7DrDNmf1FmsMGA5y0A0 ._2JSyABqFEh-v_dwaTnBydR.bGfjajFo4DI-ULSQxw1KY{
-    background: color-mix(in srgb, rgb(var(--cover-card2),.175) 50%, rgba(255, 255, 255, 0.175) 50%);
-    box-shadow: inset 0px 0px 2em rgba(255, 255, 255, 0.06), 0px 0px .9em rgba(0, 0, 0, 0.16);
+    background: color-mix(in srgb, rgb(var(--cover-card2),.125) 65%, rgba(255, 255, 255, 0.1) 35%);
+    box-shadow: inset 0px 0px 2em rgba(255, 255, 255, 0.05), 0px 0px .9em rgba(0, 0, 0, 0.2);
     border-radius: 6px;
     transition: 0ms;
 }
