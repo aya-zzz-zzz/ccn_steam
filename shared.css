@@ -1231,11 +1231,11 @@ div._3lDczhulqraStjCitLYJ1K._2l416KfEtI4CL0mCUEmOBw._3FmxxjyWNHU1PrBGnBe6tm > di
 div.playerBadge > button > div > svg{
     fill: rgb(var(--cover-LVib1))!important;}
 div.playerBadge > button:focus{
-    outline: green auto 1px!Important;
+    outline: rgb(255, 0, 0) solid 2px!Important;
     border: none!important;
 }
 div.playerBadge > button:focus-visible{
-     outline: green auto 1px!Important;
+     outline: rgb(94, 255, 0) solid 2px!Important;
     border: none!important;
 }
 /*hltb*/
