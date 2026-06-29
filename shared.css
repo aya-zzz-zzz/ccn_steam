@@ -596,7 +596,7 @@ svg > path{fill: color-mix(in srgb, var(--but2) 10% ,rgb(0, 0, 0) 90%)  !importa
 .BasicUI ._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi svg path{stroke: rgba(255, 255, 255, 0.73)}
 /*close button*/
 ._1WVYDQv_srgKP95rVG1cX-{
-    transform: translateX(.8px);
+    transform: translateX(1.87px);
     border-radius: 5px;
     background-color: #0000;
     background-image: linear-gradient(var(--rotate),
