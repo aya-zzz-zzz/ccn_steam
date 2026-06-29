@@ -596,16 +596,16 @@ svg > path{fill: color-mix(in srgb, var(--but2) 10% ,rgb(0, 0, 0) 90%)  !importa
 .BasicUI ._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi svg path{stroke: rgba(255, 255, 255, 0.73)}
 /*close button*/
 ._1WVYDQv_srgKP95rVG1cX-{
-    transform: translateX(1.87px);
+    transform: translateX(1.91px);
     border-radius: 5px;
     background-color: #0000;
     background-image: linear-gradient(var(--rotate),
-    color-mix(in srgb, rgb(var(--newred)) 81% ,rgb(255, 255, 255) 22%),
-    color-mix(in srgb, rgb(var(--newred)) 77% ,rgb(255, 255, 255) 23%),
-    color-mix(in srgb, rgb(var(--newred)) 70% ,rgb(255, 255, 255) 30%),
-    color-mix(in srgb, rgb(var(--newred)) 65% ,rgb(255, 255, 255) 35%),
-    color-mix(in srgb, rgb(var(--newred)) 60% ,rgb(255, 255, 255) 40%),
-    color-mix(in srgb, rgb(var(--newred)) 58% ,rgb(255, 255, 255) 40%));
+    color-mix(in srgb, rgb(var(--newred)) 100% ,rgb(255, 255, 255) 0%), 
+    color-mix(in srgb, rgb(var(--newred)) 97% ,rgb(255, 255, 255) 3%),
+    color-mix(in srgb, rgb(var(--newred)) 90% ,rgb(255, 255, 255) 10%),
+    color-mix(in srgb, rgb(var(--newred)) 85% ,rgb(255, 255, 255) 15%),
+    color-mix(in srgb, rgb(var(--newred)) 80% ,rgb(255, 255, 255) 20%),
+    color-mix(in srgb, rgb(var(--newred)) 78% ,rgb(255, 255, 255) 20%));
     border: 0;background-size: 220% 220%;animation: rotate-gradient 19s cubic-bezier(.29,.44,.67,.56) infinite;
     svg > path{fill: color-mix(in srgb, rgb(var(--newred)) 10% ,rgba(255, 255, 255, 0.7) 90%)  !important;} 
 }
