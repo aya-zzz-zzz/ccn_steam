@@ -1307,11 +1307,17 @@ div.playerBadge > button:focus-visible{
     quick access (right side menu)
 -----------------------------------------------======================================== 
 -----------------------------------------------======================================== */
-/*bg and border radius*/ 
-.V0cr-SAnDhzAWmPZdrJQJ{border-radius: 15px 0px 0px 15px;
-background: rgb(var(--cover-DVib1),.6);}
-/*border between icons and main*/ 
+/*bg and border radius not in game*/ 
+[class="BasicUI _3DHXr5yONRuNdsrNwBiEm5 _-6ESh2T8Qc_pZPgOLBhZJ"]{
+    .V0cr-SAnDhzAWmPZdrJQJ{border-radius: 15px 0px 0px 15px;
+background: rgb(var(--cover-DVib1),.5);}
+}
+/*bg and border radius in game*/ 
+[class="BasicUI _3DHXr5yONRuNdsrNwBiEm5 _-6ESh2T8Qc_pZPgOLBhZJ _2m0zlP8eZ_9SlQsO52oxql"]{bottom: 22px; top: 22px;
+    .V0cr-SAnDhzAWmPZdrJQJ{border-radius: 15px 0px 0px 15px; 
+background: rgb(var(--cover-DVib1),1);}}
 
+/*border between icons and main*/ 
 ._3Ag1wVkrYOaZyOUNWGLf3Y::after{
     background: #0000;
     background-image: linear-gradient(180deg, #0000 1%, color-mix(in srgb, rgb(var(--cover-LVib1),.5) 55%, rgba(255, 255, 255, 0.2) 45%) 11%, color-mix(in srgb, rgb(var(--cover-LVib1),.5) 55%, rgba(255, 255, 255, 0.2) 45%) 89%, #0000 99%);}
@@ -1398,13 +1404,6 @@ div._1VRx9qVxigUC4qeM0NWNMR > svg > path:nth-child(3){
 {color: rgb(var(--text1))}
 
 /*quick settings tab (in game)*/ 
-[class="BasicUI _3DHXr5yONRuNdsrNwBiEm5 _-6ESh2T8Qc_pZPgOLBhZJ _2m0zlP8eZ_9SlQsO52oxql"],
-[class="BasicUI _3DHXr5yONRuNdsrNwBiEm5 _-6ESh2T8Qc_pZPgOLBhZJ QAMFriendExpanded O_8CAFWLuCw8vwTgsYBIb _2m0zlP8eZ_9SlQsO52oxql"]
-{background: rgb(var(--cover-DVib1));
-    margin-bottom: 20px;
-    margin-top: 20px;
-    border-radius: 15px 0px 0px 15px;
-._1RN_UxDCIp9wCvlh0m7OL5{border-radius: 13px;border-color: #0000;}}
 [class="_3LYP1SIxyoky-yW9Ug_1fq _3vBmcbg6WSKb3WjBjg_8KO"]{
     ._3A5ujtARm6atH4phJ5i1i6>._16sYNwqxz6giarbVaRUl7R {
     background-color: rgb(var(--cover-DVib1), 1);
@@ -1475,6 +1474,9 @@ div._1RN_UxDCIp9wCvlh0m7OL5.Panel > svg > path{
 body, body._2LxgdMcpWJRjkxZKbmeEEb{color: rgb(var(--text1))}
 button.cXzBZxhPBl7fZs9LODEnc.DialogButton.Disabled, button.cXzBZxhPBl7fZs9LODEnc.DialogButton[disabled], button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled.Disabled, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled[disabled], button.cXzBZxhPBl7fZs9LODEnc.DialogButton:active.Disabled, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:active[disabled], button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled:active:hover.Disabled, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled:active:hover[disabled]{
     background: #0000;}
+
+
+
 
 
 
