@@ -594,6 +594,40 @@ svg > path{fill: color-mix(in srgb, var(--but2) 10% ,rgb(0, 0, 0) 90%)  !importa
 .BasicUI ._2AzIX5kl9k6JnxLfR5H4kX.Focusable:focus svg path{stroke: none}
 .BasicUI ._2AzIX5kl9k6JnxLfR5H4kX svg{stroke: none}
 .BasicUI ._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi svg path{stroke: rgba(255, 255, 255, 0.73)}
+/*close button*/
+._1WVYDQv_srgKP95rVG1cX-{
+    transform: translateX(.8px);
+    border-radius: 5px;
+    background-color: #0000;
+    background-image: linear-gradient(var(--rotate),
+    color-mix(in srgb, rgb(var(--newred)) 81% ,rgb(255, 255, 255) 22%),
+    color-mix(in srgb, rgb(var(--newred)) 77% ,rgb(255, 255, 255) 23%),
+    color-mix(in srgb, rgb(var(--newred)) 70% ,rgb(255, 255, 255) 30%),
+    color-mix(in srgb, rgb(var(--newred)) 65% ,rgb(255, 255, 255) 35%),
+    color-mix(in srgb, rgb(var(--newred)) 60% ,rgb(255, 255, 255) 40%),
+    color-mix(in srgb, rgb(var(--newred)) 58% ,rgb(255, 255, 255) 40%));
+    border: 0;background-size: 220% 220%;animation: rotate-gradient 19s cubic-bezier(.29,.44,.67,.56) infinite;
+    svg > path{fill: color-mix(in srgb, rgb(var(--newred)) 10% ,rgba(255, 255, 255, 0.7) 90%)  !important;} 
+}
+._1WVYDQv_srgKP95rVG1cX-:focus{
+    box-shadow: 0px 0px 1em rgb(var(--newred),.4);
+    filter: brightness(1.25);
+    border-radius: 5px;
+    color: black!important;
+    background-color: #0000;
+    background-image: linear-gradient(var(--rotate),
+    color-mix(in srgb, rgb(var(--newred)) 81% ,rgb(255, 255, 255) 22%),
+    color-mix(in srgb, rgb(var(--newred)) 77% ,rgb(255, 255, 255) 23%),
+    color-mix(in srgb, rgb(var(--newred)) 70% ,rgb(255, 255, 255) 30%),
+    color-mix(in srgb, rgb(var(--newred)) 65% ,rgb(255, 255, 255) 35%),
+    color-mix(in srgb, rgb(var(--newred)) 60% ,rgb(255, 255, 255) 40%),
+    color-mix(in srgb, rgb(var(--newred)) 58% ,rgb(255, 255, 255) 40%));
+    border: 0;background-size: 220% 220%;animation: rotate-gradient 19s cubic-bezier(.29,.44,.67,.56) infinite; 
+    svg > path{fill: color-mix(in srgb, var(--but2) 10% ,rgb(0, 0, 0) 90%)  !important;}
+
+}
+
+
 
 /*game controls / settings buttons*/
 .BasicUI ._3qDWQGB0rtwM3qpXTb11Q-.Focusable,._3x31AgESSlUqX3D4MTHv2m ._37e7DrDNmf1FmsMGA5y0A0 ._2JSyABqFEh-v_dwaTnBydR.bGfjajFo4DI-ULSQxw1KY{
